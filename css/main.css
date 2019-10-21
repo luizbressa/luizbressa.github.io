@@ -65,10 +65,9 @@ section.pcdefundo h2{
 section.pcdefundo p{
 	text-align: center;
 	text-decoration: none;
-	font-family: "Gilroy-Regular ☞";
-	font-weight: bold;
+	font-family: "Gilroy-SemiBoldItalic ☞";
 	color: white;
-	font-size: 1.3vw;
+	font-size: 2vw;
 	letter-spacing: 0.25vw;
 
 }
@@ -76,14 +75,25 @@ section.pcdefundo p{
 section.pcdefundo ul{
 	display: flex;
 	justify-content: center;
-	margin: 9vw 4.2vw 0 0;
+	margin: 6vw 0vw 0 0;
 }
 section.pcdefundo ul li{
-	width: 20vw;
+	margin: 0 1vw 0 1vw;
+ }
+section.pcdefundo ul li a{
+	font-family: "Gilroy-SemiBoldItalic ☞";
+	text-decoration: none;
+	color:white;
+	padding: 0.5em 1vw 0.5em 1vw;
+	font-size: 0.9em;
+	outline-color: #FFFFFF;
+	outline-width: 0.2vw;
+	outline-style: solid;
+	outline-radius: 25px;
 
 
 }
-section.pcdefundo ul li a.nossosservicos{
+/*section.pcdefundo ul li a.nossosservicos{
 	text-decoration: none;
 	color:white;
 	padding: 9% 12% 9% 12%;
@@ -102,7 +112,7 @@ section.pcdefundo ul li a.contrate{
 	border-radius: 2% 2% 2% 2% ;
 	font-size: 0.6em;
 	}
-
+*/
 
 
 
@@ -174,6 +184,7 @@ section.pcdefundo p{
 	margin: 7vw 0vw 0 0vw;
 	text-decoration: none;
 	color: white;
+	font-family: "Gilroy-SemiBoldItalic ☞";
 	font-size: 3.2vw;
 	letter-spacing: 0.25vw;
 }
