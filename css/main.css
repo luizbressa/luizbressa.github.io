@@ -20,23 +20,14 @@ header ul{
 	display: flex;
 	margin: 0 0 0 55vw;
 }
-header ul li{
-	margin: 0 0 0.5vw 3vw;
-}
-header ul li a{
-	text-decoration: none;
-	color: black;
-	font-family: Trebuchet MS;
-	font-size: 1.2vw;
-}
+
 
 header img{
-  width: 100em;
-  height: 100em;
+  width: 10em;
+  height: 10em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 section.pcdefundo{
