@@ -31,7 +31,9 @@ header ul li a{
 }
 
 header img{
-	display: block;
+  width: 100em;
+  height: 100em;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
