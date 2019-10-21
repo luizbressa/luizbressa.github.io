@@ -79,17 +79,23 @@ section.pcdefundo ul{
 }
 section.pcdefundo ul li{
 	margin: 0 1vw 0 1vw;
+
  }
 section.pcdefundo ul li a{
-	font-family: "Gilroy-SemiBoldItalic ☞";
+	font-family: "Gilroy-Regular ☞";
 	text-decoration: none;
+	width: 6em;
+	height: 1.6em;
+    display: table-cell;
+	vertical-align: middle;
+    text-align: center;
 	color:white;
-	padding: 0.5em 1vw 0.5em 1vw;
+	/*padding: 0.5em 1vw 0.5em 1vw;*/
 	font-size: 0.9em;
-	outline-color: #FFFFFF;
-	outline-width: 0.2vw;
-	outline-style: solid;
-	outline-radius: 25px;
+	border-color: #FFFFFF;
+	border-width: 0.1vw;
+	border-style: solid;
+	border-radius: 0.6em;
 
 
 }
