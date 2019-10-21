@@ -7,21 +7,6 @@ header{
 	padding: 2vw 2vw 2vw 2vw;
 }
 
-header h1 a{
-	text-decoration: none;
-	font-size: 1.8vw;
-	color: black;
-	font-family: Trebuchet MS;
-	margin: 2vw 0 0 1vw;
-	padding: 1vw 0 0 0;
-}
-
-header ul{
-	display: flex;
-	margin: 0 0 0 55vw;
-}
-
-
 header img{
   width: 10em;
   height: 10em;
