@@ -1,7 +1,7 @@
 /* === PREDEFINIÇÕES === */
 html { 
 font-size: calc(1em + 1vw); 
-font-family: "Gilroy-Regular";
+font-family: Gilroy-Regular;
 }
 
 header{
@@ -10,8 +10,8 @@ header{
 }
 
 header img{
-  width: 10em;
-  height: 10em;
+  width: 2em;
+  height: 1em;
 }
 
 section.pcdefundo{
