@@ -41,20 +41,20 @@ header img.logo{
 }
 
 
-section.pcdefundo{
-	position: absolute;
+section.bannerdefundo{
+
 	z-index: 1;
     left:0;
     top:0;
-	background:url(../img/imagem-banner.jpg) center center;
+	background:url(../img/imagem-banner-pequena.jpg) center center;
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
-  	height: 21em;
+  	height: 25em;
   	width: 100%;
 }
-section.pcdefundo h2{
+section.bannerdefundo h2{
 	text-align: center;
-	padding: 2.5em 0 0.5em 0em;
+	padding: 3em 0 0.5em 0em;
 	font-family: "Gilroy-HeavyItalic ☞";
 	text-decoration: none;
 	color: white;
@@ -62,44 +62,71 @@ section.pcdefundo h2{
 	letter-spacing: 0.5vw;
 }
 
-section.pcdefundo p{
+section.bannerdefundo p{
 	text-align: center;
 	text-decoration: none;
+	margin: 0.5em 0 0.5em 0;
 	font-family: "Gilroy-SemiBoldItalic ☞";
 	color: white;
-	font-size: 2vw;
+	font-size: 1em;
 	letter-spacing: 0.25vw;
 
 }
 
-section.pcdefundo ul{
+section.bannerdefundo ul{
 	display: flex;
 	justify-content: center;
 	margin: 6vw 0vw 0 0;
 }
-section.pcdefundo ul li{
+section.bannerdefundo ul li{
 	margin: 0 1vw 0 1vw;
 
  }
-section.pcdefundo ul li a{
-	font-family: "Gilroy-Regular ☞";
+section.bannerdefundo ul li a{
+	font-family: "Gilroy-Black ☞";
 	text-decoration: none;
 	width: 6em;
 	height: 1.6em;
     display: table-cell;
 	vertical-align: middle;
     text-align: center;
+    background-color: #6F0977;
 	color:white;
-	/*padding: 0.5em 1vw 0.5em 1vw;*/
-	font-size: 0.9em;
-	border-color: #FFFFFF;
-	border-width: 0.1vw;
-	border-style: solid;
-	border-radius: 0.6em;
+	letter-spacing: 0.3em;
+	font-size: 0.5em;
+	padding: 0.5em 1vw 0.5em 1vw;
+	border-radius: 2em;
 
 
 }
-/*section.pcdefundo ul li a.nossosservicos{
+
+
+section.branca{
+	background color: white;
+  	height: 50em;
+  	width: 100%;
+
+  }
+
+section.branca ul{
+	display: flex;
+	padding: 1em 0 1em 0;
+	margin: 0 5em 0 0em;
+}
+section.branca ul li{
+	margin: 0 0.5em 0vw 0.5em;
+}
+
+section.branca ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+	font-family: "Gilroy";
+	font-style: "Negrito";
+}
+
+
+/*section.bannerdefundo ul li a.nossosservicos{
 	text-decoration: none;
 	color:white;
 	padding: 9% 12% 9% 12%;
@@ -109,7 +136,7 @@ section.pcdefundo ul li a{
 	outline-style: solid;
 	border-radius: 2% 2% 2% 2%;
 }
-section.pcdefundo ul li a.contrate{
+section.bannerdefundo ul li a.contrate{
 	width: 10vw;
 	background: #008678;
 	text-decoration: none;
@@ -135,417 +162,4 @@ section.pcdefundo ul li a.contrate{
 
 /* HEADER */
 
-header{
-	display: flex;
-	flex-wrap: wrap;
-	padding: 6vw 0vw 6vw 0vw;
-}
-
-header h1 a{
-
-	text-decoration: none;
-	font-size: 6vw;
-	color: black;
-	margin: 8vw 0 0 39vw;
-	padding: 6vw 0 0 0;
-}
-
-header ul{
-	display: flex;
-	background: #f2f2f2;
-	border-radius: 5% 5% 5% 5%;
-	margin: 4vw 0 0  0vw;
-}
-header ul li{
-	margin: 3vw 5.1vw 3vw 5.1vw;
-
-}
-header ul li a{
-	text-decoration: none;
-	color: black;
-	font-size: 3.5vw;
-}
-
-
-/* PC DE FUNDO */
-
-
-section.pcdefundo{
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(../img/imagem-banner.jpg) center center;
-	height: 70vw;
-	text-align: center;
-}
-section.pcdefundo h2{
-	text-decoration: none;
-	color: white;
-	font-size: 7vw;
-	margin: 0 4vw 0 0;
-}
-section.pcdefundo h2{
-	padding: 10vw 0 3vw 0;
-	letter-spacing: 0.5vw;
-	margin: 0 0 0 0.25vw;
-}
-section.pcdefundo p{
-	margin: 7vw 0vw 0 0vw;
-	text-decoration: none;
-	color: white;
-	font-family: "Gilroy-SemiBoldItalic ☞";
-	font-size: 3.2vw;
-	letter-spacing: 0.25vw;
-}
-
-section.pcdefundo ul{
-	display: flex;
-	justify-content: center;
-	margin: 15vw 4.2vw 0 0;
-}
-section.pcdefundo ul li{
-	width: 45vw;
-}
-section.pcdefundo ul li a.nossosservicos{
-	text-decoration: none;
-	color:white;
-	padding: 9% 8% 9% 8%;
-	font-size: 0.8em;
-	outline-color: #FFFFFF;
-	outline-width: 0.2vw;
-	outline-style: solid;
-	border-radius: 2% 2% 2% 2%;
-}
-section.pcdefundo ul li a.contrate{
-	width: 10vw;
-	background: #008678;
-	text-decoration: none;
-	color:white;
-	padding: 10% 18% 10% 18%;
-	border-radius: 2% 2% 2% 2% ;
-	font-size: 0.8em;
-	
-
-
-/* BRANCO DE FUNDO */
-
-section.branca{	
-		flex-wrap: wrap;
-		text-align: center;
-		
-}
-section.branca h3{
-	letter-spacing: 0.3vw;
-	text-decoration: none;
-	color: black;
-	font-size: 1.6em;
-	margin: 12vw 0 4vw 0;
-}
-section.branca p{
-	text-decoration: none;
-	color: black;
-	font-size: 0.7em;
-	padding: 0 11vw 0 11vw;
-	line-height: 3.8vw;
-}
-section.branca ul.ye{
-	display: flex;
-	margin: 12vw 0 0 8vw;
-}
-section.branca ul.ye li{
-	font-size: 4vw;
-	
-section.branca ul.ye li a{
-	text-decoration: none;
-	color: black;
-	padding: 1vw 1vw 1vw 1vw;
-	border-radius: 4% 4% 4% 4%;
-	outline-color: #008678;
-	outline-width: 0.2vw;
-	outline-style: solid;
-	background: white;
-	margin: 0 1.3vw 0 2vw 1.3;
-}
-section.branca ul.ye li a.this{
-	text-decoration: none;
-	color: white;
-	background: linear-gradient(#01897B, #0B5C55);
-	outline-style: none;
-	padding: 1.2vw 2.2vw 1.2vw 2.2vw;
-}
-
-section.branca ul.imgs{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 8vw 0 0 6vw;
-
-}
-section.branca ul.imgs li{
-	padding: 2vw 2vw 2vw 2vw;
-}
-section.branca ul.imgs li img{
-	height: 40vw;
-	width: 40vw;
-}
-	
-section.branca h4{
-	margin: 15vw 0 15vw 0;
-}
-section.branca h4 a{
-	text-decoration: none;
-	color: white;
-	background: #008678;
-	padding: 4vw 9vw 4vw 9vw;
-	font-size: 3.5vw;
-	letter-spacing: 0.2vw;
-}
-
-
-/* AZULZINHO DE FUNDO */
-
-section.azulzinho{
-
-	background: #E4FDFA;
-	text-align: center;
-	flex-wrap: wrap;
-	height: 200vw;
-}
-section.azulzinho h5{
-	text-decoration: none;
-	font-size: 6.2vw;
-	padding: 13vw 0 5vw 0;
-}
-section.azulzinho> p{	
-	padding: 0 20vw 0 20vw;
-	font-size:2.7vw;
-	letter-spacing: 0.05vw;
-	line-height: 3.3vw;
-}
-section.azulzinho ul{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 3vw 1vw 0vw 2.5vw;
-	padding: 1vw 1vw 1vw 1vw;
-}
-section.azulzinho ul li{
-	margin: 4vw 1.5vw 0vw 1.5vw;
-	padding: 1vw 1vw 1vw 1vw;
-	background: white;
-	border-radius: 1% 1% 1% 1%;
-	text-decoration: none;
-	width: 44%;
-}
-section.azulzinho ul li.primeiro{
-	background: #008678;
-}
-section.azulzinho ul li img{
-	width: 8vw;
-	margin: 2vw 0vw 2vw 2vw;
-}
-section.azulzinho ul li h6.dois{
-	color: black;
-	font-size: 4vw;
-}
-section.azulzinho ul li h6.tres{
-	color: black;
-	font-size: 4vw;
-}
-section.azulzinho ul li h6.quatro{
-	color: black;
-	font-size: 4vw;
-}
-section.azulzinho ul li h6.cinco{
-	color: black;
-	font-size: 4vw;
-}
-section.azulzinho ul li h6.seis{
-	color: black;
-	font-size: 4vw;
-}
-section.azulzinho ul li.primeiro h6{
-	color: white;
-	font-size: 4vw;
-}
-section.azulzinho ul li h6{
-	text-decoration: none;
-	color: black;
-	font-size:1.5vw;
-}
-section.azulzinho ul li p{
-	margin: 2vw 0 1vw 0;
-	text-decoration: none;
-	color: black;
-	font-size:2.4vw;
-	padding: 0 1vw 0 1vw;
-	line-height: 3.5vw;
-}
-section.azulzinho ul li.primeiro p{
-	text-decoration: none;
-	color: white;
-	font-size:2.4vw;
-	margin: 2vw 0 1vw 0;
-	padding: 0 1.2vw 0 1.2vw;
-}
-
-section.azulzinho ul li.primeiro h3.botao{
-	text-decoration: none;
-	color: white;
-	padding: 1vw 0vw 1vw 0vw;
-	border-radius: 4% 4% 4% 4%;
-	outline-color: #FFFFFF;
-	outline-width: 0.13vw;
-	outline-style: solid;
-	font-size: 3.6vw;
-	margin: 3vw 4vw 0 4vw;
-	letter-spacing: 0.12vw;
-}
-section.azulzinho ul li h3.botao{
-	text-decoration: none;
-	color: black;
-	outline-width: 0.13vw;
-	border-radius: 4% 4% 4% 4%;
-	outline-color: black;
-	outline-style: solid;
-	font-size: 3.6vw;
-	margin: 3vw 4vw 0 4vw;
-	letter-spacing: 0.12vw;	
-	padding: 1vw 1vw 1vw 1vw;
-}
-section.azulzinho ul li h3.botao a{
-	text-decoration: none;
-	color: black;	
-	padding: 1vw 1.5vw 1vw 1.5vw;
-}
-section.azulzinho ul li.primeiro h3.botao a{
-	text-decoration: none;
-	color: white;
-	padding: 1vw 1.5vw 1vw 1.5vw;
-}
-
-	/* BLOGZIN */
-
-
-section.blog{
-
-	flex-wrap: wrap;
-}
-
-section.blog h1{
-		text-align: center;
-	text-decoration: none;
-	color: black;
-	font-size: 7vw;
-	margin: 6vw 0 0 0;
-	letter-spacing: 0.1vw;
-	margin: 10vw 0 0 0;
-}
-section.blog> p{
-	text-decoration: none;
-	color: black;
-	font-size: 3.4vw;
-	margin: 5vw 10vw 0 10vw;
-	line-height: 3vw;
-	text-align: center;
-}
-
-
- section.blog ul{
-	margin: 10vw 0 0 0;
-}
-section.blog ul li{
-	display: flex;
-}
-section.blog ul li img.img1{
-	margin: 0 0 0 0vw;
-		width: 50%;
-	height: 38vw
-}
-section.blog ul li img.img2{
-	margin: 0 0 0 0vw;
-	width: 50%;
-	height: 38vw
-}
-section.blog ul li img.img3{
-	margin: 0 0 0 0vw;
-		width: 50%;
-	height: 38vw;
-}
-section.blog ul li div.div2{
-	text-align: left;
-	width: 50%;
-}
-section.blog ul li div.div2 ul{
-		margin: 1.3vw 0 1.30vw 2vw;
-
-}
-section.blog ul li div.div2 p.txt{
-		margin: 0vw 2vw 0vw 2vw;
-		font-size: 2.7vw;
-		padding: 1vw 2vw 3vw 2vw;
-}
-section.blog ul li div.div2 h2{
-		margin: 5vw 0vw 0 2vw;
-		font-size: 4.3vw;
-}
-
-section.blog ul li div ul{
-	display: flex;
-	margin: 1.3vw 0 1.30vw 0.7vw;
-}
-
-section.blog ul li div ul li img{
-	width: 3.3vw;
-	height: 3.3vw;
-	margin: 0 1vw 0 0;
-}
-section.blog ul li div{
-	text-align: left;
-		width: 50%;
-}
-section.blog ul li div ul li{
-	margin: 1.5vw 2vw 0vw 2vw;
-}
-section.blog ul li div h2{
-	margin: 4vw 0 0 2.7vw;
-	color: black;
-	font-size: 4.3vw;
-}
-section.blog ul li div h2.cordiferente{
-	margin: 4vw 0 0 2.7vw;
-	color: #009375;
-}
-
-section.blog ul li div ul li p{
-	font-size: 2.5vw;
-	margin: 0 0 0 0.7;
-}
-section.blog ul li div p.txt{
-	font-size: 2.7vw;
-	margin: 0 2vw 0 2.7vw;
-	letter-spacing: 0.2vw;
-	padding: 1vw 0 1vw 0;
-}
-section.blog h4{
-	margin: 15vw 0 15vw 33vw;
-}
-section.blog h4 a{
-	text-decoration: none;
-	color: white;
-	background: #008678;
-	padding: 4vw 9vw 4vw 9vw;
-	font-size: 3.5vw;
-	letter-spacing: 0.2vw;
-}
-	/* FOOTER */
-
-	footer{
-	height: 12vw;
-	background: linear-gradient(#01897B, #0B5C55);
-	text-align: center;
-}
-	footer h1{
-	text-decoration: none;
-	color: white;
-	font-size: 4vw;
-	padding: 4vw 0 4vw 0;
-	letter-spacing: 0.5vw;
-}
- 
 }
