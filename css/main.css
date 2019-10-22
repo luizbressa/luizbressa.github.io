@@ -74,7 +74,7 @@ section.bannerdefundo p{
 
 }
 
-
+/*
 section.branca{
 	background color: white;
   	width: 100%;
@@ -105,14 +105,14 @@ section.branca ul li a{
 }
 
 section.branca ul li.impressos{
-	/*	background: linear-gradient(rgba(227,14,14,0.1), rgba(105,17,17,0.4),rgba(227,14,14,0.2)), url(../img/box-impressos.png) center center;*/
+		background: linear-gradient(rgba(227,14,14,0.1), rgba(105,17,17,0.4),rgba(227,14,14,0.2)), url(../img/box-impressos.png) center center;
 	background: linear-gradient(rgba(82, 11, 11,0.2), rgba(82, 11, 11,0.6)), url(../img/box-impressos-2.png) center center;
 	 background-repeat: no-repeat;
 	 background-repeat: no-repeat;
  	 background-size: 100% 100%;
 
 }
-
+*/
 
 
 
