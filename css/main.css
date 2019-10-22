@@ -73,33 +73,6 @@ section.bannerdefundo p{
 
 }
 
-section.bannerdefundo ul{
-	display: flex;
-	justify-content: center;
-	margin: 6vw 0vw 0 0;
-}
-section.bannerdefundo ul li{
-	margin: 0 1vw 0 1vw;
-
- }
-section.bannerdefundo ul li a{
-	font-family: "Gilroy-Black ☞";
-	text-decoration: none;
-	width: 6em;
-	height: 1.6em;
-    display: table-cell;
-	vertical-align: middle;
-    text-align: center;
-    background-color: #6F0977;
-	color:white;
-	letter-spacing: 0.3em;
-	font-size: 0.5em;
-	padding: 0.5em 1vw 0.5em 1vw;
-	border-radius: 2em;
-
-
-}
-
 
 section.branca{
 	background color: white;
@@ -109,22 +82,21 @@ section.branca{
   }
 
 section.branca ul{
-	display: flex;
-	padding: 1em 0 1em 0;
-	margin: 0 5em 0 0em;
+		display: flex;
 }
 section.branca ul li{
-	margin: 0 0.5em 0vw 0.5em;
+
+	width: 40em;
+	height: 4em;
+	margin: 2em 2.5% 0 2.5%;
+	background-color: yellow;
+
 }
 
 section.branca ul li a{
+		font-family: "Gilroy-SemiBoldItalic ☞";
 	text-decoration: none;
-	color: black;
-	font-size: 2em;
-	font-family: "Gilroy";
-	font-style: "Negrito";
 }
-
 
 /*section.bannerdefundo ul li a.nossosservicos{
 	text-decoration: none;
