@@ -46,15 +46,15 @@ section.bannerdefundo{
 	z-index: 1;
     left:0;
     top:0;
-	background:url(../img/imagem-banner-pequena.jpg) center center;
+	background:url(../img/imagem-banner-pequenissima.jpg) center center;
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
-  	height: 25em;
+  	height: 23em;
   	width: 100%;
 }
 section.bannerdefundo h2{
 	text-align: center;
-	padding: 3em 0 0.5em 0em;
+	padding: 2.9em 0 0.5em 0em;
 	font-family: "Gilroy-HeavyItalic ☞";
 	text-decoration: none;
 	color: white;
@@ -66,7 +66,8 @@ section.bannerdefundo p{
 	text-align: center;
 	text-decoration: none;
 	margin: 0.5em 0 0.5em 0;
-	font-family: "Gilroy-SemiBoldItalic ☞";
+	font-family: "Gilroy ☞";
+	font-weight: bold;
 	color: white;
 	font-size: 1em;
 	letter-spacing: 0.25vw;
@@ -76,52 +77,41 @@ section.bannerdefundo p{
 
 section.branca{
 	background color: white;
-  	height: 50em;
   	width: 100%;
-
   }
 
 section.branca ul{
 		display: flex;
+		flex-wrap: wrap;
 }
 section.branca ul li{
-
-	width: 40em;
-	height: 4em;
-	margin: 2em 2.5% 0 2.5%;
-	background-color: yellow;
+	padding: 5em 0 0 0;
+	text-align: center;
+	width: 49.5%;
+	height: 7em;
+	margin: 0.25em 0.25% 0 0.25%;
+	background-color: purple;
 
 }
 
-section.branca ul li a{
-		font-family: "Gilroy-SemiBoldItalic ☞";
+section.branca ul li a{	
+	margin: 2em 0 0 0;
+	font-family: "Gilroy-HeavyItalic ☞";
 	text-decoration: none;
+	color: white;
+	font-size:2em;
+	
+
 }
 
-/*section.bannerdefundo ul li a.nossosservicos{
-	text-decoration: none;
-	color:white;
-	padding: 9% 12% 9% 12%;
-	font-size: 0.6em;
-	outline-color: #FFFFFF;
-	outline-width: 0.2vw;
-	outline-style: solid;
-	border-radius: 2% 2% 2% 2%;
+section.branca ul li.impressos{
+	/*	background: linear-gradient(rgba(227,14,14,0.1), rgba(105,17,17,0.4),rgba(227,14,14,0.2)), url(../img/box-impressos.png) center center;*/
+	background: linear-gradient(rgba(82, 11, 11,0.2), rgba(82, 11, 11,0.6)), url(../img/box-impressos-2.png) center center;
+	 background-repeat: no-repeat;
+	 background-repeat: no-repeat;
+ 	 background-size: 100% 100%;
+
 }
-section.bannerdefundo ul li a.contrate{
-	width: 10vw;
-	background: #008678;
-	text-decoration: none;
-	color:white;
-	padding: 10% 18% 10% 18%;
-	border-radius: 2% 2% 2% 2% ;
-	font-size: 0.6em;
-	}
-*/
-
-
-
-
 
 
 
