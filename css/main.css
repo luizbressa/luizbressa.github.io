@@ -324,14 +324,15 @@ section.bannerdefundo p.negrito{
 }
 
 section.branca{
-  	height: 180vw;
+  	height: 150vw;
   	width: 100vw;
 }
 
 
+
 section.branca h1{
   	text-align:center;
-	padding: 10vw 0 1vw 0vw;
+	padding: 10vw 0 4vw 0vw;
 	font-family: "Gilroy ☞";
 	font-weight: 800;
 	color: #E2046B;
@@ -357,12 +358,32 @@ section.branca h1{
    margin: 0 0 3vw 15%;
   	
 }
- section.branca ul li h2{ 
-	font-weight: 900;
-	color: #E2046B ;
-	font-size: 6vw;
-	
+
+section.branca ul li h2.midiastxt{ 
+ 	font-size: 5vw;
+ 	padding: 2vw 0 2vw 0;
+	border-radius: 10vw;
 }
+
+
+ section.branca ul li h2{ 
+ 	margin: 0 0 4vw 0;
+ 	width: 40vw;
+	font-weight: 600;
+	color: #E2046B ;
+	font-size: 5vw;
+	padding: 2vw 0 2vw 0;
+	border-radius: 10vw;
+	background: linear-gradient(rgba(226,4,107,1), rgba(237,0,113,1));
+	color: white;
+}	
+
+ section.branca ul li img{ 
+ 	width: 60%;
+   margin: 0 0 3vw 20%;
+
+}	
+
 
 
  section.branca ul li p{ 
