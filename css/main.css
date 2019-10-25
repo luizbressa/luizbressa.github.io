@@ -502,7 +502,7 @@ section.fundoamarelo h1{
 
 
 section.fundoamarelo p{
-	padding: 0vw 0 3vw 8.2vw;
+	padding: 0vw 0 7vw 8.2vw;
 	width: 90vw;
  	font-family: "gilroy-medium";
 	color: white ;
@@ -512,32 +512,22 @@ section.fundoamarelo p{
 }
 
 section.fundoamarelo{
-	background:url(../img/banner-amarelo.png) center center;
-	background-repeat: no-repeat;
-  	background-size: 100% 100%;
-	width: 100vw;
 	height: auto;
-	padding: 3vw 0 0 0;
+	padding: 3vw 0 10vw  0;
 }
 
 section.fundoamarelo ul{
-	margin: 0 0 0vw 0vw;
- 	padding: 10vw 0 13vw 0; 
-	overflow-y:hidden;
-	overflow-x:scroll;
-  white-space: nowrap;
-  width: 100vw;	
+	background-color:rgba(0,0,0,0.2);
+	margin: 0 0 0 0vw;
+ 	padding: 6vw 0 4vw 0; 
+  	width: 100vw;	
 }
-
-
-
 section.fundoamarelo ul li{
-  display: inline-block;
-  padding: 0vw 1vw 0vw 1vw; 
+  padding: 0vw 2vw 0vw 2vw; 
 }
 
 section.fundoamarelo ul li img{
-	width: 25vw;
+	width: 23vw;
 }
 
 
