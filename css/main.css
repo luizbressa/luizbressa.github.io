@@ -40,6 +40,9 @@ header img.logo{
 
 }
 
+.container{
+	width: 100%;
+}
 
 section.bannerdefundo{
 
@@ -168,6 +171,58 @@ section.branca ul li h2:hover{
 	line-height: 1.2vw;
 }
 
+.containerbugado{
+	width:96vw;
+	margin: 0;
+}
+
+
+section.fundoamarelo h1{
+	padding: 4vw 0 0 8vw;
+ 	font-family: "Gilroy ☞";
+	font-weight: 800;
+	color: white ;
+	font-size: 5vw;
+	letter-spacing: 0.01vw;
+}
+
+
+section.fundoamarelo p{
+  padding: 14px;
+	width: 45vw;
+ 	font-family: "Gilroy ☞";
+	font-weight: 400;
+	color: white ;
+	font-size: 1.5vw;
+	line-height: 1.8vw;
+}
+
+section.fundoamarelo{
+	background:url(../img/banner-amarelo.png) center center;
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	width: 99vw;
+	height: 32vw;
+	padding: 4vw 0 0 0;
+}
+
+section.fundoamarelo ul{
+ padding: 2vw 0 3vw 0; 
+overflow-y:hidden;
+overflow-x:scroll;
+  white-space: nowrap;
+  width: 99vw;	
+}
+
+
+
+section.fundoamarelo ul li{
+  display: inline-block;
+}
+
+section.fundoamarelo ul li img{
+	width: 10vw;
+}
 
 
 section.fundorosa{
