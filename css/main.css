@@ -1,4 +1,35 @@
 /* === PREDEFINIÇÕES === */
+@font-face {
+    font-family: 'gilroy';
+    src: url('../fonts/gilroy.woff2') format('woff2'), url('../fonts/gilroy.woff') format('woff');
+}
+    @font-face {
+    font-family: 'gilroy-black';
+    src: url('../fonts/gilroy-black-webfont.woff2') format('woff2'), url('../fonts/gilroy-black-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('../fonts/gilroy-bold-webfont.woff2') format('woff2'), url('../fonts/gilroy-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-heavy';
+    src: url('../fonts/gilroy-heavy-webfont.woff2') format('woff2'),  url('../fonts/gilroy-heavy-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url('../fonts/gilroy-medium-webfont.woff2') format('woff2'), url('../fonts/gilroy-medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-thin';
+    src: url('../fonts/gilroy-thin-webfont.woff2') format('woff2'),  url('../fonts/gilroy-thin-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-ultralight';
+    src: url('../fonts/gilroy-ultralight-webfont.woff2') format('woff2'), url('../fonts/gilroy-ultralight-webfont.woff') format('woff');
+
+}
+}
+
 html { 
 font-size: calc(1vw + 1vw);
 }
@@ -57,7 +88,7 @@ section.bannerdefundo{
 }
 section.bannerdefundo h2{
 	padding: 15vw 0 0.2vw 50vw;
-    font-family: "Gilroy ☞";
+    font-family: "gilroy-heavy";
     font-weight: 900;
 	text-decoration: none;
 	color: white;
@@ -68,7 +99,7 @@ section.bannerdefundo h2{
 section.bannerdefundo p{
 	text-decoration: none;
 	margin: 1.5vw 0 0vw 54.5vw;
-	font-family: "Gilroy ☞";
+	font-family: "gilroy";
 	font-weight: 300;
 	color: white;
 	font-size: 2vw;
@@ -91,8 +122,7 @@ background:url(../img/banner-branco.png) no-repeat, center center;
  section.branca h1{
   	text-align:center;
 	padding: 4vw 0 3vw 0vw;
-	font-family: "Gilroy ☞";
-	font-weight: 800;
+	font-family: "gilroy-black";
 	text-decoration: none;
 	/*color: #363636;*/
 	color: #E2046B;
@@ -122,7 +152,7 @@ background:url(../img/banner-branco.png) no-repeat, center center;
  section.branca ul li h2{ 
 
  	text-align: center;
- 	font-family: "Gilroy ☞";
+ 	font-family: "gilroy";
 	font-weight: 700;
 	color: #E2046B ;
 	font-size: 2.3vw;
@@ -164,7 +194,7 @@ section.branca ul li h2:hover{
 
  	margin: 1.4vw 0 7.7vw 0;
  	text-align: center;
- 	font-family: "Gilroy ☞";
+ 	font-family: "gilroy";
 	font-weight: 400;
 	color: #363636;
 	font-size: 1vw;
@@ -179,7 +209,7 @@ section.branca ul li h2:hover{
 
 section.fundoamarelo h1{
 	padding: 4vw 0 0 8vw;
- 	font-family: "Gilroy ☞";
+ 	font-family: "gilroy";
 	font-weight: 800;
 	color: white ;
 	font-size: 5vw;
@@ -190,7 +220,7 @@ section.fundoamarelo h1{
 section.fundoamarelo p{
   padding: 14px;
 	width: 45vw;
- 	font-family: "Gilroy ☞";
+ 	font-family: "gilroy";
 	font-weight: 400;
 	color: white ;
 	font-size: 1.5vw;
@@ -235,7 +265,7 @@ section.fundorosa{
 
 section.fundorosa h1{
 	padding: 8vw 0 0 8vw;
- 	font-family: "Gilroy ☞";
+ 	font-family: "gilroy-black";
 	font-weight: 800;
 	color: white ;
 	font-size: 5vw;
@@ -246,7 +276,7 @@ section.fundorosa h1{
 section.fundorosa p{
 	padding: 2vw 0 0 8.1vw;
 	width: 45vw;
- 	font-family: "Gilroy ☞";
+ 	font-family: "gilroy";
 	font-weight: 400;
 	color: white ;
 	font-size: 1.5vw;
@@ -401,7 +431,7 @@ section.branca{
 section.branca h1{
   	text-align:center;
 	padding: 10vw 0 4vw 0vw;
-	font-family: "Gilroy ☞";
+	font-family: "gilroy";
 	font-weight: 900;
 	color: #E2046B;
 	font-size: 12vw;
@@ -485,7 +515,7 @@ section.fundorosa h1{
 section.fundorosa p{
 	padding: 4vw 0 0 6.8vw;
 	width: 80%;
- 	font-family: "Gilroy ☞";
+ 	font-family: "gilroy";
 	font-weight: 400;
 	color: white ;
 	font-size: 5vw;
