@@ -152,7 +152,7 @@ background:url(../img/banner-branco.png) no-repeat, center center;
  section.branca ul li h2{ 
 
  	text-align: center;
- 	font-family: "gilroy";
+ 	font-family: "gilroy-bold";
 	font-weight: 700;
 	color: #E2046B ;
 	font-size: 2.3vw;
@@ -226,7 +226,7 @@ section.fundoamarelo{
 	background:url(../img/banner-amarelo.png) center center;
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
-	width: 99vw;
+	width: 100vw;
 	height: 32vw;
 	padding: 3vw 0 0 0;
 }
@@ -428,7 +428,7 @@ section.branca{
 section.branca h1{
   	text-align:center;
 	padding: 10vw 0 4vw 0vw;
-	font-family: "gilroy";
+	font-family: "gilroy-black";
 	font-weight: 900;
 	color: #E2046B;
 	font-size: 12vw;
@@ -462,11 +462,10 @@ section.branca ul li h2.midiastxt{
 
 
  section.branca ul li h2{ 
-
+ 	font-family: "gilroy-medium";
  	text-align: center;
  	margin: 0 0 4vw 2.5vw;
  	width: 35vw;
-	font-weight: 600;
 	color: #E2046B ;
 	font-size: 5vw;
 	padding: 2vw 0 2vw 0;
@@ -490,6 +489,57 @@ section.branca ul li h2.midiastxt{
  	margin: 5vw 0 3vw 0;
 	color: #363636;
 }
+
+
+
+section.fundoamarelo h1{
+	padding: 8vw 0 0 8vw;
+ 	font-family: "gilroy-black";
+	color: white ;
+	font-size: 15vw;
+	letter-spacing: 0.01vw;
+}
+
+
+section.fundoamarelo p{
+	padding: 0vw 0 3vw 8.2vw;
+	width: 90vw;
+ 	font-family: "gilroy-medium";
+	color: white ;
+	font-size: 5.8vw;	
+	line-height: 8vw;
+
+}
+
+section.fundoamarelo{
+	background:url(../img/banner-amarelo.png) center center;
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	width: 100vw;
+	height: auto;
+	padding: 3vw 0 0 0;
+}
+
+section.fundoamarelo ul{
+	margin: 0 0 0vw 0vw;
+ 	padding: 10vw 0 13vw 0; 
+	overflow-y:hidden;
+	overflow-x:scroll;
+  white-space: nowrap;
+  width: 100vw;	
+}
+
+
+
+section.fundoamarelo ul li{
+  display: inline-block;
+  padding: 0vw 1vw 0vw 1vw; 
+}
+
+section.fundoamarelo ul li img{
+	width: 25vw;
+}
+
 
 section.fundorosa{
 	background:url(../img/banner-rosa-2.png) center center;
