@@ -201,16 +201,12 @@ section.branca ul li h2:hover{
 	line-height: 1.2vw;
 }
 
-.containerbugado{
-	width:96vw;
-	margin: 0;
-}
+
 
 
 section.fundoamarelo h1{
-	padding: 4vw 0 0 8vw;
- 	font-family: "gilroy";
-	font-weight: 800;
+	padding: 0vw 0 0 8vw;
+ 	font-family: "gilroy-black";
 	color: white ;
 	font-size: 5vw;
 	letter-spacing: 0.01vw;
@@ -218,10 +214,9 @@ section.fundoamarelo h1{
 
 
 section.fundoamarelo p{
-  padding: 14px;
+		padding: 0vw 0 3vw 8.2vw;
 	width: 45vw;
  	font-family: "gilroy";
-	font-weight: 400;
 	color: white ;
 	font-size: 1.5vw;
 	line-height: 1.8vw;
@@ -233,21 +228,23 @@ section.fundoamarelo{
   	background-size: 100% 100%;
 	width: 99vw;
 	height: 32vw;
-	padding: 4vw 0 0 0;
+	padding: 3vw 0 0 0;
 }
 
 section.fundoamarelo ul{
+	margin: 0 0 0 8vw;
  padding: 2vw 0 3vw 0; 
 overflow-y:hidden;
 overflow-x:scroll;
   white-space: nowrap;
-  width: 99vw;	
+  width: 84vw;	
 }
 
 
 
 section.fundoamarelo ul li{
   display: inline-block;
+  padding: 0vw 1vw 0vw 1vw; 
 }
 
 section.fundoamarelo ul li img{
