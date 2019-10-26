@@ -519,6 +519,7 @@ section.fundoamarelo p{
 }
 
 section.fundoamarelo{
+	width: 100vw;
 	height: auto;
 	padding: 3vw 0 10vw  0;
 }
