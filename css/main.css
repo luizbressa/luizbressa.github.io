@@ -493,8 +493,8 @@ header div.menucascata ul{
   width: 70vw;			
 }
 header div.menucascata li{
-	border-bottom: solid 1px rgba(250, 250, 250, 0.1);
-	border-top: solid 1px white;
+	border-bottom: solid 0.15vw rgba(250, 250, 250, 0.3);
+	border-top: solid 0.15vw rgba(250, 250, 250, 0.3);
   display: flex;
   width: 100%;
   height: 10vw;
