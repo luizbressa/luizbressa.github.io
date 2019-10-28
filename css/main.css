@@ -150,11 +150,12 @@ section.bannerdefundo p.negrito{
   	
 }
  section.branca ul li h2{ 
-
+    width: 78%;
+    margin: 0 0 0 11%;
  	text-align: center;
  	font-family: "gilroy-medium";
 	color: #E2046B ;
-	font-size: 1.5vw;
+	font-size: 1.7vw;
 	letter-spacing: 0.01vw;
 	border: #E2046B solid 1.3px;
 	padding: 0.6vw 0 0.5vw 0;
@@ -163,7 +164,7 @@ section.bannerdefundo p.negrito{
 }
 
 section.branca ul li h2.midiastxt{ 
- 		font-size: 1.4vw;
+ 		font-size: 1.5vw;
  		padding: 0.75vw 0 0.7vw 0;
 }
 
@@ -287,6 +288,57 @@ section.fundorosa p{
 }
 
 
+footer{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;	
+	top: 159.1vw;
+    width: 100%;
+    display: flex;
+    height: 5vw;
+}
+
+footer div.infofooter{
+	width: 79.1vw;
+	padding: 0.7vw 8.1vw 0vw 0vw;
+}
+
+
+footer div.infofooter p{
+	text-align: right;
+	color: white;
+	font-family: "gilroy-thin";
+	font-size: 1vw;
+	margin: 0.6vw 0 0 0vw;
+}
+
+footer div.brasil{
+	display: flex; position: relative;
+  float: right;
+}
+
+footer div.brasil img{
+	margin: 0.45vw 0.7vw 0 0;
+	width: 1.2vw;
+	height: 1.2vw;
+}
+
+footer a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer ul{
+	margin: 1.5vw 0 1.5vw 7.1vw;
+	width: 20vw;
+	display: flex;
+}
+footer ul li{
+	margin: 0 1vw 0vw 1vw;
+}
+footer ul li a img{
+  width: 2vw;
+  height: 2vw;
+}
 
 
 
@@ -524,9 +576,9 @@ section.fundoamarelo{
 }
 
 section.fundoamarelo ul{
-	background-color:rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.1);
 	margin: 0 0 0 0vw;
- 	padding: 6vw 0 4vw 0; 
+ 	padding: 4vw 0 2vw 0; 
   	width: 100vw;	
 }
 section.fundoamarelo ul li{
@@ -541,7 +593,7 @@ section.fundoamarelo ul li img{
 section.fundorosa{
 	background:url(../img/banner-rosa-2.png) center center;
   	background-size: 100% 140%;
-  	height: 175vw;
+  	height: 200vw;
   	width: 100vw;
 
 }
@@ -565,5 +617,47 @@ section.fundorosa p{
 	font-size: 5vw;
 	line-height:5.7vw;
 }
+
+footer{
+	top: 607.7vw;
+    height: 15vw;
+
+}
+
+footer div.infofooter{
+	display: flex;
+	width: 100vw;
+	padding: 0.7vw 8.1vw 0vw 9vw;
+}
+
+
+footer div.infofooter p{
+	text-align: right;
+	color: white;
+	font-family: "gilroy-thin";
+	font-size: 4vw;
+	margin: 4.8vw 4vw 0 1vw;
+}
+
+footer div.brasil{
+	display: flex; 
+  position: relative;
+  float: right;
+}
+
+footer div.brasil img{
+	margin: 4.8vw 2vw 0 6vw;
+	width: 4vw;
+	height: 4vw;
+}
+
+footer div.brasil p{
+			margin: 4.8vw 0vw 0 0vw;
+}
+
+footer ul{
+	display: none;
+}
+
 
 }
