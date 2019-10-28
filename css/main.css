@@ -167,6 +167,7 @@ section.bannerdefundo p.negrito{
 	border: #E2046B solid 1.3px;
 	padding: 0.6vw 0 0.5vw 0;
 	border-radius: 2vw;
+	transition: 0.3s;
 }
 
 section.branca ul li h2.midiastxt{ 
@@ -261,7 +262,7 @@ section.fundoamarelo ul li{
 }
 
 section.fundoamarelo ul li img{
-	width: 10vw;
+	width: 9.9vw;
 }
 
 section.fundoamarelo ul li img:hover{
