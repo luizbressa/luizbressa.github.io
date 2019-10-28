@@ -637,7 +637,7 @@ section.fundoamarelo h1{
 
 
 section.fundoamarelo p{
-	padding: 0vw 0 7vw 8.2vw;
+	padding: 3vw 0 7vw 8.2vw;
 	width: 90vw;
  	font-family: "gilroy-medium";
 	color: white ;
@@ -648,13 +648,13 @@ section.fundoamarelo p{
 
 section.fundoamarelo{
 	width: 100vw;
-	height: auto;
+	height: 100vw;
 	padding: 3vw 0 10vw  0;
 }
 
 section.fundoamarelo ul{
 	background-color:rgba(0,0,0,0.1);
-	margin: 0 0 0 0vw;
+	margin: 10vw 0 0 0vw;
  	padding: 4vw 0 2vw 0; 
   	width: 100vw;	
 }
