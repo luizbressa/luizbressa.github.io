@@ -46,11 +46,14 @@ header{
 	display: flex;
 }
 header a.icons-dp{
+
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 header ul.icons-contato{
+	left: 70vw;
+	position: absolute;
 	display: flex;
 	padding: 1.5vw 0 1vw 0;
 	margin: 0 4vw 0 0vw;
