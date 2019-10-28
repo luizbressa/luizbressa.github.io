@@ -17,21 +17,39 @@
  <header>
   <a href="#"><img class="logo" src="img/logo-medio-nome.png"></a>
 
-  <ul>
-    <li><a href="https://www.facebook.com/luiz.bressiani"  target="_blank"><img src="img/ico-face.png"></a></li>
-    <li><a href="https://www.instagram.com/_bressiani/" target="_blank"><img src="img/ico-insta.png"></a></li>
-    <li><a href="https://api.whatsapp.com/send?phone=5549991359002" target="_blank"><img src="img/ico-zap.png"></a></li>
-    <li><a href="mailto:publicidade.luizbressiani@gmail.com" target="_blank"><img src="img/ico-email.png"></a></li>
-    <li><a href="https://www.youtube.com/channel/UCRHVcgk9OM6IM5HRTAAo1bg" target="_blank"><img src="img/ico-ytb.png"></a></li>
+  <ul class="icons-contato">
+    <li><a class="icons-dp"href="https://www.facebook.com/luiz.bressiani"  target="_blank"><img src="img/ico-face.png"></a></li>
+    <li><a class="icons-dp"href="https://www.instagram.com/_bressiani/" target="_blank"><img src="img/ico-insta.png"></a></li>
+    <li><a class="icons-dp"href="https://api.whatsapp.com/send?phone=5549991359002" target="_blank"><img src="img/ico-zap.png"></a></li>
+    <li><a class="icons-dp"href="mailto:publicidade.luizbressiani@gmail.com" target="_blank"><img src="img/ico-email.png"></a></li>
+    <li><a class="icons-dp"href="https://www.youtube.com/channel/UCRHVcgk9OM6IM5HRTAAo1bg" target="_blank"><img src="img/ico-ytb.png"></a></li>
   </ul>
+
+<div class="menu"  onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<div class="menucascata">
+  <ul class="cascata">
+    <li><a class="icons-mb" href="https://www.facebook.com/luiz.bressiani"  target="_blank"><img src="img/ico-face.png"><p>Facebook</p></a></li>
+    <li><a class="icons-mb" href="https://www.instagram.com/_bressiani/" target="_blank"><img src="img/ico-insta.png"><p>Instagram</p></a></li>
+    <li><a class="icons-mb" href="https://api.whatsapp.com/send?phone=5549991359002" target="_blank"><img src="img/ico-zap.png"><p>WhatsApp</p></a></li>
+    <li><a class="icons-mb" href="mailto:publicidade.luizbressiani@gmail.com" target="_blank"><img src="img/ico-email.png"><p>Email</p></a></li>
+    <li><a class="icons-mb" href="https://www.youtube.com/channel/UCRHVcgk9OM6IM5HRTAAo1bg" target="_blank"><img src="img/ico-ytb.png"><p>Youtube</p></a></li>
+  </ul>
+</div>
  </header>  
+
+
 
  <section class="bannerdefundo">
   <div class="container">
 
 
-  <h2>Marketing</h2>
-  <p>Eleve seu negócio a um</p>
+  <h2 class="mkt">Marketing</h2>
+  <p class="mkt2">Eleve seu negócio a um</p>
     <p class="negrito">outro nível</p>
 
 
@@ -108,27 +126,16 @@
 
   </div>
 </section>
-   <!--<ul>
-    <li class="logos"><a href="#">Logos</a></li>
-    <li class="impressos"><a href="#">Impressos</a></li>
-    <li class="midias"><a href="#">Mídias Sociais</a></li>
-    <li class="redes"><a href="#">Redes </a></li>
-  </ul>-->
 
+   
 
-  <!--<section class="branca">
-  <ul>
-    <li><a href="#">Logos</a></li>
-    <li class="impressos"><a href="#">Impressos</a></li>
-    <li><a href="#">Mídias Sociais</a></li>
-    <li><a href="#">Redes </a></li>
-  </ul>
- </section>-->
+   <!-- #####################################################################################################
+     ##################################################################################################### --> 
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script>
 
-
+    var cascata = 0;
 
     $('section.fundoamarelo h1').click(function() {
       console.log("deu boa");
@@ -136,7 +143,40 @@
         "color": "black"
     });
 });
+  
+  function myFunction(x) {
+  x.classList.toggle("change");
+}
+  $('section.fundoamarelo h1').click(function() {
+      console.log("deu boa");
+    $('h2.mkt').css({
+        "color": "black"
+    });
+});
 
+
+
+    $('.menu').click(function() {
+         console.log(cascata);
+      if(cascata==0){
+        $('.mkt').fadeOut();
+        $('.mkt2').fadeOut();
+        $('.negrito').fadeOut();
+        $('div.menucascata').fadeIn();
+
+       cascata=1
+      }
+
+      else{
+
+          $('div.menucascata').fadeOut();
+          $('.mkt').fadeIn();
+          $('.mkt2').fadeIn();
+          $('.negrito').fadeIn();
+    cascata=0 
+      }
+});
+  
 
 </script>
 
