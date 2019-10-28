@@ -95,13 +95,12 @@ section.bannerdefundo{
   	width: 100%;
 }
 section.bannerdefundo h2{
-	padding: 15vw 0 0.2vw 50vw;
+	padding: 15vw 0 0.2vw 50.1vw;
     font-family: "gilroy-heavy";
-    font-weight: 900;
 	text-decoration: none;
 	color: white;
 	font-size: 7vw;
-	letter-spacing: 0.5vw;
+	letter-spacing: 0vw;
 }
 
 section.bannerdefundo p{
