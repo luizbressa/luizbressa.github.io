@@ -147,6 +147,8 @@
   function myFunction(x) {
   x.classList.toggle("change");
 }
+
+
   $('section.fundoamarelo h1').click(function() {
       console.log("deu boa");
     $('h2.mkt').css({
@@ -159,20 +161,20 @@
     $('.menu').click(function() {
          console.log(cascata);
       if(cascata==0){
-        $('.mkt').fadeOut();
-        $('.mkt2').fadeOut();
-        $('.negrito').fadeOut();
-        $('div.menucascata').fadeIn();
+
+        $('.mkt').animate({"opacity":"0"}, 150);
+        $('div.menucascata').fadeIn(300);
 
        cascata=1
       }
 
+
+
       else{
 
-          $('div.menucascata').fadeOut();
-          $('.mkt').fadeIn();
-          $('.mkt2').fadeIn();
-          $('.negrito').fadeIn();
+          $('div.menucascata').fadeOut(200);
+         $('.mkt').animate({"opacity":"1"}, 200);
+
     cascata=0 
       }
 });
