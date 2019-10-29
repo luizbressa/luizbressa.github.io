@@ -232,7 +232,7 @@ section.fundoamarelo{
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	width: 98.9vw;
-	height: 32vw;
+	height: 30vw;
 	padding: 3vw 0 0 0;
 }
 
@@ -274,7 +274,7 @@ section.fundoamarelo ul li img{
     white-space: nowrap;
     vertical-align: text-top;
     margin: 0 0 0vw 10vw;
-    padding: 0 0 1vw 0;
+    padding: 2vw 0 1vw 0;
     clear: both;
     border-spacing: 5px;
 }
