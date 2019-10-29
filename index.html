@@ -72,8 +72,10 @@
  </section>
   </div>
 
+
+
 <section class="fundoamarelo">
-   <div class="container">
+
 
 <h1>Parceiros</h1>
 <p>Pessoas que já se deram a oportunidade de ir a outro nível.</p>
@@ -87,9 +89,21 @@
 <li><a href="https://www.facebook.com/realezarestaurante" target="_blank" ><img src="img/ico-rr.png" class="6"></a></li>
 <li><a href="https://www.facebook.com/realezarestaurante" target="_blank" ><img src="img/ico-rr.png" class="7"></a></li>
 <li><a href="https://www.facebook.com/realezarestaurante" target="_blank" ><img src="img/ico-rr.png" class="8"></a></li>
-
-
 </ul>
+
+<div id="box">
+    <div class="item"><a href="https://www.facebook.com/realezarestaurante" target="_blank" ><img src="img/ico-rr.png" class="1"></a></div>
+   <div class="item"><a href="https://www.facebook.com/espacoaprendermarlenegonzatto" target="_blank" ><img src="img/ico-eamg.png" class="2"></a></div>
+   <div class="item"><a href="https://www.facebook.com/realezarestaurante" target="_blank" ><img src="img/ico-rr.png" class="3"></a></div>
+   <div class="item"><a href="https://www.kingsofcustom.com.br" target="_blank" ><img src="img/ico-koc.png" class="4"></a></div>
+   <div class="item"><a href="https://www.facebook.com/Sal%C3%A3o-da-Josi-602975499766273/" target="_blank" ><img src="img/ico-sdj.png" class="5"></a></div>
+   <div class="item"><a href="https://www.facebook.com/realezarestaurante" target="_blank" ><img src="img/ico-rr.png" class="6"></a></div>
+   <div class="item"><a href="https://www.facebook.com/realezarestaurante" target="_blank" ><img src="img/ico-rr.png" class="7"></a></div>
+   <div class="item"><a href="https://www.facebook.com/realezarestaurante" target="_blank" ><img src="img/ico-rr.png" class="8"></a></div>
+   <div class="item"><a href="https://www.facebook.com/realezarestaurante" target="_blank" ><img src="img/ico-rr.png" class="9"></a></div>
+ </div>
+
+
 </section>
 </div>
 
@@ -178,7 +192,23 @@
    $('img.7').mouseenter(function(){$("img.7").attr("src","img/ico-rr2.png");});$('img.7').mouseleave(function() {$("img.7").attr("src","img/ico-rr.png")});
    $('img.8').mouseenter(function(){$("img.8").attr("src","img/ico-rr2.png");});$('img.8').mouseleave(function() {$("img.8").attr("src","img/ico-rr.png")});
 
-  
+  jQuery(function ($) {
+    $.fn.hScroll = function (amount) {
+        amount = amount || 120;
+        $(this).bind("DOMMouseScroll mousewheel", function (event) {
+            var oEvent = event.originalEvent, 
+                direction = oEvent.detail ? oEvent.detail * -amount : oEvent.wheelDelta, 
+                position = $(this).scrollLeft();
+            position += direction > 0 ? -amount : amount;
+            $(this).scrollLeft(position);
+            event.preventDefault();
+        })
+    };
+});
+
+$(document).ready(function() {
+    $('#box').hScroll(20); // You can pass (optionally) scrolling amount
+});
 
 </script>
 
