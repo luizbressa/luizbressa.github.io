@@ -1,0 +1,335 @@
+/* === PREDEFINIÇÕES === */
+@font-face {
+    font-family: 'gilroy';
+    src: url('../fonts/gilroy.woff2') format('woff2'), url('../fonts/gilroy.woff') format('woff');
+}
+    @font-face {
+    font-family: 'gilroy-black';
+    src: url('../fonts/gilroy-black-webfont.woff2') format('woff2'), url('../fonts/gilroy-black-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('../fonts/gilroy-bold-webfont.woff2') format('woff2'), url('../fonts/gilroy-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-heavy';
+    src: url('../fonts/gilroy-heavy-webfont.woff2') format('woff2'),  url('../fonts/gilroy-heavy-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url('../fonts/gilroy-medium-webfont.woff2') format('woff2'), url('../fonts/gilroy-medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-thin';
+    src: url('../fonts/gilroy-thin-webfont.woff2') format('woff2'),  url('../fonts/gilroy-thin-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-ultralight';
+    src: url('../fonts/gilroy-ultralight-webfont.woff2') format('woff2'), url('../fonts/gilroy-ultralight-webfont.woff') format('woff');
+
+}
+}
+
+html { 
+font-size: calc(1vw + 1vw);
+}
+
+header{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+  	z-index: -1;
+	z-index: 2;
+    left:0;
+    top:0;
+    height: 5vw;
+    width: 100%;
+	display: flex;
+}
+header a.icons-dp{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header ul.icons-contato{
+	left: 70vw;
+	position: absolute;
+	display: flex;
+	padding: 1.5vw 0 1vw 0;
+	margin: 0 4vw 0 0vw;
+}
+header ul.icons-contato li{
+	margin: 0 1vw 0vw 1vw;
+}
+header ul.icons-contato li a img{
+  width: 2vw;
+  height: 2vw;
+}
+
+header img.logo{
+  position: absolute;
+  top: 0.75vw;
+  left:5vw;
+  height: 3vw;
+
+}
+header div.menu{
+	display: none;
+}
+header div.menucascata{
+	display: none;
+}
+.container{
+	width: 100%;
+}
+
+
+section.fundoamarelo{
+	background:url(../img/banner-amarelo.png) center center;
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	width: 100;
+	height: 30vw;
+	padding: 3vw 0 0 0;
+}
+ section.fundoamarelo h1{
+    font-family: 'gilroy-black';
+    text-align: center;
+    margin: 10vw 0 0 0;
+    font-size:7vw;
+ }
+
+
+footer{
+	background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    height: 5vw;
+    margin: 10vw 0 0 0;
+}
+
+footer div.infofooter{
+	width: 79.1vw;
+	padding: 0.7vw 8.1vw 0vw 0vw;
+}
+
+
+footer div.infofooter p{
+	text-align: right;
+	color: white;
+	font-family: "gilroy-thin";
+	font-size: 1vw;
+	margin: 0.6vw 0 0 0vw;
+}
+
+footer div.brasil{
+	display: flex; position: relative;
+  float: right;
+}
+
+footer div.brasil img{
+	margin: 0.45vw 0.7vw 0 0;
+	width: 1.2vw;
+	height: 1.2vw;
+}
+
+footer a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer ul{
+	margin: 1.7vw 0 1.5vw 7.1vw;
+	width: 20vw;
+	display: flex;
+}
+footer ul li{
+	margin: 0 1vw 0vw 1vw;
+}
+footer ul li a img{
+  width: 2vw;
+  height: 2vw;
+}
+
+
+
+/*
+section.bannerdefundo div ul{
+		display: flex;
+		flex-wrap: wrap;
+}
+section.bannerdefundo div ul li{
+	padding: 5vw 0 0 0;
+	text-align: center;
+	width: 49.25%;
+	height: 7vw;
+	margin: 0.25vw 0 0 0;
+	background-color: purple;
+}
+}
+*/
+
+
+
+
+
+
+@media all and (max-width: 480px){ 
+
+div.container{
+	width: 100vw;
+}
+
+header{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+    left:0;
+    top:0;
+    height: 18vw;
+    width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header a.icons-dp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header ul.icons-contato{
+	display: none;
+	padding: 120vw 0 1vw 0;
+	margin: 0 8vw 0 0vw;
+}
+
+header ul.icons-contato li{
+	margin: 0 3.5vw 0 3.5vw;
+}
+
+header ul.icons-contato li a img{
+width: 10vw;
+  height: auto;
+}
+
+header img.logo{
+  position: absolute;
+  top: 3.8vw;
+  left: 5vw;
+  height: 10vw;
+
+}
+
+header div.menu{
+	  position: absolute;
+  top: 3.5vw;
+  left: 86vw;
+  display: inline-block;
+  cursor: pointer;
+			
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}	
+
+header div.menucascata{
+border-bottom-left-radius: 2vw;
+border-bottom-right-radius: 2vw;
+	background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18vw;
+  left: 30vw;
+  display: none;		
+   width: 70vw;	
+  	
+}
+header div.menucascata ul{
+  width: 70vw;			
+}
+header div.menucascata li{
+	border-bottom: solid 0.15vw rgba(250, 250, 250, 0.3);
+	border-top: solid 0.15vw rgba(250, 250, 250, 0.3);
+  display: flex;
+  width: 100%;
+  height: 10vw;
+  padding: 2vw 0 2vw 0;
+}
+
+header div.menucascata li a.icons-mb{
+
+  text-decoration:none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+header div.menucascata li p{
+  margin: 2.5vw 0 0 4vw;
+  color: white;
+  font-family: "gilroy";
+  font-size:6vw;
+}
+
+header div.menucascata img{
+  width: 7vw;
+  height: 7vw;
+  margin: 1.8vw 0vw 0 6vw;
+}
+
+
+footer{
+    height: 15vw;
+
+}
+
+footer div.infofooter{
+	display: flex;
+	width: 100vw;
+	padding: 0.7vw 8.1vw 0vw 9vw;
+}
+
+
+footer div.infofooter p{
+	text-align: right;
+	color: white;
+	font-family: "gilroy";
+	font-size: 4vw;
+	margin: 4.8vw 4vw 0 1vw;
+}
+
+footer div.brasil{
+	display: flex; 
+  position: relative;
+  float: right;
+}
+
+footer div.brasil img{
+	margin: 4.8vw 2vw 0 6vw;
+	width: 4vw;
+	height: 4vw;
+}
+
+footer div.brasil p{
+			margin: 4.8vw 0vw 0 0vw;
+}
+
+footer ul{
+	display: none;
+}
+
+
+}
