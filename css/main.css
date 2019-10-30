@@ -175,18 +175,13 @@ section.branca ul li h2.midiastxt{
  		padding: 0.75vw 0 0.7vw 0;
 }
 
- section.branca ul li img:hover ~ h2{
+ section.branca ul li a:hover h2{
 	background: linear-gradient(rgba(226,4,107,1), rgba(237,0,113,1));
 	color: white;
   	
 }
 
 
-section.branca ul li h2:hover{ 
-	/*background-color: linear-gradient(rgb(226,4,107), rgb(237, 0 ,113)) center center;*/
-	background: linear-gradient(rgba(226,4,107,1), rgba(237,0,113,1));
-	color: white;
-}
 	
 .midiastxt2{ 
 	 	margin: 1.1vw 0 7.7vw 0;
