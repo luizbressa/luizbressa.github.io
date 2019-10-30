@@ -65,18 +65,13 @@ header ul.icons-contato li a img{
   width: 2vw;
   height: 2vw;
 }
-header img.voltar{
-  position: absolute;
-  top: 1.5vw;
-  left:5vw;
-  height: 2vw;
-}
 
 header img.logo{
   position: absolute;
   top: 0.75vw;
-  left:8vw;
+  left:5vw;
   height: 3vw;
+
 
 }
 header div.menu{
@@ -95,7 +90,7 @@ section.fundoamarelo{
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	width: 100vw;
-	height: 50vw;
+	height: 90vw;
 	padding: 3vw 0 0 0;
 }
  section.fundoamarelo h1{
@@ -104,6 +99,38 @@ section.fundoamarelo{
     font-size:7vw;
     color: white;
  }
+
+section.fundoamarelo p{
+  padding: 2vw 0 0 6vw;
+  width: 35vw;
+  font-family: "gilroy";
+  font-weight: 400;
+  color: white ;
+  font-size: 1.4vw;
+  line-height: 1.8vw;
+}
+
+section.fundoamarelo img{
+  width: 90vw;
+  position: absolute;
+  left: 5vw;
+  top: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer{
