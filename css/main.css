@@ -26,8 +26,40 @@
 @font-face {
     font-family: 'gilroy-ultralight';
     src: url('../fonts/gilroy-ultralight-webfont.woff2') format('woff2'), url('../fonts/gilroy-ultralight-webfont.woff') format('woff');
-
 }
+@font-face {
+    font-family: 'gilroy-blackitalic';
+    src: url('../fonts/gilroy-blackitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-blackitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-extrabold';
+    src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2'),url('../fonts/gilroy-extrabold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-extrabolditalic';
+    src: url('../fonts/gilroy-extrabolditalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-extrabolditalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-heavyitalic';
+    src: url('../fonts/gilroy-heavyitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-heavyitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-mediumitalic';
+    src: url('../fonts/gilroy-mediumitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-mediumitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-regularitalic';
+    src: url('../fonts/gilroy-regularitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-regularitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-semibold';
+    src: url('../fonts/gilroy-semibold-webfont.woff2') format('woff2'),url('../fonts/gilroy-semibold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-semibolditalic';
+    src: url('../fonts/gilroy-semibolditalic-webfont.woff2') format('woff2'), url('../fonts/gilroy-semibolditalic-webfont.woff') format('woff');
+}
+
 }
 
 html { 
@@ -275,6 +307,7 @@ section.fundoamarelo ul li img{
 	width: 9.9vw;
 }
 
+
 #box {
 	display: block;
 	width: 80vw;
@@ -309,6 +342,11 @@ section.fundoamarelo ul li img{
 #box img{
 	width:10vw;
 }
+
+#box img:hover{
+	width:10.1vw;
+}
+
 section.fundorosa{
 	background:url(../img/banner-rosa.png) center center;
 	background-repeat: no-repeat;

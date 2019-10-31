@@ -26,8 +26,40 @@
 @font-face {
     font-family: 'gilroy-ultralight';
     src: url('../fonts/gilroy-ultralight-webfont.woff2') format('woff2'), url('../fonts/gilroy-ultralight-webfont.woff') format('woff');
-
 }
+@font-face {
+    font-family: 'gilroy-blackitalic';
+    src: url('../fonts/gilroy-blackitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-blackitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-extrabold';
+    src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2'),url('../fonts/gilroy-extrabold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-extrabolditalic';
+    src: url('../fonts/gilroy-extrabolditalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-extrabolditalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-heavyitalic';
+    src: url('../fonts/gilroy-heavyitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-heavyitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-mediumitalic';
+    src: url('../fonts/gilroy-mediumitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-mediumitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-regularitalic';
+    src: url('../fonts/gilroy-regularitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-regularitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-semibold';
+    src: url('../fonts/gilroy-semibold-webfont.woff2') format('woff2'),url('../fonts/gilroy-semibold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-semibolditalic';
+    src: url('../fonts/gilroy-semibolditalic-webfont.woff2') format('woff2'), url('../fonts/gilroy-semibolditalic-webfont.woff') format('woff');
+}
+
 }
 
 html { 
@@ -93,97 +125,142 @@ header div.menu{
 header div.menucascata{
   display: none;
 }
-.container{
-	width: 100%;
-}
 
 
-section.fundoamarelo{
-	background:url(../img/banner-amarelo3.png) center center;
-	background-repeat: no-repeat;
-  	background-size: 100% 100%;
-	width: 100vw;
-	height: 76vw;
-	padding: 3vw 0 0 0;
+
+section.branca{
+  background:url(../img/banner-branco.png) center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 47vw;
+  padding: 3vw 0 0 0;
 }
- section.fundoamarelo h1{
+ section.branca h1{
     font-family: 'gilroy-black';
     margin: 6vw 0 0 6vw;
     font-size:7vw;
-    color: white;
+  color: rgba(0, 0, 0, 0.6);
  }
 
-section.fundoamarelo p.normal{
-  padding: 2vw 0 0 6vw;
-  width: 35vw;
+section.branca p.normal{
+margin: 2vw 0 0 6vw;
   font-family: "gilroy";
-  font-weight: 400;
-  color: white ;
-  font-size: 1.4vw;
-  line-height: 1.8vw;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 4vw;
+
 }
 
-section.fundoamarelo img{
-  position: absolute;
+section.branca p.normal span{
+    font-family: "gilroy-bold";
+    color: #E2046B;
 }
 
-.flecha1{width:16vw; height:auto; top:17vw; left:63vw ;}
-.flecha2{width:18vw; height:auto; top:32vw; left:60vw;}
-.flecha3{width:15vw; height:auto; top:42vw; left:59vw;}
-.flecha4{width:9vw; height:auto; top:59vw; left:73.6vw;}
-.flecha5{width:13vw; height:auto; top:63vw; left:47vw;   transform: rotate(10deg);}
-.flecha6{width:12vw; height:auto; top:46vw; left:23vw; transform: rotate(-10deg);}
-.flecha7{width:4.5vw; height:auto; top:54vw; left:13vw;}
-
-.passos1{width:18vw; height: auto; top:8vw; left:45vw;}
-.passos2{width:13vw; height: auto; top:23vw; left:80vw;}
-.passos3{width:13vw; height: auto; top:28vw; left:45vw;}
-.passos4{width:10vw; height: auto; top:43vw; left:76vw;}
-.passos5{width:10vw; height: auto; top:59vw; left:61vw;}
-.passos6{width:10vw; height: auto; top:49.5vw; left:36.3vw;}
-.passos7{width:12vw; height: auto; top:40vw; left:9vw;}
-.passos8{width:13vw; height: auto; top:65vw; left:9vw;}
-
-.txt1{position: absolute; text-align:center; width:12vw; top:19vw; left:48vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
-.txt2{position: absolute; text-align:center; width:12vw; top:34vw; left:81.2vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
-.txt3{position: absolute; text-align:center; width:12vw; top:40.5vw; left:45.6vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
-.txt4{position: absolute; text-align:center; width:12vw; top:54.4vw; left:76vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
-.txt5{position: absolute; text-align:center; width:12vw; top:71vw; left:60vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
-.txt6{position: absolute; text-align:center; width:12vw; top:58vw; left:35vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
-.txt7{position: absolute; text-align:center; width:12vw; top:50vw; left:9.2vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
-.txt8{position: absolute; text-align:left;   width:12vw; top:67vw; left:23vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
 
 
-section.fundobranco{
-  background:url(../img/banner-branco.png) no-repeat, center center;
+section.branca ul{
+  margin: 3vw 0 0 3vw;  
+  width:94vw;
+  display: flex;
+
+}
+
+section.branca ul li{
+  width: 15.66666vw;
+}
+
+section.branca ul li div{
+  padding: 3vw 0 0 0;
+  width: 15.66666vw;
+  height:10vw;
+
+}
+section.branca ul li img{
+  width: 10.66666vw;
+  margin: 0 0 0 2.5vw;
+}
+section.branca ul li img.passos1{
+  width: 14.6666vw;
+  margin: 0 0 0 0.5vw;
+}
+
+section.branca ul li img.passos9{
+  width: 12.6666vw;
+  margin: 0 0 0 1.5vw;
+}
+
+section.branca ul li h2{
+  font-family: "gilroy-bold";
+  font-weight: bold;
+    color: #E2046B;
+    font-size: 1.8vw;
+    text-align: center;
+    margin: 0 0 1vw 0;
+}
+
+section.branca ul li p{
+   margin: 0 0 0 2.5vw;
+   font-family: "gilroy-medium";
+  color: rgba(0, 0, 0, 0.8);
+    font-size: 0.95vw;
+    text-align: center;
+    width: 10.66666vw;
+}
+
+section.amarela{
+  background:url(../img/banner-amarelo.png) no-repeat, center center;
   background-size: 100% 100%;
-  height: 50vw;
+  padding:0 0 0vw 0;
 }
-section.fundobranco h1{
+section.amarela h1{
   text-align:center;
-  padding: 4vw 0 1vw 0vw;
+  padding: 4vw 0 0vw 0vw;
   font-family: "gilroy-black";
   text-decoration: none;
   /*color: #363636;*/
-  color: #E2046B;
-  font-size: 6vw;
+  color: white;
+  font-size: 7vw;
   letter-spacing: 0.01vw;
 }
 
-section.fundobranco p{
-  text-align:center;
-  padding: 1vw 0 3vw 0vw;
-  font-family: "gilroy";
-  /*color: #363636;*/
-  color: #E2046B;
-  font-size: 1vw;
-  width: 70vw;
-  margin: 0 15vw 0 15vw;
-  letter-spacing: 0.01vw;
+section.amarela ul{
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5vw 0 0 5vw;
 }
 
+section.amarela ul li{
+    transition: 0.2s;
+  background:url(../img/logo-serjao.png) center center;
+  background-size: 100% 100%;
+  width: 24%;
+  height: 21.6vw;
+  background-color: green;
+  margin: 0.5%;
+}
 
+section.amarela ul li a{
+  text-decoration: none;
+}
 
+section.amarela ul li:hover{
+   background: linear-gradient(rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.4)),url(../img/logo-serjao.png) center center;
+     background-size: 105% 105%;
+}
+
+section.amarela ul li:hover h2{
+  opacity: 1;
+}
+
+section.amarela ul li a h2{
+  transition: 0.3s;
+     padding: 9.8vw 0 9.8vw 0;
+    font-family: 'gilroy-extrabolditalic';
+    color: white;
+    opacity: 0;
+    font-size: 2vw;
+    text-align: center;
+}
 
 
 
