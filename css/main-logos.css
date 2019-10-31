@@ -127,13 +127,13 @@ section.fundoamarelo img{
   position: absolute;
 }
 
-.flecha1{width:20vw; height:auto; top:15vw; left:60vw ;}
-.flecha2{width:18vw; height:auto; top:28vw; left:60vw;}
-.flecha3{width:15vw; height:auto; top:39vw; left:59vw;}
+.flecha1{width:16vw; height:auto; top:17vw; left:63vw ;}
+.flecha2{width:18vw; height:auto; top:32vw; left:60vw;}
+.flecha3{width:15vw; height:auto; top:42vw; left:59vw;}
 .flecha4{width:9vw; height:auto; top:59vw; left:73.6vw;}
 .flecha5{width:13vw; height:auto; top:63vw; left:47vw;   transform: rotate(10deg);}
 .flecha6{width:12vw; height:auto; top:46vw; left:23vw; transform: rotate(-10deg);}
-.flecha7{width:6vw; height:auto; top:54vw; left:13vw;}
+.flecha7{width:4.5vw; height:auto; top:54vw; left:13vw;}
 
 .passos1{width:18vw; height: auto; top:8vw; left:45vw;}
 .passos2{width:13vw; height: auto; top:23vw; left:80vw;}
@@ -142,7 +142,7 @@ section.fundoamarelo img{
 .passos5{width:10vw; height: auto; top:59vw; left:61vw;}
 .passos6{width:10vw; height: auto; top:49.5vw; left:36.3vw;}
 .passos7{width:12vw; height: auto; top:40vw; left:9vw;}
-.passos8{width:13vw; height: auto; top:66vw; left:10vw;}
+.passos8{width:13vw; height: auto; top:65vw; left:9vw;}
 
 .txt1{position: absolute; text-align:center; width:12vw; top:19vw; left:48vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
 .txt2{position: absolute; text-align:center; width:12vw; top:34vw; left:81.2vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
@@ -151,7 +151,7 @@ section.fundoamarelo img{
 .txt5{position: absolute; text-align:center; width:12vw; top:71vw; left:60vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
 .txt6{position: absolute; text-align:center; width:12vw; top:58vw; left:35vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
 .txt7{position: absolute; text-align:center; width:12vw; top:50vw; left:9.2vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
-.txt8{position: absolute; text-align:left;   width:12vw; top:70vw; left:24vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
+.txt8{position: absolute; text-align:left;   width:12vw; top:67vw; left:23vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
 
 
 section.fundobranco{
