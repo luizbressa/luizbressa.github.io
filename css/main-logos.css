@@ -35,15 +35,15 @@ font-size: calc(1vw + 1vw);
 }
 
 header{
-	background-color: rgba(0, 0, 0, 0.5);
-	position: absolute;
-  	z-index: -1;
-	z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+    z-index: -1;
+  z-index: 2;
     left:0;
     top:0;
     height: 5vw;
     width: 100%;
-	display: flex;
+  display: flex;
 }
 header a.icons-dp{
 
@@ -52,18 +52,23 @@ header a.icons-dp{
   margin-right: auto;
 }
 header ul.icons-contato{
-	left: 70vw;
-	position: absolute;
-	display: flex;
-	padding: 1.5vw 0 1vw 0;
-	margin: 0 4vw 0 0vw;
+  left: 70vw;
+  position: absolute;
+  display: flex;
+  padding: 1.5vw 0 1vw 0;
+  margin: 0 4vw 0 0vw;
 }
 header ul.icons-contato li{
-	margin: 0 1vw 0vw 1vw;
+  margin: 0 1vw 0vw 1vw;
 }
 header ul.icons-contato li a img{
+ transition: 0.2s;
   width: 2vw;
   height: 2vw;
+}
+header ul.icons-contato li a img:hover{
+  width: 2.3vw;
+  height: 2.3vw;
 }
 
 header img.logo{
@@ -71,14 +76,22 @@ header img.logo{
   top: 0.75vw;
   left:5vw;
   height: 3vw;
+  transition: 0.1s;
 
+}
+
+header img.logo:hover{
+  position: absolute;
+  top: 0.75vw;
+  left:4.9vw;
+  height: 3.1vw;
 
 }
 header div.menu{
-	display: none;
+  display: none;
 }
 header div.menucascata{
-	display: none;
+  display: none;
 }
 .container{
 	width: 100%;
@@ -86,11 +99,11 @@ header div.menucascata{
 
 
 section.fundoamarelo{
-	background:url(../img/banner-amarelo.png) center center;
+	background:url(../img/banner-amarelo3.png) center center;
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	width: 100vw;
-	height: 90vw;
+	height: 76vw;
 	padding: 3vw 0 0 0;
 }
  section.fundoamarelo h1{
@@ -100,7 +113,7 @@ section.fundoamarelo{
     color: white;
  }
 
-section.fundoamarelo p{
+section.fundoamarelo p.normal{
   padding: 2vw 0 0 6vw;
   width: 35vw;
   font-family: "gilroy";
@@ -110,8 +123,64 @@ section.fundoamarelo p{
   line-height: 1.8vw;
 }
 
+section.fundoamarelo img{
+  position: absolute;
+}
+
+.flecha1{width:20vw; height:auto; top:15vw; left:60vw ;}
+.flecha2{width:18vw; height:auto; top:28vw; left:60vw;}
+.flecha3{width:15vw; height:auto; top:39vw; left:59vw;}
+.flecha4{width:9vw; height:auto; top:59vw; left:73.6vw;}
+.flecha5{width:13vw; height:auto; top:63vw; left:47vw;   transform: rotate(10deg);}
+.flecha6{width:12vw; height:auto; top:46vw; left:23vw; transform: rotate(-10deg);}
+.flecha7{width:6vw; height:auto; top:54vw; left:13vw;}
+
+.passos1{width:18vw; height: auto; top:8vw; left:45vw;}
+.passos2{width:13vw; height: auto; top:23vw; left:80vw;}
+.passos3{width:13vw; height: auto; top:28vw; left:45vw;}
+.passos4{width:10vw; height: auto; top:43vw; left:76vw;}
+.passos5{width:10vw; height: auto; top:59vw; left:61vw;}
+.passos6{width:10vw; height: auto; top:49.5vw; left:36.3vw;}
+.passos7{width:12vw; height: auto; top:40vw; left:9vw;}
+.passos8{width:13vw; height: auto; top:66vw; left:10vw;}
+
+.txt1{position: absolute; text-align:center; width:12vw; top:19vw; left:48vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
+.txt2{position: absolute; text-align:center; width:12vw; top:34vw; left:81.2vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
+.txt3{position: absolute; text-align:center; width:12vw; top:40.5vw; left:45.6vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
+.txt4{position: absolute; text-align:center; width:12vw; top:54.4vw; left:76vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
+.txt5{position: absolute; text-align:center; width:12vw; top:71vw; left:60vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
+.txt6{position: absolute; text-align:center; width:12vw; top:58vw; left:35vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
+.txt7{position: absolute; text-align:center; width:12vw; top:50vw; left:9.2vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
+.txt8{position: absolute; text-align:left;   width:12vw; top:70vw; left:24vw;   font-family: "gilroy"; color:black; font-size: 1vw;}
 
 
+section.fundobranco{
+  background:url(../img/banner-branco.png) no-repeat, center center;
+  background-size: 100% 100%;
+  height: 50vw;
+}
+section.fundobranco h1{
+  text-align:center;
+  padding: 4vw 0 1vw 0vw;
+  font-family: "gilroy-black";
+  text-decoration: none;
+  /*color: #363636;*/
+  color: #E2046B;
+  font-size: 6vw;
+  letter-spacing: 0.01vw;
+}
+
+section.fundobranco p{
+  text-align:center;
+  padding: 1vw 0 3vw 0vw;
+  font-family: "gilroy";
+  /*color: #363636;*/
+  color: #E2046B;
+  font-size: 1vw;
+  width: 70vw;
+  margin: 0 15vw 0 15vw;
+  letter-spacing: 0.01vw;
+}
 
 
 
@@ -178,6 +247,10 @@ footer ul li a img{
   height: 2vw;
 }
 
+footer ul img:hover{
+  width: 2.3vw;
+  height: 2.3vw;
+}
 
 
 /*
@@ -208,14 +281,14 @@ div.container{
 }
 
 header{
-	background-color: rgba(0, 0, 0, 0.5);
-	position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
     left:0;
     top:0;
     height: 18vw;
     width: 100vw;
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header a.icons-dp{
@@ -224,25 +297,19 @@ header a.icons-dp{
   margin-right: auto;
 }
 header ul.icons-contato{
-	display: none;
-	padding: 120vw 0 1vw 0;
-	margin: 0 8vw 0 0vw;
+  display: none;
+  padding: 120vw 0 1vw 0;
+  margin: 0 8vw 0 0vw;
 }
 
 header ul.icons-contato li{
-	margin: 0 3.5vw 0 3.5vw;
+  margin: 0 3.5vw 0 3.5vw;
 }
 
 header ul.icons-contato li a img{
 width: 10vw;
   height: auto;
 }
-
-
-header img.voltar{
-	display: none;
-}
-
 
 header img.logo{
   position: absolute;
@@ -253,18 +320,18 @@ header img.logo{
 }
 
 header div.menu{
-	  position: absolute;
+  position: absolute;
   top: 3.5vw;
   left: 86vw;
   display: inline-block;
   cursor: pointer;
-			
+      
 }
 .bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
+  width: 10vw;
+  height: 1vw;
   background-color: white;
-  margin: 6px 0;
+  margin: 2vw 0;
   transition: 0.4s;
 }
 
@@ -278,25 +345,25 @@ header div.menu{
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
-}	
+} 
 
 header div.menucascata{
 border-bottom-left-radius: 2vw;
 border-bottom-right-radius: 2vw;
-	background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 18vw;
   left: 30vw;
-  display: none;		
-   width: 70vw;	
-  	
+  display: none;    
+   width: 70vw; 
+    
 }
 header div.menucascata ul{
-  width: 70vw;			
+  width: 70vw;      
 }
 header div.menucascata li{
-	border-bottom: solid 0.15vw rgba(250, 250, 250, 0.3);
-	border-top: solid 0.15vw rgba(250, 250, 250, 0.3);
+  border-bottom: solid 0.15vw rgba(250, 250, 250, 0.3);
+  border-top: solid 0.15vw rgba(250, 250, 250, 0.3);
   display: flex;
   width: 100%;
   height: 10vw;
@@ -322,6 +389,7 @@ header div.menucascata img{
   height: 7vw;
   margin: 1.8vw 0vw 0 6vw;
 }
+
 
 
 footer{

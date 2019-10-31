@@ -62,8 +62,13 @@ header ul.icons-contato li{
 	margin: 0 1vw 0vw 1vw;
 }
 header ul.icons-contato li a img{
+ transition: 0.2s;
   width: 2vw;
   height: 2vw;
+}
+header ul.icons-contato li a img:hover{
+  width: 2.3vw;
+  height: 2.3vw;
 }
 
 header img.logo{
@@ -71,6 +76,15 @@ header img.logo{
   top: 0.75vw;
   left:5vw;
   height: 3vw;
+  transition: 0.1s;
+
+}
+
+header img.logo:hover{
+  position: absolute;
+  top: 0.75vw;
+  left:4.9vw;
+  height: 3.1vw;
 
 }
 header div.menu{
@@ -357,6 +371,10 @@ footer div.brasil img{
 	height: 1.2vw;
 }
 
+footer ul img:hover{
+  width: 2.3vw;
+  height: 2.3vw;
+}
 footer a{
   display: block;
   margin-left: auto;
@@ -478,7 +496,7 @@ header img.logo{
 }
 
 header div.menu{
-	  position: absolute;
+  position: absolute;
   top: 3.5vw;
   left: 86vw;
   display: inline-block;
@@ -486,10 +504,10 @@ header div.menu{
 			
 }
 .bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
+  width: 10vw;
+  height: 1vw;
   background-color: white;
-  margin: 6px 0;
+  margin: 2vw 0;
   transition: 0.4s;
 }
 
