@@ -171,21 +171,21 @@ section.branca ul li{
 section.branca ul li div{
   padding: 3vw 0 0 0;
   width: 15.66666vw;
-  height:10vw;
+
 
 }
 section.branca ul li img{
-  width: 10.66666vw;
-  margin: 0 0 0 2.5vw;
+  width: 8.66666vw;
+  margin: 0 0 0 3.5vw;
 }
 section.branca ul li img.passos1{
-  width: 14.6666vw;
-  margin: 0 0 0 0.5vw;
+  width: 12.6666vw;
+  margin: 0 0 0 1.5vw;
 }
 
 section.branca ul li img.passos9{
-  width: 12.6666vw;
-  margin: 0 0 0 1.5vw;
+  width: 10.6666vw;
+  margin: 0 0 0 2.5vw;
 }
 
 section.branca ul li h2{
@@ -194,7 +194,7 @@ section.branca ul li h2{
     color: #E2046B;
     font-size: 1.8vw;
     text-align: center;
-    margin: 0 0 1vw 0;
+    margin: 2vw 0 1vw 0;
 }
 
 section.branca ul li p{

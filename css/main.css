@@ -445,35 +445,7 @@ section.bannerdefundo div ul li{
 	height: 7vw;
 	margin: 0.25vw 0 0 0;
 	background-color: purple;
-}
-section.bannerdefundo div ul li a{	
-	font-family: "Gilroy-HeavyItalic ☞";
-	text-decoration: none;
-	color: white;
-	font-size:2vw;
-	
-}
-section.bannerdefundo div ul li.logos{
-		margin: 0.2vw 0 0 0.5%;
-	 background: linear-gradient(rgba(227,14,14,0.1), rgba(105,17,17,0.4),rgba(227,14,14,0.2)), url(../img/box-logos.png) center center;
-	 background-repeat: no-repeat;
-	 background-repeat: no-repeat;
- 	 background-size: 100% 100%;
-}
-section.bannerdefundo div ul li.impressos{
-		margin: 0.2vw 0 0 0.5%;
-	 background: linear-gradient(rgba(82, 11, 11,0.2), rgba(82, 11, 11,0.6)), url(../img/box-impressos-2.png) center center;
-	 background-repeat: no-repeat;
-	 background-repeat: no-repeat;
- 	 background-size: 100% 100%;
-}
-section.bannerdefundo div ul li.midias{
-	margin: 0.2vw 0 0.2vw 0.5%;
-	 background: linear-gradient(rgba(82, 11, 11,0.2), rgba(82, 11, 11,0.6)), url(../img/box-impressos-2.png) center center;
-	 background-repeat: no-repeat;
-	 background-repeat: no-repeat;
- 	 background-size: 100% 100%;
-}
+}	
 section.bannerdefundo div ul li.redes{
 	 margin: 0.2vw 0 0.2vw 0.5%;
 	 background: linear-gradient(rgba(82, 11, 11,0.2), rgba(82, 11, 11,0.6)), url(../img/box-impressos-2.png) center center;
