@@ -139,7 +139,9 @@ section.branca{
     font-family: 'gilroy-black';
     margin: 6vw 0 0 6vw;
     font-size:7vw;
-  color: rgba(0, 0, 0, 0.6);
+      /*color: rgba(0, 0, 0, 0.6);*/
+  color: #6D12FF;
+
  }
 
 section.branca p.normal{
@@ -152,7 +154,7 @@ margin: 2vw 0 0 6vw;
 
 section.branca p.normal span{
     font-family: "gilroy-bold";
-    color: #E2046B;
+    color: #CC00B8;
 }
 
 
@@ -196,6 +198,10 @@ section.branca ul li h2{
     text-align: center;
     margin: 2vw 0 1vw 0;
 }
+section.branca ul li h2.reuni{
+  margin: 1.5vw 0 1vw 0;
+}
+
 
 section.branca ul li p{
    margin: 0 0 0 2.5vw;
@@ -230,31 +236,44 @@ section.amarela ul{
 }
 
 section.amarela ul li{
-    transition: 0.2s;
-  background:url(../img/logo-serjao.png) center center;
-  background-size: 100% 100%;
+  transition: 0.2s;
   width: 24%;
   height: 21.6vw;
-  background-color: green;
   margin: 0.5%;
 }
 
-section.amarela ul li a{
-  text-decoration: none;
-}
+section.amarela ul li.serjaoli{background:url(../img/logo-serjao.png) center center;   background-size: 100% 100%;}
+section.amarela ul li.serjaoli:hover{background: linear-gradient(rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.4)),url(../img/logo-serjao-2.png) center center;background-size: 105% 105%;}
 
-section.amarela ul li:hover{
-   background: linear-gradient(rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.4)),url(../img/logo-serjao.png) center center;
-     background-size: 105% 105%;
-}
+
+section.amarela ul li.rrli{background:url(../img/logo-rr.png) center center; background-size: 100% 100%;}
+section.amarela ul li.rrli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-rr-2.png) center center;background-size: 105% 105%;}
+
+section.amarela ul li.kocli{background:url(../img/logo-koc.png) center center; background-size: 100% 100%;}
+section.amarela ul li.kocli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-koc-2.png) center center;background-size: 105% 105%;}
+
+section.amarela ul li.pdali{background:url(../img/logo-pda.png) center center; background-size: 100% 100%;}
+section.amarela ul li.pdali:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-pda-2.png) center center;background-size: 105% 105%;}
+
+section.amarela ul li.cdbli{background:url(../img/logo-cdb.png) center center; background-size: 100% 100%;}
+section.amarela ul li.cdbli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-cdb-2.png) center center;background-size: 105% 105%;}
+
+section.amarela ul li.ccli{background:url(../img/logo-cc.png) center center; background-size: 100% 100%;}
+section.amarela ul li.ccli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-cc-2.png) center center;background-size: 105% 105%;}
+
+
+
+
+
 
 section.amarela ul li:hover h2{
   opacity: 1;
 }
 
-section.amarela ul li a h2{
-  transition: 0.3s;
-     padding: 9.8vw 0 9.8vw 0;
+section.amarela ul li h2{
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 9.8vw 0 9.8vw 0;
     font-family: 'gilroy-extrabolditalic';
     color: white;
     opacity: 0;
@@ -262,9 +281,27 @@ section.amarela ul li a h2{
     text-align: center;
 }
 
+section.amarela div.serjaodiv{
+  display: none;
 
+  background-color: rgba(0, 0, 0, 0.88);
+  width: 90vw;
+  height: 51vw;
+  position: absolute;
+  left: 5vw;
+  top: 63vw;
+}
 
-
+section.amarela div h3{
+  cursor: default;
+  padding: 4vw 0 0vw 4vw;
+  font-family: 'gilroy-blackitalic';
+  text-decoration: none;
+  /*color: #363636;*/
+  color: white;
+  font-size: 4vw;
+  letter-spacing: 0.01vw;
+}
 
 
 
