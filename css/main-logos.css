@@ -126,8 +126,15 @@ header div.menucascata{
   display: none;
 }
 
-
-
+h1{
+      cursor: default;
+}
+h2{
+      cursor: default;
+}
+p{
+      cursor: default;
+}
 section.branca{
   background:url(../img/banner-branco.png) center center;
   background-repeat: no-repeat;
@@ -292,9 +299,10 @@ section.amarela div.serjaodiv{
   top: 63vw;
 }
 
-section.amarela div h3{
+section.amarela div.serjaodiv h3{
   cursor: default;
-  padding: 4vw 0 0vw 4vw;
+  padding: 4vw 0 0vw 0;
+  text-align:center;
   font-family: 'gilroy-blackitalic';
   text-decoration: none;
   /*color: #363636;*/
@@ -303,9 +311,19 @@ section.amarela div h3{
   letter-spacing: 0.01vw;
 }
 
+section.amarela div.serjaodiv img.x{
+  cursor: pointer;
+  width: 2.5vw;height:auto;
+  position: absolute; left: 85vw; top: 2vw;
+} 
+section.amarela div.serjaodiv h2{
+  position: absolute;
+  left: 5vw;
 
+  width: 17.5vw;
 
-
+  cursor: default;font-family: 'gilroy'; color: white; font-size: 3vw; letter-spacing: 0.01vw;
+}
 
 
 

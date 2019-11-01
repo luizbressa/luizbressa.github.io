@@ -79,11 +79,15 @@
   <li class="pdali"><h2>Papo de Adolescente</h2></li>
   <li class="cdbli"><h2>Campanha do Brinquedo</h2></li>
   <li class="ccli"><h2>Copa do Gole</h2></li>
-  <li class="7"><h2>Autoposto Serjão</h2></li>
-  <li class="8"><h2>Autoposto Serjão</h2></li>
 <ul>
 
-<div class="serjaodiv"><h3>Autoposto Serjão<h3></div>
+<div class="serjaodiv">
+
+<h3>Autoposto Serjão<h3>
+<img class="x" src="img/x.png">
+<h2>Composição<h2>
+
+</div>
 
 </section>
 
@@ -184,10 +188,11 @@ $(document).ready(function() {
     $('#box').hScroll(30); // You can pass (optionally) scrolling amount
 });
 
-$('li.serjaoli').click(function() {
-         console.log("deu boa");
-     $('div.serjaodiv').fadeIn(200);
-       });
+$('li.serjaoli').click(function() {$('div.serjaodiv').fadeIn(200);});
+$('img.x').click(function() {$('section.amarela div').fadeOut(200);});
+
+
+
 
 </script>
 
