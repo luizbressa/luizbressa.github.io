@@ -340,7 +340,7 @@ section.amarela div.serjaodiv h2.coresserjaotxt{
 
 section.amarela div.serjaodiv img.coresserjao{
   width: 28vw;
-  position: absolute; left: 56.3vw; top: 4vw;
+  position: absolute; left: 58.3vw; top: 14vw;
 }
 
 section.amarela div.serjaodiv img.x{
@@ -350,49 +350,66 @@ section.amarela div.serjaodiv img.x{
 } 
 section.amarela div.serjaodiv img.complogoserjao{
   width: 50vw;height:auto;
-  position: absolute; left: 1vw; top: 3vw;
+  position: absolute; left: 3vw; top: 14vw;
 } 
 section.amarela div.serjaodiv p.pcoresserjaotxt{
-  position: absolute;  width: 27vw; left: 56.3vw;  top: 12vw;
+  position: absolute;  width: 27vw; left: 58.3vw;  top: 22vw;
     font-family: 'gilroy';color: white;font-size: 1vw;}
 
 
 
+section.amarela div.serjaodiv p.serjaotext{font-family: 'gilroy';color: white;font-size: 1vw;}
 
 section.amarela div.serjaodiv p.serjaotxt1{
-  position: absolute; width: 12vw; left: 2.1vw;  top: 8.3vw;
-    font-family: 'gilroy';color: white;font-size: 1vw;}
+  position: absolute; width: 12vw; left: 4.1vw;  top: 19.3vw; }
 
 section.amarela div.serjaodiv p.serjaotxt2{
-   position: absolute; width: 13vw; left: 37.8vw;  top: 6vw;
-    font-family: 'gilroy';color: white;font-size: 1vw;
+   position: absolute; width: 13vw; left: 39.8vw;  top: 17.3vw;
 }
 section.amarela div.serjaodiv p.serjaotxt3{
-     position: absolute; width: 10vw; left: 1.1vw;  top: 22.2vw;
-    font-family: 'gilroy';color: white;font-size: 1vw;
+     position: absolute; width: 10vw; left: 3.1vw;  top: 33.2vw;
 }
 section.amarela div.serjaodiv p.serjaotxt4{
-    position: absolute; width: 12vw; left: 39.1vw;  top: 26.9vw;
-    font-family: 'gilroy';color: white;font-size: 1vw;
+    position: absolute; width: 12vw; left: 41.1vw;  top: 37.9vw;
 }
 
 section.amarela div.serjaodiv h2.opcoesserjao{
-  padding: 0 0 0 0; position: absolute; top: 31vw; left: 58vw;
+  padding: 0 0 0 0; position: absolute; top: 29vw; left: 58vw;
 }
 section.amarela div.serjaodiv div.divopcoes{
+  display: flex;
   position: absolute;
-  left: 56vw;
-  top: 25vw;
+  left: 57.4vw;
+  top: 34vw;
   width: 40vw;
   height: 10vw;
   background-color: none;
 }
-section.amarela div.serjaodiv div.divopcoes img{
+section.amarela div.serjaodiv div.divopcoes div{
+  background-size: 150% 100%;
+  margin: 0 0.6vw 0 0.6vw;
+  transition: 0.2s;
   width: 9vw;
-  height: 9vw;
-
+  height: 15vw;
+  cursor: pointer;
 }
 
+section.amarela div.serjaodiv div.divopcoes div:hover{
+  width: 15vw;
+   background-size: 100% 100%;
+}
+section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-1:hover ~ div.serjao-opcao-2{width: 6vw;}
+section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-1:hover ~ div.serjao-opcao-3{width: 6vw;}
+
+section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-2:hover ~ div.serjao-opcao-1{width: 6vw;}
+section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-2:hover ~ div.serjao-opcao-3{width: 6vw;}
+
+section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-3:hover + div.serjao-opcao-1{width: 6vw;}
+section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-3:hover + div.serjao-opcao-2{width: 6vw;}
+
+.serjao-opcao-1{ background:url(../img/logo-serjao-3.png) center center;}
+.serjao-opcao-2{ background:url(../img/logo-serjao-4.png) center center;}
+.serjao-opcao-3{ background:url(../img/logo-serjao-5.png) center center;}
 
 footer{
   position:absolute;

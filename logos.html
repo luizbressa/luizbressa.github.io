@@ -79,28 +79,30 @@
   <li class="pdali"><h2>Papo de Adolescente</h2></li>
   <li class="cdbli"><h2>Campanha do Brinquedo</h2></li>
   <li class="ccli"><h2>Copa do Gole</h2></li>
-<ul>
+</ul>
 
 <div class="serjaodiv">
 
-<h3>Autoposto Serjão<h3>
+
+<h3>Autoposto Serjão</h3>
 <img class="x" src="img/x.png">
-<h2>Composição<h2>
+<h2>Composição</h2>
+
 <img class="complogoserjao" src="img/composicoes-serjao.png">
-<p class="serjaotxt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et tortor. Nam viverra elit vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.<p>
-<p class="serjaotxt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus. <p>
-<p class="serjaotxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.<p>
-<p class="serjaotxt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.<p>
-<h2 class="coresserjaotxt">Cores<h2>
+<p class="serjaotext serjaotxt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et tortor. Nam viverra elit vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<p class="serjaotext serjaotxt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus. </p>
+<p class="serjaotext serjaotxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<p class="serjaotext serjaotxt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<h2 class="coresserjaotxt">Cores</h2>
 <img class="coresserjao" src="img/cores-serjao-2.png">
 
 <p class="pcoresserjaotxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
-<h2 class="opcoesserjao">Outras opções<h2>
+<h2 class="opcoesserjao">Outras opções</h2>
 
 <div class="divopcoes">
-<img class="serjao-opcao-1"src="img/logo-serjao-3.png">
-<img class="serjao-opcao-2"src="img/logo-serjao-4.png">
-<img class="serjao-opcao-3"src="img/logo-serjao-5.png">
+<div class="serjao-opcao-1"></div>
+<div class="serjao-opcao-2"></div>
+<div class="serjao-opcao-3"></div>
 </div>
 
 </div>
@@ -207,7 +209,7 @@ $(document).ready(function() {
 $('li.serjaoli').click(function() {$('div.serjaodiv').fadeIn(200);$('div.divopcoes').fadeIn(200);});
 $('img.x').click(function() {$('div.serjaodiv').fadeOut(200);});
 
-
+  $("div.divopcoes img").click(function(){$('div.serjaodiv').fadeOut(200);});
 
 </script>
 
