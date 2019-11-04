@@ -77,12 +77,26 @@ header{
     width: 100%;
   display: flex;
 }
-header a.icons-dp{
-
+header ul li a.icons-dp{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transition: 0.2s;
+  width: 2vw;
+  height: 2vw;
 }
+header ul.icons-contato li a.icoface{ background:url(../img/ico-face.png),url(../img/ico-face-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoinsta{ background:url(../img/ico-insta.png),url(../img/ico-insta-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icozap{ background:url(../img/ico-zap.png),url(../img/ico-zap-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icomail{ background:url(../img/ico-email.png),url(../img/ico-email-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoytb{ background:url(../img/ico-ytb.png),url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;}
+
+header ul.icons-contato li a.icoface:hover{ background:url(../img/ico-face-2.png) center center;background-size: 100% 100%;    width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icoinsta:hover{ background:url(../img/ico-insta-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icozap:hover{ background:url(../img/ico-zap-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icomail:hover{ background:url(../img/ico-email-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icoytb:hover{ background:url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+
 header ul.icons-contato{
   left: 70vw;
   position: absolute;
@@ -92,15 +106,6 @@ header ul.icons-contato{
 }
 header ul.icons-contato li{
   margin: 0 1vw 0vw 1vw;
-}
-header ul.icons-contato li a img{
- transition: 0.2s;
-  width: 2vw;
-  height: 2vw;
-}
-header ul.icons-contato li a img:hover{
-  width: 2.3vw;
-  height: 2.3vw;
 }
 
 header a.logo{
@@ -228,6 +233,7 @@ section.branca ul li p{
 section.amarela{
   background:url(../img/banner-amarelo.png) no-repeat, center center;
   background-size: 100% 100%;
+  height: 73vw;
   padding:0 0 0vw 0;
 }
 section.amarela h1{
@@ -376,27 +382,11 @@ section.amarela div.serjaodiv p.serjaotxt4{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
-	background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  top: 118vw;
+  left: 0;
+	 background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     display: flex;
     height: 5vw;
@@ -428,28 +418,36 @@ footer div.brasil img{
 	height: 1.2vw;
 }
 
-footer a{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-footer ul{
+
+footer ul {
 	margin: 1.7vw 0 1.5vw 7.1vw;
 	width: 20vw;
 	display: flex;
 }
-footer ul li{
+footer ul  li{
 	margin: 0 1vw 0vw 1vw;
 }
-footer ul li a img{
+
+footer ul li a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
   width: 2vw;
   height: 2vw;
 }
 
-footer ul img:hover{
-  width: 2.3vw;
-  height: 2.3vw;
-}
+footer ul li a.icoface{ background:url(../img/ico-face.png),url(../img/ico-face-2.png) center center;background-size: 100% 100%;}
+footer ul li a.icoinsta{ background:url(../img/ico-insta.png),url(../img/ico-insta-2.png) center center;background-size: 100% 100%;}
+footer ul li a.icozap{ background:url(../img/ico-zap.png),url(../img/ico-zap-2.png) center center;background-size: 100% 100%;}
+footer ul li a.icomail{ background:url(../img/ico-email.png),url(../img/ico-email-2.png) center center;background-size: 100% 100%;}
+footer ul li a.icoytb{ background:url(../img/ico-ytb.png),url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;}
+
+footer ul li a.icoface:hover{ background:url(../img/ico-face-2.png) center center;background-size: 100% 100%;    width: 2.3vw;height: 2.3vw;}
+footer ul li a.icoinsta:hover{ background:url(../img/ico-insta-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+footer ul li a.icozap:hover{ background:url(../img/ico-zap-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+footer ul li a.icomail:hover{ background:url(../img/ico-email-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+footer ul li a.icoytb:hover{ background:url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
 
 
 /*
@@ -672,10 +670,11 @@ section.amarela{
   background:url(../img/banner-amarelo.png) no-repeat, center center;
   background-size: 100% 100%;
   padding:0 0 0vw 0;
+  height: 190vw;
 }
 section.amarela h1{
   text-align:center;
-  padding: 4vw 0 0vw 0vw;
+  padding: 10vw 0 0vw 0vw;
   font-family: "gilroy-black";
   text-decoration: none;
   /*color: #363636;*/
@@ -688,7 +687,7 @@ section.amarela ul{
   width: 90vw;
   display: flex;
   flex-wrap: wrap;
-  margin: 5vw 0 0 5vw;
+  margin: 8vw 0 0 5vw;
 }
 
 section.amarela ul li{
@@ -711,7 +710,7 @@ section.amarela ul li h2{
 
 section.amarela div.serjaodiv{
   width: 90vw;
-  height: 150vw;
+  height: 162vw;
   left: 5vw;
   top: 253vw;
 }
@@ -781,21 +780,9 @@ section.amarela div.serjaodiv p.serjaotxt4{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     height: 15vw;
+    top: 418vw;
 
 }
 

@@ -83,6 +83,26 @@ header a.icons-dp{
   margin-left: auto;
   margin-right: auto;
 }
+header a.icons-dp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
+  width: 2vw;
+  height: 2vw;
+}
+header ul.icons-contato li a.icoface{ background:url(../img/ico-face.png),url(../img/ico-face-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoinsta{ background:url(../img/ico-insta.png),url(../img/ico-insta-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icozap{ background:url(../img/ico-zap.png),url(../img/ico-zap-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icomail{ background:url(../img/ico-email.png),url(../img/ico-email-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoytb{ background:url(../img/ico-ytb.png),url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;}
+
+header ul.icons-contato li a.icoface:hover{ background:url(../img/ico-face-2.png) center center;background-size: 100% 100%;    width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icoinsta:hover{ background:url(../img/ico-insta-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icozap:hover{ background:url(../img/ico-zap-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icomail:hover{ background:url(../img/ico-email-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icoytb:hover{ background:url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+
 header ul.icons-contato{
 	left: 70vw;
 	position: absolute;
@@ -412,6 +432,7 @@ footer div.brasil img{
 	width: 1.2vw;
 	height: 1.2vw;
 }
+
 
 footer ul img:hover{
   width: 2.3vw;
