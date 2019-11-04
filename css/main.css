@@ -376,7 +376,7 @@ section.fundorosa{
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
   	width: 100%;
-  	height: auto;
+  	height: 85.9vw;
 }
 
 section.fundorosa h1{
@@ -401,11 +401,14 @@ section.fundorosa p.textohistoria{
 
 
 footer{
-	background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  top: 198vw;
+  left: 0;
+	 background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     display: flex;
     height: 5vw;
-    margin: 10vw 0 0 0;
+    margin: 0vw 0 0 0;
 }
 
 footer div.infofooter{
@@ -434,27 +437,35 @@ footer div.brasil img{
 }
 
 
-footer ul img:hover{
-  width: 2.3vw;
-  height: 2.3vw;
-}
-footer a{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-footer ul{
+footer ul {
 	margin: 1.7vw 0 1.5vw 7.1vw;
 	width: 20vw;
 	display: flex;
 }
-footer ul li{
+footer ul  li{
 	margin: 0 1vw 0vw 1vw;
 }
-footer ul li a img{
+
+footer ul li a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
   width: 2vw;
   height: 2vw;
 }
+
+footer ul li a.icoface{ background:url(../img/ico-face.png),url(../img/ico-face-2.png) center center;background-size: 100% 100%;}
+footer ul li a.icoinsta{ background:url(../img/ico-insta.png),url(../img/ico-insta-2.png) center center;background-size: 100% 100%;}
+footer ul li a.icozap{ background:url(../img/ico-zap.png),url(../img/ico-zap-2.png) center center;background-size: 100% 100%;}
+footer ul li a.icomail{ background:url(../img/ico-email.png),url(../img/ico-email-2.png) center center;background-size: 100% 100%;}
+footer ul li a.icoytb{ background:url(../img/ico-ytb.png),url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;}
+
+footer ul li a.icoface:hover{ background:url(../img/ico-face-2.png) center center;background-size: 100% 100%;    width: 2.3vw;height: 2.3vw;}
+footer ul li a.icoinsta:hover{ background:url(../img/ico-insta-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+footer ul li a.icozap:hover{ background:url(../img/ico-zap-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+footer ul li a.icomail:hover{ background:url(../img/ico-email-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+footer ul li a.icoytb:hover{ background:url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
 
 
 
@@ -769,6 +780,7 @@ section.fundorosa{
 	background:url(../img/banner-rosa-2.png) center center;
   	background-size: 100% 140%;
   	width: 100vw;
+  	height: 430vw;
 
 }
 
@@ -793,6 +805,7 @@ section.fundorosa p.textohistoria{
 
 footer{
     height: 15vw;
+    top: 858vw;
 
 }
 
