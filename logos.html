@@ -15,7 +15,7 @@
 <body>
 
  <header>
-  <a href="/home"><img class="logo" src="img/logo-medio-nome.png"></a>
+  <a class="logo" href="/home"></a>
 
   <ul class="icons-contato">
     <li><a class="icons-dp"href="https://www.facebook.com/luiz.bressiani"  target="_blank"><img src="img/ico-face.png"></a></li>
@@ -201,7 +201,8 @@ $(document).ready(function() {
 $('li.serjaoli').click(function() {$('div.serjaodiv').fadeIn(200);});
 $('img.x').click(function() {$('section.amarela div').fadeOut(200);});
 
-
+ $('img.logo').mouseenter(function(){$("img.logo").attr("src","img/logo-medio-nome-2.png")});
+ $('img.logo').mouseleave(function() {$("img.logo").attr("src","img/logo-medio-nome.png")});
 
 
 </script>

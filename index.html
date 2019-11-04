@@ -15,7 +15,7 @@
 <body>
 
  <header>
-  <a href="/home"><img class="logo" src="img/logo-medio-nome.png"></a>
+    <a class="logo" href="/home"></a>
 
   <ul class="icons-contato">
     <li><a class="icons-dp"href="https://www.facebook.com/luiz.bressiani"  target="_blank"><img src="img/ico-face.png"></a></li>
@@ -214,6 +214,7 @@ $(document).ready(function() {
     $('#box').hScroll(30); // You can pass (optionally) scrolling amount
 });
 
+ $('img.logo').mouseenter(function(){$("img.logo").attr("src","img/logo-medio-nome-2.png")});$('img.logo').mouseleave(function() {$("img.logo").attr("src","img/logo-medio-nome-2.png")});
 </script>
 
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>

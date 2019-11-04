@@ -103,22 +103,26 @@ header ul.icons-contato li a img:hover{
   height: 2.3vw;
 }
 
-header img.logo{
+header a.logo{
+  background:url(../img/logo-medio-nome.png) center center;
+  background-size: 100% 100%;
   position: absolute;
   top: 0.75vw;
   left:5vw;
+  width: 12.5vw;
   height: 3vw;
-  transition: 0.1s;
-
+  transition: 0.15s;
 }
-
-header img.logo:hover{
+header a.logo:hover{
+  background:url(../img/logo-medio-nome-2.png) center center;
+  background-size: 100% 100%;
   position: absolute;
-  top: 0.75vw;
-  left:4.9vw;
-  height: 3.1vw;
-
+  top: 0.65vw;
+  left:4.5vw;
+  width: 13.5vw;
+  height: 3.2vw;
 }
+
 header div.menu{
 	display: none;
 }
