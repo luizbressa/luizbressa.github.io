@@ -508,6 +508,13 @@ header a.logo{
   height: 10vw;
   width:41vw;
 }
+header a.logo:hover{
+  position: absolute;
+  top: 3.8vw;
+  left: 5vw;
+  height: 10vw;
+  width:41vw;
+}
 
 
 header div.menu{

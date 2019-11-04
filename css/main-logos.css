@@ -139,6 +139,8 @@ h2{
 p{
       cursor: default;
 }
+
+
 section.branca{
   background:url(../img/banner-branco.png) center center;
   background-repeat: no-repeat;
@@ -515,6 +517,7 @@ header a.logo{
   height: 10vw;
   width:41vw;
 }
+
 header a.logo:hover{
   position: absolute;
   top: 3.8vw;
@@ -594,6 +597,200 @@ header div.menucascata img{
   height: 7vw;
   margin: 1.8vw 0vw 0 6vw;
 }
+
+
+section.branca{
+  background:url(../img/banner-branco.png) center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 240vw;
+  padding: 3vw 0 0 0;
+}
+ section.branca h1{
+    margin: 25vw 0 0 6vw; font-size:20vw;}
+section.branca p.normal{
+margin: 3vw 0 0 6vw; font-size: 10vw;}
+
+
+
+
+section.branca ul{
+  margin: 10vw 0 0 0vw;  
+  width:100vw;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+section.branca ul li{
+  width: 50vw;
+  margin: 3vw 0 3vw 0;
+}
+
+section.branca ul li div{
+  padding: 3vw 0 0 0;
+  width: 50vw;
+}
+
+section.branca ul li img{
+  width: 60%;
+  margin: 0 0 1.5vw 18%;
+}
+section.branca ul li img.passos1{
+  width:  76%;
+  margin: 0 0 3.4vw 12%;
+}
+
+section.branca ul li img.passos9{
+  width:  70%;
+  margin: 0 0 2.4vw 15%;
+}
+
+section.branca ul li h2{
+    font-size: 6vw;
+    margin: 2vw 0 1vw 0;
+}
+section.branca ul li h2.reuni{
+  margin: 1.5vw 0 1vw 0;
+}
+
+section.branca ul li h2.apre{
+  margin:1.6vw 0 1.4vw 0;
+ font-size: 5.8vw;
+}
+
+section.branca ul li p{
+   margin: 0 0 0 2.5vw;
+   font-family: "gilroy-medium";
+  color: rgba(0, 0, 0, 0.6);
+    font-size: 3.5vw;
+    text-align: center;
+    width: 45vw;
+}
+
+section.amarela{
+  background:url(../img/banner-amarelo.png) no-repeat, center center;
+  background-size: 100% 100%;
+  padding:0 0 0vw 0;
+}
+section.amarela h1{
+  text-align:center;
+  padding: 4vw 0 0vw 0vw;
+  font-family: "gilroy-black";
+  text-decoration: none;
+  /*color: #363636;*/
+  color: white;
+  font-size: 14vw;
+  letter-spacing: 0.01vw;
+}
+
+section.amarela ul{
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5vw 0 0 5vw;
+}
+
+section.amarela ul li{
+  box-shadow: 0px 0px 0.8vw rgba(0,0,0,0.1);
+  transition: 0.2s;
+  width: 49%;
+  height: 44.1vw;
+  margin: 0.5%;
+}
+
+section.amarela ul li:hover h2{
+  opacity: 0;
+}
+
+section.amarela ul li h2{
+    padding: 50% ;
+    opacity: 0;
+    font-size: 0vw;
+}
+
+section.amarela div.serjaodiv{
+  width: 90vw;
+  height: 150vw;
+  left: 5vw;
+  top: 253vw;
+}
+
+
+section.amarela div.serjaodiv h3{
+  text-align: center;
+  margin: 8vw 0 0vw 0;
+  text-align:center;
+  font-size: 8vw;
+}
+
+section.amarela div.serjaodiv h2{
+  position:absolute; left: 2vw; top: 20vw;
+  font-family: 'gilroy-extrabold';
+  color: white;
+  font-size: 7vw;
+  letter-spacing: 0.01vw;
+}
+
+section.amarela div.serjaodiv h2.coresserjaotxt{
+  padding: 0 0 0 0; position: absolute; top: 80vw; left: 5vw;
+}
+section.amarela div.serjaodiv h2.opcoesserjao{
+  padding: 0 0 0 0; position: absolute; top: 110vw; left: 5vw;
+}
+
+section.amarela div.serjaodiv img.coresserjao{
+  width: 78vw;
+  position: absolute; left: 4vw; top: 70vw;
+}
+
+section.amarela div.serjaodiv img.x{
+  cursor: pointer;
+  width: 6vw;height:auto;
+  position: absolute; left: 82vw; top: 2vw;
+} 
+section.amarela div.serjaodiv img.complogoserjao{
+  width: 85vw;height:auto;
+  position: absolute; left: 2vw; top: 8vw;
+} 
+section.amarela div.serjaodiv p.pcoresserjaotxt{
+  display:none;}
+
+section.amarela div.serjaodiv p.serjaotxt1{
+  display: none;
+  position: absolute; width: 12vw; left: 2.1vw;  top: 8.3vw;
+    font-family: 'gilroy';color: white;font-size: 1vw;}
+
+section.amarela div.serjaodiv p.serjaotxt2{
+  display: none;
+   position: absolute; width: 13vw; left: 37.8vw;  top: 6vw;
+    font-family: 'gilroy';color: white;font-size: 1vw;
+}
+section.amarela div.serjaodiv p.serjaotxt3{
+  display: none;
+     position: absolute; width: 10vw; left: 1.1vw;  top: 22.2vw;
+    font-family: 'gilroy';color: white;font-size: 1vw;
+}
+section.amarela div.serjaodiv p.serjaotxt4{
+  display: none;
+    position: absolute; width: 12vw; left: 39.1vw;  top: 26.9vw;
+    font-family: 'gilroy';color: white;font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
