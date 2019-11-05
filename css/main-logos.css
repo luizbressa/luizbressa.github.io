@@ -85,11 +85,11 @@ header ul li a.icons-dp{
   width: 2vw;
   height: 2vw;
 }
-header ul.icons-contato li a.icoface{ background:url(../img/ico-face.png),url(../img/ico-face-2.png) center center;background-size: 100% 100%;}
-header ul.icons-contato li a.icoinsta{ background:url(../img/ico-insta.png),url(../img/ico-insta-2.png) center center;background-size: 100% 100%;}
-header ul.icons-contato li a.icozap{ background:url(../img/ico-zap.png),url(../img/ico-zap-2.png) center center;background-size: 100% 100%;}
-header ul.icons-contato li a.icomail{ background:url(../img/ico-email.png),url(../img/ico-email-2.png) center center;background-size: 100% 100%;}
-header ul.icons-contato li a.icoytb{ background:url(../img/ico-ytb.png),url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoface{ background:url(../img/ico-face.png), center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoinsta{ background:url(../img/ico-insta.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icozap{ background:url(../img/ico-zap.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icomail{ background:url(../img/ico-email.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoytb{ background:url(../img/ico-ytb.png) center center;background-size: 100% 100%;}
 
 header ul.icons-contato li a.icoface:hover{ background:url(../img/ico-face-2.png) center center;background-size: 100% 100%;    width: 2.3vw;height: 2.3vw;}
 header ul.icons-contato li a.icoinsta:hover{ background:url(../img/ico-insta-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
@@ -342,8 +342,7 @@ section.amarela div.serjaodiv img.coresserjao{
   width: 28vw;
   position: absolute; left: 58.3vw; top: 14vw;
 }
-
-section.amarela div.serjaodiv img.x{
+img.x{
   cursor: pointer;
   width: 2.5vw;height:auto;
   position: absolute; left: 85vw; top: 2vw;
@@ -386,31 +385,224 @@ section.amarela div.serjaodiv div.divopcoes{
   background-color: none;
 }
 section.amarela div.serjaodiv div.divopcoes div{
-  background-size: 150% 100%;
+  background-size: 170% 100%;
   margin: 0 0.6vw 0 0.6vw;
   transition: 0.2s;
   width: 9vw;
   height: 15vw;
-  cursor: pointer;
+  cursor: default;
 }
 
-section.amarela div.serjaodiv div.divopcoes div:hover{
-  width: 15vw;
-   background-size: 100% 100%;
-}
-section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-1:hover ~ div.serjao-opcao-2{width: 6vw;}
-section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-1:hover ~ div.serjao-opcao-3{width: 6vw;}
-
-section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-2:hover ~ div.serjao-opcao-1{width: 6vw;}
-section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-2:hover ~ div.serjao-opcao-3{width: 6vw;}
-
-section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-3:hover + div.serjao-opcao-1{width: 6vw;}
-section.amarela div.serjaodiv div.divopcoes div.serjao-opcao-3:hover + div.serjao-opcao-2{width: 6vw;}
 
 .serjao-opcao-1{ background:url(../img/logo-serjao-3.png) center center;}
 .serjao-opcao-2{ background:url(../img/logo-serjao-4.png) center center;}
 .serjao-opcao-3{ background:url(../img/logo-serjao-5.png) center center;}
 
+/*
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
+
+section.amarela div.rrdiv{
+  display: none;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.88);
+  width: 90vw;
+  height: 51vw;
+  position: absolute;
+  left: 5vw;
+  top: 63vw;
+}
+
+section.amarela div.rrdiv h3{
+  cursor: default;
+  margin: 3vw 0 0vw 0;
+  text-align:center;
+  font-family: 'gilroy-heavyitalic';
+  text-decoration: none;
+  /*color: #363636;*/
+  color: white;
+  font-size: 5vw;
+  letter-spacing: 0.01vw;
+}
+
+section.amarela div.rrdiv h2{
+
+  position:absolute; left: 2vw; top: 10vw;
+  font-family: 'gilroy-extrabold';
+  color: white;
+  font-size: 3vw;
+  letter-spacing: 0.01vw;
+}
+
+img.x{
+  cursor: pointer;
+  width: 2.5vw;height:auto;
+  position: absolute; left: 85vw; top: 2vw;
+} 
+section.amarela div.rrdiv img.comp{
+  width: 50vw;height:auto;
+  position: absolute; left: 3vw; top: 11vw;
+} 
+section.amarela div.rrdiv p.pcorestxt{
+  position: absolute;  width: 27vw; left: 58.3vw;  top: 22vw;
+    font-family: 'gilroy';color: white;font-size: 1vw;}
+
+
+
+section.amarela div.rrdiv p.rrtxt{font-family: 'gilroy';color: white;font-size: 1vw;}
+
+section.amarela div.rrdiv p.rrtxt1{
+  position: absolute; width: 12vw; left: 3.7vw;  top: 17.9vw; }
+
+section.amarela div.rrdiv p.rrtxt2{
+   position: absolute; width: 12vw; left: 40vw;  top: 14.1vw;
+}
+section.amarela div.rrdiv p.rrtxt3{
+     position: absolute; width: 10vw; left: 3.1vw;  top: 34.7vw;
+}
+section.amarela div.rrdiv p.rrtxt4{
+    text-align: right; position: absolute; width: 12vw; left: 40.9vw;  top: 33.9vw;
+}
+section.amarela div.rrdiv h2.corestxt{
+  padding: 0 0 0 0; position: absolute; top: 10vw; left: 58vw;
+}
+
+
+section.amarela div.rrdiv img.cores{
+  width: 28vw;
+  position: absolute; left: 58.3vw; top: 14vw;
+}
+section.amarela div.rrdiv h2.opcoes{
+  padding: 0 0 0 0; position: absolute; top: 29vw; left: 58vw;
+}
+section.amarela div.rrdiv div.divopcoes{
+  display: flex;
+  position: absolute;
+  left: 57.4vw;
+  top: 34vw;
+  width: 40vw;
+  height: 10vw;
+  background-color: none;
+}
+section.amarela div.rrdiv div.divopcoes div{
+  background-size: 170% 100%;
+  margin: 0 0.6vw 0 0.6vw;
+  transition: 0.2s;
+  width: 9vw;
+  height: 15vw;
+  cursor: default;
+}
+
+
+.rr-opcao-1{ background:url(../img/logo-rr.png) center center;}
+.rr-opcao-2{ background:url(../img/logo-rr-2.png) center center;}
+.rr-opcao-3{ background:url(../img/logo-rr.png) center center;}
+
+
+/*
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
+section.amarela div.kocdiv{
+  display: none;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.88);
+  width: 90vw;
+  height: 51vw;
+  position: absolute;
+  left: 5vw;
+  top: 63vw;
+}
+
+section.amarela div.kocdiv h3{
+  cursor: default;
+  margin: 3vw 0 0vw 0;
+  text-align:center;
+  font-family: 'gilroy-heavyitalic';
+  text-decoration: none;
+  /*color: #363636;*/
+  color: white;
+  font-size: 5vw;
+  letter-spacing: 0.01vw;
+}
+
+section.amarela div.kocdiv h2{
+
+  position:absolute; left: 2vw; top: 10vw;
+  font-family: 'gilroy-extrabold';
+  color: white;
+  font-size: 3vw;
+  letter-spacing: 0.01vw;
+}
+
+img.x{
+  cursor: pointer;
+  width: 2.5vw;height:auto;
+  position: absolute; left: 85vw; top: 2vw;
+} 
+section.amarela div.kocdiv img.comp{
+  width: 50vw;height:auto;
+  position: absolute; left: 3vw; top: 11.5vw;
+} 
+section.amarela div.kocdiv p.pcorestxt{
+  position: absolute;  width: 27vw; left: 58.3vw;  top: 22vw;
+    font-family: 'gilroy';color: white;font-size: 1vw;}
+
+
+
+section.amarela div.kocdiv p.koctxt{font-family: 'gilroy';color: white;font-size: 1vw;}
+
+section.amarela div.kocdiv p.koctxt1{
+  position: absolute; width: 12vw; left: 3.2vw;  top: 18.3vw; }
+
+section.amarela div.kocdiv p.koctxt2{
+   position: absolute; width: 12vw; left: 40vw;  top: 14.4vw;
+}
+section.amarela div.kocdiv p.koctxt3{
+     position: absolute; width: 9.8vw; left: 4.3vw;  top: 35vw;
+}
+section.amarela div.kocdiv p.koctxt4{
+    text-align: right; position: absolute; width: 11vw; left: 41.9vw;  top: 31.5vw;
+}
+section.amarela div.kocdiv h2.corestxt{
+  padding: 0 0 0 0; position: absolute; top: 10vw; left: 58vw;
+}
+
+
+section.amarela div.kocdiv img.cores{
+  width: 28vw;
+  position: absolute; left: 58.3vw; top: 14vw;
+}
+section.amarela div.kocdiv h2.opcoes{
+  padding: 0 0 0 0; position: absolute; top: 29vw; left: 58vw;
+}
+section.amarela div.kocdiv div.divopcoes{
+  display: flex;
+  position: absolute;
+  left: 57.4vw;
+  top: 34vw;
+  width: 40vw;
+  height: 10vw;
+  background-color: none;
+}
+section.amarela div.kocdiv div.divopcoes div{
+  background-size: 170% 100%;
+  margin: 0 0.6vw 0 0.6vw;
+  transition: 0.2s;
+  width: 9vw;
+  height: 15vw;
+  cursor: default;
+}
+
+
+.koc-opcao-1{ background:url(../img/logo-koc-3.png) center center;}
+.koc-opcao-2{ background:url(../img/logo-koc-4.png) center center;}
+.koc-opcao-3{ background:url(../img/logo-koc-5.png) center center;}
+
+
+
+/*
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
 footer{
   position:absolute;
   top: 118vw;
