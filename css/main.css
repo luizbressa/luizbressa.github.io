@@ -91,11 +91,11 @@ header a.icons-dp{
   width: 2vw;
   height: 2vw;
 }
-header ul.icons-contato li a.icoface{ background:url(../img/ico-face.png),url(../img/ico-face-2.png) center center;background-size: 100% 100%;}
-header ul.icons-contato li a.icoinsta{ background:url(../img/ico-insta.png),url(../img/ico-insta-2.png) center center;background-size: 100% 100%;}
-header ul.icons-contato li a.icozap{ background:url(../img/ico-zap.png),url(../img/ico-zap-2.png) center center;background-size: 100% 100%;}
-header ul.icons-contato li a.icomail{ background:url(../img/ico-email.png),url(../img/ico-email-2.png) center center;background-size: 100% 100%;}
-header ul.icons-contato li a.icoytb{ background:url(../img/ico-ytb.png),url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoface{ background:url(../img/ico-face.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoinsta{ background:url(../img/ico-insta.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icozap{ background:url(../img/ico-zap.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icomail{ background:url(../img/ico-email.png)  center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoytb{ background:url(../img/ico-ytb.png) center center;background-size: 100% 100%;}
 
 header ul.icons-contato li a.icoface:hover{ background:url(../img/ico-face-2.png) center center;background-size: 100% 100%;    width: 2.3vw;height: 2.3vw;}
 header ul.icons-contato li a.icoinsta:hover{ background:url(../img/ico-insta-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
