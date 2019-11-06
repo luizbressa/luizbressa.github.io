@@ -336,8 +336,8 @@ section.fundoamarelo ul li img{
 
 
 #box {
-	display: block;
-	width: 80vw;
+	  display: block;
+	  width: 80vw;
     overflow-y: visible;
     overflow-x: auto;
     white-space: nowrap;
@@ -348,10 +348,10 @@ section.fundoamarelo ul li img{
     border-spacing: 5px;
 }
 .item {
+
     display: table-cell;
     min-width: 10vw;
     width: 10vw;
-    padding: 0px 1vw 0 1vw;
     white-space: normal;
     line-height: 1.6;
     vertical-align: top;
@@ -367,8 +367,15 @@ section.fundoamarelo ul li img{
 }
 
 #box img{
+  transition: 0.15s;
 	width:10vw;
+  padding: 1vw 1vw 1vw 1vw;
 }
+#box img:hover{
+    width:11vw;
+    padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+}
+
 
 
 
