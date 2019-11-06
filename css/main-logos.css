@@ -121,7 +121,7 @@ header a.logo{
   left:5vw;
   width: 12.5vw;
   height: 3vw;
-  transition: 0.15s;
+  transition: 0.1s;
 }
 header a.logo:hover{
   background:url(../img/logo-medio-nome-2.png) center center;

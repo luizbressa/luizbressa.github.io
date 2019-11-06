@@ -134,7 +134,7 @@ header a.logo{
   left:5vw;
   width: 12.5vw;
   height: 3vw;
-  transition: 0.15s;
+  transition: 0.1s;
 }
 header a.logo:hover{
   background:url(../img/logo-medio-nome-2.png) center center;
@@ -226,7 +226,8 @@ section.bannerdefundo p.negrito{
 
  section.branca ul li img{
    width: 60%;
-   margin: 0 0 0.6vw 20%;
+   margin: 1vw 0 0.6vw 20%;
+    transition: 0.1s;
   	
 }
  section.branca ul li h2{ 
@@ -240,7 +241,7 @@ section.bannerdefundo p.negrito{
 	border: #E2046B solid 1.3px;
 	padding: 0.6vw 0 0.5vw 0;
 	border-radius: 2vw;
-	transition: 0.3s;
+	transition: 0.15s;
 }
 
 section.branca ul li h2.midiastxt{ 
@@ -248,10 +249,10 @@ section.branca ul li h2.midiastxt{
  		padding: 0.75vw 0 0.7vw 0;
 }
 
+
  section.branca ul li a:hover h2{
 	background: linear-gradient(rgba(226,4,107,1), rgba(237,0,113,1));
 	color: white;
-  	
 }
 
 
