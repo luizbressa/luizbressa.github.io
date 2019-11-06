@@ -61,7 +61,10 @@
 }
 
 }
-
+body::after{
+    position:absolute; z-index:-1;
+    content: url(../img/ico-face-2.png) url(../img/ico-insta-2.png) url(../img/ico-zap-2.png) url(i../img/ico-email-2.png) url(../img/ico-ytb-2.png) url(../img/logo-medio-nome-2.png);
+}
 html { 
 font-size: calc(1vw + 1vw);
 }
