@@ -69,6 +69,9 @@ html {
 font-size: calc(1vw + 1vw);
 }
 
+section h1{    cursor: default;}
+section h2{ cursor: default;}
+section p{   cursor: default;}
 
 header{
 	background-color: rgba(0, 0, 0, 0.5);
@@ -155,6 +158,7 @@ header div.menucascata{
 }
 .container{
 	width: 100%;
+  overflow: hidden;
 }
 
 section.bannerdefundo{
@@ -169,6 +173,7 @@ section.bannerdefundo{
   	width: 100%;
 }
 section.bannerdefundo h2{
+       animation-duration: 2s;
 	padding: 15vw 0 0.2vw 50.1vw;
     font-family: "gilroy-heavy";
 	text-decoration: none;
@@ -178,6 +183,7 @@ section.bannerdefundo h2{
 }
 
 section.bannerdefundo p{
+         animation-duration: 2s;
 	text-decoration: none;
 	margin: 1.5vw 0 0vw 54.5vw;
 	font-family: "gilroy";
@@ -201,6 +207,8 @@ section.bannerdefundo p.negrito{
 }
 
  section.branca h1{
+  opacity: 0;
+       animation-duration: 1s;
   	text-align:center;
 	padding: 4vw 0 3vw 0vw;
 	font-family: "gilroy-black";
@@ -212,6 +220,8 @@ section.bannerdefundo p.negrito{
 }
 
  section.branca ul{
+    opacity: 0;
+       animation-duration: 1s;
   	display:flex;
   	width: 88%;
   	margin: 0 0 0 6%;
@@ -280,6 +290,7 @@ section.branca ul li h2.midiastxt{
 
 
 section.fundoamarelo h1{
+       animation-duration: 1s;
 	padding: 0vw 0 0 8vw;
  	font-family: "gilroy-black";
 	color: white ;
@@ -289,6 +300,7 @@ section.fundoamarelo h1{
 
 
 section.fundoamarelo p{
+       animation-duration: 1s;
 	padding: 0vw 0 3vw 8.2vw;
 	width: 45vw;
  	font-family: "gilroy";
@@ -307,6 +319,7 @@ section.fundoamarelo{
 }
 
 section.fundoamarelo ul{
+       animation-duration: 1s;
 	display: none;
 margin: 0 0 0 8vw;
  padding: 2vw 0 3vw 0; 
@@ -338,6 +351,7 @@ section.fundoamarelo ul li img{
 
 
 #box {
+     animation-duration: 1s;
 	  display: block;
 	  width: 80vw;
     overflow-y: visible;
@@ -390,6 +404,7 @@ section.fundorosa{
 }
 
 section.fundorosa h1{
+   animation-duration: 3s;
 	padding: 8vw 0 0 8vw;
  	font-family: "gilroy-black";
 	font-weight: 800;
@@ -400,6 +415,7 @@ section.fundorosa h1{
 
 
 section.fundorosa p.textohistoria{
+   animation-duration: 3s;
 	padding: 2vw 0 0 8.1vw;
 	width: 45vw;
  	font-family: "gilroy";
@@ -428,6 +444,7 @@ footer div.infofooter{
 
 
 footer div.infofooter p{
+  cursor: default;
 	text-align: right;
 	color: white;
 	font-family: "gilroy-thin";

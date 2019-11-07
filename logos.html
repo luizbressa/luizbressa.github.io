@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset-logos.css">
   <link rel="stylesheet" href="css/main-logos.css">
+    <link rel="stylesheet" href="css/animate.css">
   <link rel="icon" href="img/ico-bressa-branco.png" sizes="16x16 32x32" type="image/png">
   <link rel="prefetch" href="img/logo-medio-nome-2.png"><link rel="prefetch" href="img/ico-face-2.png"><link rel="prefetch" href="img/ico-insta-2.png"><link rel="prefetch" href="img/ico-zap-2.png"><link rel="prefetch" href="img/ico-email-2.png"><link rel="prefetch" href="img/ico-ytb-2.png">
 
@@ -55,12 +56,12 @@
 
 
 <ul>
-<li><div><img class="passos1"src="img/logos-passo-a-passo1.png"></div><h2 class="reuni">Reunião</h2><p class="txt1">Conversa com o cliente, entendendo mais sobre a empresa e as ideias dele.</p></li>
-<li><div><img class="passos2"src="img/logos-passo-a-passo2.png"></div><h2>Pesquisa</h2><p class="txt1">Busca sobre marcas concorrentes, estilos de logos, cores e fontes.</p></li>
-<li><div><img class="passos9"src="img/logos-passo-a-passo9.png"></div><h2>Desenho</h2><p class="txt1">Esboços feitos em papel e digitalizados graficamente.</p></li>
-<li><div><img class="passos6"src="img/logos-passo-a-passo6.png"></div><h2 class="apre">Apresentação</h2><p class="txt1">Envio das ideias para logo ao cliente, a fim de entender-se melhor o que ele procura.</p></li>
-<li><div><img class="passos7"src="img/logos-passo-a-passo7.png"></div><h2>Revisão</h2><p class="txt1">Mudanças são aplicadas até que o cliente esteja satisfeito.</p></li>
-<li><div><img class="passos8"src="img/logos-passo-a-passo8.png"></div><h2>Entrega</h2><p class="txt1">Envio dos arquivos via email de imagem, projetos e mockups ao cliente.</p></li>
+<li><div><img class="passos1 animated  fadeIn"src="img/logos-passo-a-passo1.png"></div><h2 class="reuni">Reunião</h2><p class="txt1">Conversa com o cliente, entendendo mais sobre a empresa e as ideias dele.</p></li>
+<li><div><img class="passos2 animated  fadeIn"src="img/logos-passo-a-passo2.png"></div><h2>Pesquisa</h2><p class="txt1">Busca sobre marcas concorrentes, estilos de logos, cores e fontes.</p></li>
+<li><div><img class="passos9 animated  fadeIn"src="img/logos-passo-a-passo9.png"></div><h2>Desenho</h2><p class="txt1">Esboços feitos em papel e digitalizados graficamente.</p></li>
+<li><div><img class="passos6 animated  fadeIn"src="img/logos-passo-a-passo6.png"></div><h2 class="apre">Apresentação</h2><p class="txt1">Envio das ideias para logo ao cliente, a fim de entender-se melhor o que ele procura.</p></li>
+<li><div><img class="passos7 animated  fadeIn"src="img/logos-passo-a-passo7.png"></div><h2>Revisão</h2><p class="txt1">Mudanças são aplicadas até que o cliente esteja satisfeito.</p></li>
+<li><div><img class="passos8 animated  fadeIn"src="img/logos-passo-a-passo8.png"></div><h2>Entrega</h2><p class="txt1">Envio dos arquivos via email de imagem, projetos e mockups ao cliente.</p></li>
 
 
 </ul>
@@ -308,20 +309,24 @@ $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 $('li.rrli').click(function() {if($(window).width()>481){$('div.rrdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);}); 
 
-
 $('li.kocli').click(function() {if($(window).width()>481){$('div.kocdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
-
 
 $('li.pdali').click(function() {if($(window).width()>481){$('div.pdadiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 
-
 $('li.cdbli').click(function() {if($(window).width()>481){$('div.cdbdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 
+     $('section.branca h1').addClass('animated fadeIn');
+     $('section.branca p').addClass('animated fadeIn');
 
-
+ $(window).on('scroll', function() { 
+            if ($(window).scrollTop() >= $( '.branca').offset().top + $('.branca'). outerHeight() - window.innerHeight) { 
+             $('section.amarela h1').addClass('animated fadeInLeft');
+               $('section.amarela ul').addClass('animated fadeInLeft');
+              }
+               });
 </script>
 
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>

@@ -207,11 +207,17 @@ section.branca ul li img.passos1{
   width: 12.6666vw;
   margin: 0 0 0 1.5vw;
 }
-
+.passos1{}
 section.branca ul li img.passos9{
   width: 10.6666vw;
   margin: 0 0 0 2.5vw;
 }
+.passos1{  animation-delay: 0.2s;}
+.passos2{  animation-delay: 0.4s;}
+.passos9{  animation-delay: 0.6s;}
+.passos6{  animation-delay: 0.8s;}
+.passos7{  animation-delay: 1s;}
+.passos8{  animation-delay: 1.2s;}
 
 section.branca ul li h2{
   font-family: "gilroy-bold";
