@@ -56,12 +56,12 @@
 
 
 <ul>
-<li><div><img class="passos1 animated  fadeIn"src="img/logos-passo-a-passo1.png"></div><h2 class="reuni">Reunião</h2><p class="txt1">Conversa com o cliente, entendendo mais sobre a empresa e as ideias dele.</p></li>
-<li><div><img class="passos2 animated  fadeIn"src="img/logos-passo-a-passo2.png"></div><h2>Pesquisa</h2><p class="txt1">Busca sobre marcas concorrentes, estilos de logos, cores e fontes.</p></li>
-<li><div><img class="passos9 animated  fadeIn"src="img/logos-passo-a-passo9.png"></div><h2>Desenho</h2><p class="txt1">Esboços feitos em papel e digitalizados graficamente.</p></li>
-<li><div><img class="passos6 animated  fadeIn"src="img/logos-passo-a-passo6.png"></div><h2 class="apre">Apresentação</h2><p class="txt1">Envio das ideias para logo ao cliente, a fim de entender-se melhor o que ele procura.</p></li>
-<li><div><img class="passos7 animated  fadeIn"src="img/logos-passo-a-passo7.png"></div><h2>Revisão</h2><p class="txt1">Mudanças são aplicadas até que o cliente esteja satisfeito.</p></li>
-<li><div><img class="passos8 animated  fadeIn"src="img/logos-passo-a-passo8.png"></div><h2>Entrega</h2><p class="txt1">Envio dos arquivos via email de imagem, projetos e mockups ao cliente.</p></li>
+<li class="divpassos1  animated  fadeIn"><div><img class="passos1"src="img/logos-passo-a-passo1.png"></div><h2 class="reuni">Reunião</h2><p class="txt1">Conversa com o cliente, entendendo mais sobre a empresa e as ideias dele.</p></li>
+<li class="divpassos2  animated  fadeIn"><div><img class="passos2"src="img/logos-passo-a-passo2.png"></div><h2>Pesquisa</h2><p class="txt1">Busca sobre marcas concorrentes, estilos de logos, cores e fontes.</p></li>
+<li class="divpassos9  animated  fadeIn"><div><img class="passos9"src="img/logos-passo-a-passo9.png"></div><h2>Desenho</h2><p class="txt1">Esboços feitos em papel e digitalizados graficamente.</p></li>
+<li class="divpassos6  animated  fadeIn"><div><img class="passos6"src="img/logos-passo-a-passo6.png"></div><h2 class="apre">Apresentação</h2><p class="txt1">Envio das ideias para logo ao cliente, a fim de entender-se melhor o que ele procura.</p></li>
+<li class="divpassos7  animated  fadeIn"><div><img class="passos7"src="img/logos-passo-a-passo7.png"></div><h2>Revisão</h2><p class="txt1">Mudanças são aplicadas até que o cliente esteja satisfeito.</p></li>
+<li class="divpassos8  animated  fadeIn"><div><img class="passos8"src="img/logos-passo-a-passo8.png"></div><h2>Entrega</h2><p class="txt1">Envio dos arquivos via email de imagem, projetos e mockups ao cliente.</p></li>
 
 
 </ul>
@@ -178,6 +178,24 @@
 <h2 class="opcoes">História</h2>
  <p class="phistoria">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
 </div>
+
+
+<div class="cdgdiv divlogo">
+<h3>Papo de Adolescente</h3>
+<img class="x" src="img/x.png">
+<h2>Composição</h2>
+<img class="comp" src="img/composicoes-cdg.png">
+<p class="cdgtxt cdgtxt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et tortor. Nam viverra elit vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<p class="cdgtxt cdgtxt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<p class="cdgtxt cdgtxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<p class="cdgtxt cdgtxt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<h2 class="corestxt">Cores</h2>
+<img class="cores" src="img/cores-cdg.png">
+<p class="pcorestxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<h2 class="opcoes">História</h2>
+ <p class="phistoria">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+</div>
+
 
 </section>
 
@@ -316,6 +334,9 @@ $('li.pdali').click(function() {if($(window).width()>481){$('div.pdadiv').fadeIn
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 
 $('li.cdbli').click(function() {if($(window).width()>481){$('div.cdbdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
+$('img.x').click(function() {$('div.divlogo').fadeOut(200);});
+
+$('li.ccli').click(function() {if($(window).width()>481){$('div.cdgdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 
      $('section.branca h1').addClass('animated fadeIn');

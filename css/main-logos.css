@@ -212,12 +212,12 @@ section.branca ul li img.passos9{
   width: 10.6666vw;
   margin: 0 0 0 2.5vw;
 }
-.passos1{  animation-delay: 0.2s;}
-.passos2{  animation-delay: 0.4s;}
-.passos9{  animation-delay: 0.6s;}
-.passos6{  animation-delay: 0.8s;}
-.passos7{  animation-delay: 1s;}
-.passos8{  animation-delay: 1.2s;}
+.divpassos1{  animation-delay: 0.2s;}
+.divpassos2{  animation-delay: 0.4s;}
+.divpassos9{  animation-delay: 0.6s;}
+.divpassos6{  animation-delay: 0.8s;}
+.divpassos7{  animation-delay: 1s;}
+.divpassos8{  animation-delay: 1.2s;}
 
 section.branca ul li h2{
   font-family: "gilroy-bold";
@@ -780,7 +780,7 @@ section.amarela div.cdbdiv h2.corestxt{
 
 section.amarela div.cdbdiv img.cores{
   width: 28vw;
-  position: absolute; left: 58.3vw; top: 14vw;
+  position: absolute; left: 58.3vw; top: 15vw;
 }
 section.amarela div.cdbdiv h2.opcoes{
   padding: 0 0 0 0; position: absolute; top: 29vw; left: 58vw;
@@ -797,6 +797,91 @@ section.amarela div.cdbdiv p.phistoria{
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 */
 
+
+section.amarela div.cdgdiv{
+  display: none;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.88);
+  width: 90vw;
+  height: 51vw;
+  position: absolute;
+  left: 5vw;
+  top: 63vw;
+}
+
+section.amarela div.cdgdiv h3{
+  cursor: default;
+  margin: 3vw 0 0vw 0;
+  text-align:center;
+  font-family: 'gilroy-heavyitalic';
+  text-decoration: none;
+  /*color: #363636;*/
+  color: white;
+  font-size: 5vw;
+  letter-spacing: 0.01vw;
+}
+
+section.amarela div.cdgdiv h2{
+
+  position:absolute; left: 2vw; top: 10vw;
+  font-family: 'gilroy-extrabold';
+  color: white;
+  font-size: 3vw;
+  letter-spacing: 0.01vw;
+}
+
+img.x{
+  cursor: pointer;
+  width: 2.5vw;height:auto;
+  position: absolute; left: 85vw; top: 2vw;
+} 
+section.amarela div.cdgdiv img.comp{
+  width: 50vw;height:auto;
+  position: absolute; left: 3vw; top: 15.5vw;
+} 
+section.amarela div.cdgdiv p.pcorestxt{
+  position: absolute;  width: 27vw; left: 58.3vw;  top: 22vw;
+    font-family: 'gilroy';color: white;font-size: 1vw;}
+
+
+
+section.amarela div.cdgdiv p.cdgtxt{font-family: 'gilroy';color: white;font-size: 1vw;}
+
+section.amarela div.cdgdiv p.cdgtxt1{
+  position: absolute; width: 12vw; left: 3.2vw;  top: 21.9vw; }
+
+section.amarela div.cdgdiv p.cdgtxt2{
+   position: absolute; width: 13vw; left: 40.6vw;  top: 18.8vw;
+}
+section.amarela div.cdgdiv p.cdgtxt3{
+     position: absolute; width: 17vw; left: 4.6vw;  top: 41.3vw;
+}
+section.amarela div.cdgdiv p.cdgtxt4{
+     position: absolute; width: 11vw; left: 41.3vw;  top: 39.2vw;
+}
+section.amarela div.cdgdiv h2.corestxt{
+  padding: 0 0 0 0; position: absolute; top: 10vw; left: 58vw;
+}
+
+
+section.amarela div.cdgdiv img.cores{
+  width: 28vw;
+  position: absolute; left: 58.3vw; top: 15vw;
+}
+section.amarela div.cdgdiv h2.opcoes{
+  padding: 0 0 0 0; position: absolute; top: 29vw; left: 58vw;
+}
+section.amarela div.cdgdiv p.phistoria{
+    position: absolute; width: 12vw; left: 58vw;  top: 33vw; width: 28vw; font-family: 'gilroy';color: white;font-size: 1.1vw; line-height: 1.4vw;}
+
+
+
+
+
+
+/*
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
 
 
 footer{
