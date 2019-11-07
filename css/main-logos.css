@@ -704,6 +704,95 @@ section.amarela div.pdadiv div.divopcoes div{
 /*
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 */
+
+
+section.amarela div.cdbdiv{
+  display: none;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.88);
+  width: 90vw;
+  height: 51vw;
+  position: absolute;
+  left: 5vw;
+  top: 63vw;
+}
+
+section.amarela div.cdbdiv h3{
+  cursor: default;
+  margin: 3vw 0 0vw 0;
+  text-align:center;
+  font-family: 'gilroy-heavyitalic';
+  text-decoration: none;
+  /*color: #363636;*/
+  color: white;
+  font-size: 5vw;
+  letter-spacing: 0.01vw;
+}
+
+section.amarela div.cdbdiv h2{
+
+  position:absolute; left: 2vw; top: 10vw;
+  font-family: 'gilroy-extrabold';
+  color: white;
+  font-size: 3vw;
+  letter-spacing: 0.01vw;
+}
+
+img.x{
+  cursor: pointer;
+  width: 2.5vw;height:auto;
+  position: absolute; left: 85vw; top: 2vw;
+} 
+section.amarela div.cdbdiv img.comp{
+  width: 50vw;height:auto;
+  position: absolute; left: 3vw; top: 15.5vw;
+} 
+section.amarela div.cdbdiv p.pcorestxt{
+  position: absolute;  width: 27vw; left: 58.3vw;  top: 22vw;
+    font-family: 'gilroy';color: white;font-size: 1vw;}
+
+
+
+section.amarela div.cdbdiv p.cdbtxt{font-family: 'gilroy';color: white;font-size: 1vw;}
+
+section.amarela div.cdbdiv p.cdbtxt1{
+  position: absolute; width: 12vw; left: 3vw;  top: 21.9vw; }
+
+section.amarela div.cdbdiv p.cdbtxt2{
+   position: absolute; width: 13vw; left: 40.4vw;  top: 18.8vw;
+}
+section.amarela div.cdbdiv p.cdbtxt3{
+     position: absolute; width: 15vw; left: 3.9vw;  top: 39.5vw;
+}
+section.amarela div.cdbdiv p.cdbtxt4{
+     position: absolute; width: 11vw; left: 42.1vw;  top: 36.9vw;
+}
+section.amarela div.cdbdiv h2.corestxt{
+  padding: 0 0 0 0; position: absolute; top: 10vw; left: 58vw;
+}
+
+
+section.amarela div.cdbdiv img.cores{
+  width: 28vw;
+  position: absolute; left: 58.3vw; top: 14vw;
+}
+section.amarela div.cdbdiv h2.opcoes{
+  padding: 0 0 0 0; position: absolute; top: 29vw; left: 58vw;
+}
+section.amarela div.cdbdiv p.phistoria{
+    position: absolute; width: 12vw; left: 58vw;  top: 33vw; width: 28vw; font-family: 'gilroy';color: white;font-size: 1.1vw; line-height: 1.4vw;}
+
+
+
+
+
+
+/*
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
+
+
+
 footer{
   position:absolute;
   top: 118vw;
@@ -1029,7 +1118,7 @@ section.amarela ul li h2{
     opacity: 0;
     font-size: 0vw;
 }
-
+/*
 section.amarela div.serjaodiv{
   width: 90vw;
   height: 162vw;
@@ -1098,50 +1187,51 @@ section.amarela div.serjaodiv p.serjaotxt4{
     font-family: 'gilroy';color: white;font-size: 1vw;
 }
 
+*/
 
 
 
 
 footer{
+
     height: 15vw;
     top: 418vw;
 
 }
 
 footer div.infofooter{
-	display: flex;
-	width: 100vw;
-	padding: 0.7vw 8.1vw 0vw 9vw;
+  display: flex;
+  width: 100vw;
+  padding: 0.7vw 8.1vw 0vw 9vw;
 }
 
 
 footer div.infofooter p{
-	text-align: right;
-	color: white;
-	font-family: "gilroy";
-	font-size: 4vw;
-	margin: 4.8vw 4vw 0 1vw;
+  text-align: right;
+  color: white;
+  font-family: "gilroy";
+  font-size: 4vw;
+  margin: 4.8vw 4vw 0 1vw;
 }
 
 footer div.brasil{
-	display: flex; 
+  display: flex; 
   position: relative;
   float: right;
 }
 
 footer div.brasil img{
-	margin: 4.8vw 2vw 0 6vw;
-	width: 4vw;
-	height: 4vw;
+  margin: 4.8vw 2vw 0 6vw;
+  width: 4vw;
+  height: 4vw;
 }
 
 footer div.brasil p{
-			margin: 4.8vw 0vw 0 0vw;
+      margin: 4.8vw 0vw 0 0vw;
 }
 
 footer ul{
-	display: none;
+  display: none;
 }
-
 
 }

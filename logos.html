@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/reset-logos.css">
   <link rel="stylesheet" href="css/main-logos.css">
   <link rel="icon" href="img/ico-bressa-branco.png" sizes="16x16 32x32" type="image/png">
-  <link rel="prefetch" href="img/logo-medio-nome-2.png"><link rel="prefetch" href="img/ico-face-2.png"><link rel="prefetch" href="img/ico-insta-2.png"><link rel="prefetch" href="img/ico-zap-2.png"><link rel="prefetch" href="img/ico-mail-2.png"><link rel="prefetch" href="img/ico-ytb-2.png">
+  <link rel="prefetch" href="img/logo-medio-nome-2.png"><link rel="prefetch" href="img/ico-face-2.png"><link rel="prefetch" href="img/ico-insta-2.png"><link rel="prefetch" href="img/ico-zap-2.png"><link rel="prefetch" href="img/ico-email-2.png"><link rel="prefetch" href="img/ico-ytb-2.png">
 
 
 </head>
@@ -161,6 +161,23 @@
 </div>
 </div>
 
+
+<div class="cdbdiv divlogo">
+<h3>Papo de Adolescente</h3>
+<img class="x" src="img/x.png">
+<h2>Composição</h2>
+<img class="comp" src="img/composicoes-cdb.png">
+<p class="cdbtxt cdbtxt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et tortor. Nam viverra elit vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<p class="cdbtxt cdbtxt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<p class="cdbtxt cdbtxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<p class="cdbtxt cdbtxt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<h2 class="corestxt">Cores</h2>
+<img class="cores" src="img/cores-cdb.png">
+<p class="pcorestxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+<h2 class="opcoes">História</h2>
+ <p class="phistoria">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+</div>
+
 </section>
 
 
@@ -171,7 +188,6 @@
 
 
    <footer>
-
     <ul>
       <li><a class="icons-dp icoface"href="https://www.facebook.com/luiz.bressiani"  target="_blank"></a></li>
       <li><a class="icons-dp icoinsta"href="https://www.instagram.com/_bressiani/" target="_blank"></a></li>
@@ -180,7 +196,7 @@
      <li><a class="icons-dp icoytb"href="https://www.youtube.com/channel/UCRHVcgk9OM6IM5HRTAAo1bg" target="_blank"></a></li>
     </ul>
 
-  <div class="infofooter">
+   <div class="infofooter">
     <p>Luiz Roberto Bressiani</p>
    <div class="brasil"><img src="img/ico-brasil.png"><p>Brasil - 2019</p></div>
   </div>
@@ -193,6 +209,13 @@
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script>
+
+ 
+
+   var pic = new Image(); var pic2 = new Image(); var pic3 = new Image(); pic4 = new Image(); pic5 = new Image(); pic6 = new Image(); 
+    pic.src="img/logo-medio-nome-2.png"; pic2.src="img/ico-face-2.png";pic3.src="img/ico-insta-2.png";pic4.src="img/ico-zap-2.png";pic5.src="img/ico-email-2.png";
+    pic6.src="img/ico-ytb-2.png";
+
 
     var cascata = 0;
 
@@ -262,6 +285,7 @@ $(document).ready(function() {
 
 
   $(document).ready(function(){
+
   $(".opcao-1").hover(function(){
     $(this).css({"width": "15vw", "background-size": "100% 100%"});$(".opcao-2").css({"width": "6vw", "background-size": "250% 100%"});$(".opcao-3").css({"width": "6vw", "background-size": "250% 100%"});}, function(){$(this).css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-2").css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-3").css({"width": "9vw", "background-size": "170% 100%"});});
 $(".opcao-2").hover(function(){
@@ -278,24 +302,25 @@ $(document).mouseup(function (e){
 }); 
 
 
-$('li.serjaoli').click(function() {$('div.serjaodiv').fadeIn(200);$('div.divopcoes').fadeIn(200);});
-
+$('li.serjaoli').click(function(){if($(window).width()>481){$('div.serjaodiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 
-$('li.rrli').click(function() {$('div.rrdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);});
+$('li.rrli').click(function() {if($(window).width()>481){$('div.rrdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
+$('img.x').click(function() {$('div.divlogo').fadeOut(200);}); 
+
+
+$('li.kocli').click(function() {if($(window).width()>481){$('div.kocdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 
 
-$('li.kocli').click(function() {$('div.kocdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);});
+$('li.pdali').click(function() {if($(window).width()>481){$('div.pdadiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 
 
-$('li.pdali').click(function() {$('div.pdadiv').fadeIn(200);$('div.divopcoes').fadeIn(200);});
+$('li.cdbli').click(function() {if($(window).width()>481){$('div.cdbdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}});
 $('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 
-   var pic = new Image(); var pic2 = new Image(); var pic3 = new Image(); pic4 = new Image(); pic5 = new Image(); pic6 = new Image(); 
-    pic.src="img/img/logo-medio-nome-2.png"; pic2.src="img/ico-face-2.png";pic3.src="img/ico-insta-2.png";pic4.src="img/ico-zap-2.png";pic5.src="img/ico-mail-2.png";
-    pic6.src="img/ico-ytb-2.png";
+
 
 </script>
 
