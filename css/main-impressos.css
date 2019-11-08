@@ -1,0 +1,586 @@
+/* === PREDEFINIÇÕES === */
+@font-face {
+    font-family: 'gilroy';
+    src: url('../fonts/gilroy.woff2') format('woff2'), url('../fonts/gilroy.woff') format('woff');
+}
+    @font-face {
+    font-family: 'gilroy-black';
+    src: url('../fonts/gilroy-black-webfont.woff2') format('woff2'), url('../fonts/gilroy-black-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('../fonts/gilroy-bold-webfont.woff2') format('woff2'), url('../fonts/gilroy-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-heavy';
+    src: url('../fonts/gilroy-heavy-webfont.woff2') format('woff2'),  url('../fonts/gilroy-heavy-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url('../fonts/gilroy-medium-webfont.woff2') format('woff2'), url('../fonts/gilroy-medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-thin';
+    src: url('../fonts/gilroy-thin-webfont.woff2') format('woff2'),  url('../fonts/gilroy-thin-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-ultralight';
+    src: url('../fonts/gilroy-ultralight-webfont.woff2') format('woff2'), url('../fonts/gilroy-ultralight-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-blackitalic';
+    src: url('../fonts/gilroy-blackitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-blackitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-extrabold';
+    src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2'),url('../fonts/gilroy-extrabold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-extrabolditalic';
+    src: url('../fonts/gilroy-extrabolditalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-extrabolditalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-heavyitalic';
+    src: url('../fonts/gilroy-heavyitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-heavyitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-mediumitalic';
+    src: url('../fonts/gilroy-mediumitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-mediumitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-regularitalic';
+    src: url('../fonts/gilroy-regularitalic-webfont.woff2') format('woff2'),url('../fonts/gilroy-regularitalic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-semibold';
+    src: url('../fonts/gilroy-semibold-webfont.woff2') format('woff2'),url('../fonts/gilroy-semibold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gilroy-semibolditalic';
+    src: url('../fonts/gilroy-semibolditalic-webfont.woff2') format('woff2'), url('../fonts/gilroy-semibolditalic-webfont.woff') format('woff');
+}
+
+}
+
+body::after{
+    position:absolute; z-index:-1;
+    content: url(../img/ico-face-2.png) url(../img/ico-insta-2.png) url(../img/ico-zap-2.png) url(i../img/ico-email-2.png) url(../img/ico-ytb-2.png) url(../img/logo-medio-nome-2.png);
+}
+
+html { 
+font-size: calc(1vw + 1vw);
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+    z-index: -1;
+  z-index: 2;
+    left:0;
+    top:0;
+    height: 5vw;
+    width: 100%;
+  display: flex;
+}
+header ul li a.icons-dp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
+  width: 2vw;
+  height: 2vw;
+}
+header ul.icons-contato li a.icoface{ background:url(../img/ico-face.png), center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoinsta{ background:url(../img/ico-insta.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icozap{ background:url(../img/ico-zap.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icomail{ background:url(../img/ico-email.png) center center;background-size: 100% 100%;}
+header ul.icons-contato li a.icoytb{ background:url(../img/ico-ytb.png) center center;background-size: 100% 100%;}
+
+header ul.icons-contato li a.icoface:hover{ background:url(../img/ico-face-2.png) center center;background-size: 100% 100%;    width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icoinsta:hover{ background:url(../img/ico-insta-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icozap:hover{ background:url(../img/ico-zap-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icomail:hover{ background:url(../img/ico-email-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+header ul.icons-contato li a.icoytb:hover{ background:url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+
+header ul.icons-contato{
+  left: 70vw;
+  position: absolute;
+  display: flex;
+  padding: 1.5vw 0 1vw 0;
+  margin: 0 4vw 0 0vw;
+}
+header ul.icons-contato li{
+  margin: 0 1vw 0vw 1vw;
+}
+
+header a.logo{
+  background:url(../img/logo-medio-nome.png) center center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.75vw;
+  left:5vw;
+  width: 12.5vw;
+  height: 3vw;
+  transition: 0.1s;
+}
+header a.logo:hover{
+  background:url(../img/logo-medio-nome-2.png) center center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.65vw;
+  left:4.5vw;
+  width: 13.5vw;
+  height: 3.2vw;
+}
+
+header div.menu{
+  display: none;
+}
+header div.menucascata{
+  display: none;
+}
+
+h1{
+      cursor: default;
+}
+h2{
+      cursor: default;
+}
+p{
+      cursor: default;
+}
+
+
+section.amarela{
+  background:url(../img/banner-amarelo.png) center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 47vw;
+  padding: 3vw 0 0 0;
+}
+ section.amarela h1{
+    font-family: 'gilroy-black';
+    margin: 6vw 0 0 6vw;
+    font-size:7vw;
+/*  color: #6D12FF;*/
+color: white;
+
+ }
+
+section.amarela p.normal{
+margin: 2vw 0 0 6vw;
+  font-family: "gilroy";
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 4vw;
+
+}
+
+section.amarela p.normal span{
+    font-family: "gilroy-bold";
+    color: #CC00B8;
+}
+
+
+
+section.amarela ul{
+  margin: 3vw 0 0 3vw;  
+  width:94vw;
+  display: flex;
+
+}
+
+section.amarela ul li{
+  width: 15.66666vw;
+}
+
+section.amarela ul li div{
+  padding: 3vw 0 0 0;
+  width: 15.66666vw;
+
+
+}
+section.amarela ul li img{
+  width: 8.66666vw;
+  margin: 0 0 0 3.5vw;
+}
+section.amarela ul li img.passos1{
+  width: 12.6666vw;
+  margin: 0 0 0 1.5vw;
+}
+.passos1{}
+section.amarela ul li img.passos2{
+  width: 11.2666vw;
+  margin: 0 0 0 2.7vw;
+}
+section.amarela ul li img.passos3{
+  width: 10.2666vw;
+  margin: 0 0 0 2.7vw;
+}
+section.amarela ul li img.passos6{
+  width: 10.3666vw;
+  margin: 0 0 0 2.5vw;
+}
+section.amarela ul li img.passos5{
+  width: 8.2666vw;
+  margin: 0 0 0 3.7vw;
+}
+.divpassos1{  animation-delay: 0.2s;}
+.divpassos2{  animation-delay: 0.4s;}
+.divpassos9{  animation-delay: 0.6s;}
+.divpassos6{  animation-delay: 0.8s;}
+.divpassos7{  animation-delay: 1s;}
+.divpassos8{  animation-delay: 1.2s;}
+
+section.amarela ul li h2{
+  font-family: "gilroy-bold";
+  font-weight: bold;
+    color: #E2046B;
+    font-size: 1.8vw;
+    text-align: center;
+    margin: 2vw 0 1vw 0;
+}
+section.amarela ul li h2.reuni{
+  margin: 1.5vw 0 1vw 0;
+}
+section.amarela ul li h2.impr{
+  margin: 1.4vw 0 1vw 0;
+}
+
+
+section.amarela ul li p{
+   margin: 0 0 0 2.5vw;
+   font-family: "gilroy-medium";
+  color: rgba(0, 0, 0, 0.8);
+    font-size: 0.95vw;
+    text-align: center;
+    width: 10.66666vw;
+}
+
+
+footer{
+  position:absolute;
+  top: 118vw;
+  left: 0;
+	 background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    height: 5vw;
+    margin: 0vw 0 0 0;
+}
+
+footer div.infofooter{
+	width: 79.1vw;
+	padding: 0.7vw 8.1vw 0vw 0vw;
+}
+
+
+footer div.infofooter p{
+	text-align: right;
+	color: white;
+	font-family: "gilroy-thin";
+	font-size: 1vw;
+	margin: 0.6vw 0 0 0vw;
+}
+
+footer div.brasil{
+	display: flex; position: relative;
+  float: right;
+}
+
+footer div.brasil img{
+	margin: 0.45vw 0.7vw 0 0;
+	width: 1.2vw;
+	height: 1.2vw;
+}
+
+
+footer ul {
+	margin: 1.7vw 0 1.5vw 7.1vw;
+	width: 20vw;
+	display: flex;
+}
+footer ul  li{
+	margin: 0 1vw 0vw 1vw;
+}
+
+footer ul li a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
+  width: 2vw;
+  height: 2vw;
+}
+
+footer ul li a.icoface{ background:url(../img/ico-face.png) center center;background-size: 100% 100%;}
+footer ul li a.icoinsta{ background:url(../img/ico-insta.png) center center;background-size: 100% 100%;}
+footer ul li a.icozap{ background:url(../img/ico-zap.png) center center;background-size: 100% 100%;}
+footer ul li a.icomail{ background:url(../img/ico-email.png) center center;background-size: 100% 100%;}
+footer ul li a.icoytb{ background:url(../img/ico-ytb.png) center center;background-size: 100% 100%;}
+
+footer ul li a.icoface:hover{ background:url(../img/ico-face-2.png) center center;background-size: 100% 100%;    width: 2.3vw;height: 2.3vw;}
+footer ul li a.icoinsta:hover{ background:url(../img/ico-insta-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+footer ul li a.icozap:hover{ background:url(../img/ico-zap-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+footer ul li a.icomail:hover{ background:url(../img/ico-email-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+footer ul li a.icoytb:hover{ background:url(../img/ico-ytb-2.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
+
+
+/*
+section.bannerdefundo div ul{
+		display: flex;
+		flex-wrap: wrap;
+}
+section.bannerdefundo div ul li{
+	padding: 5vw 0 0 0;
+	text-align: center;
+	width: 49.25%;
+	height: 7vw;
+	margin: 0.25vw 0 0 0;
+	background-color: purple;
+}
+}
+*/
+
+
+
+
+
+
+@media all and (max-width: 480px){ 
+
+div.container{
+	width: 100vw;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+    left:0;
+    top:0;
+    height: 18vw;
+    width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header a.icons-dp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header ul.icons-contato{
+  display: none;
+  padding: 120vw 0 1vw 0;
+  margin: 0 8vw 0 0vw;
+}
+
+header ul.icons-contato li{
+  margin: 0 3.5vw 0 3.5vw;
+}
+
+header ul.icons-contato li a img{
+width: 10vw;
+  height: auto;
+}
+
+header a.logo{
+  position: absolute;
+  top: 3.8vw;
+  left: 5vw;
+  height: 10vw;
+  width:41vw;
+}
+
+header a.logo:hover{
+  position: absolute;
+  top: 3.8vw;
+  left: 5vw;
+  height: 10vw;
+  width:41vw;
+}
+
+
+header div.menu{
+  position: absolute;
+  top: 3.5vw;
+  left: 86vw;
+  display: inline-block;
+  cursor: pointer;
+      
+}
+.bar1, .bar2, .bar3 {
+  width: 10vw;
+  height: 1vw;
+  background-color: white;
+  margin: 2vw 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+} 
+
+header div.menucascata{
+border-bottom-left-radius: 2vw;
+border-bottom-right-radius: 2vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18vw;
+  left: 30vw;
+  display: none;    
+   width: 70vw; 
+    
+}
+header div.menucascata ul{
+  width: 70vw;      
+}
+header div.menucascata li{
+  border-bottom: solid 0.15vw rgba(250, 250, 250, 0.3);
+  border-top: solid 0.15vw rgba(250, 250, 250, 0.3);
+  display: flex;
+  width: 100%;
+  height: 10vw;
+  padding: 2vw 0 2vw 0;
+}
+
+header div.menucascata li a.icons-mb{
+
+  text-decoration:none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+header div.menucascata li p{
+  margin: 2.5vw 0 0 4vw;
+  color: white;
+  font-family: "gilroy";
+  font-size:6vw;
+}
+
+header div.menucascata img{
+  width: 7vw;
+  height: 7vw;
+  margin: 1.8vw 0vw 0 6vw;
+}
+
+
+section.amarela{
+  background:url(../img/banner-amarelo.png) center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 240vw;
+  padding: 3vw 0 0 0;
+}
+ section.amarela h1{
+    margin: 25vw 0 0 6vw; font-size:20vw;}
+section.amarela p.normal{
+margin: 3vw 0 0 6vw; font-size: 10vw;}
+
+
+
+
+section.amarela ul{
+  margin: 10vw 0 0 0vw;  
+  width:100vw;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+section.amarela ul li{
+  width: 50vw;
+  margin: 3vw 0 3vw 0;
+}
+
+section.amarela ul li div{
+  padding: 3vw 0 0 0;
+  width: 50vw;
+}
+
+section.amarela ul li img{
+  width: 60%;
+  margin: 0 0 1.5vw 18%;
+}
+section.amarela ul li img.passos1{
+  width:  76%;
+  margin: 0 0 3.4vw 12%;
+}
+
+section.amarela ul li img.passos9{
+  width:  70%;
+  margin: 0 0 2.4vw 15%;
+}
+
+section.amarela ul li h2{
+    font-size: 6vw;
+    margin: 2vw 0 1vw 0;
+}
+section.amarela ul li h2.reuni{
+  margin: 1.5vw 0 1vw 0;
+}
+
+section.amarela ul li h2.apre{
+  margin:1.6vw 0 1.4vw 0;
+ font-size: 5.8vw;
+}
+
+section.amarela ul li p{
+   margin: 0 0 0 2.5vw;
+   font-family: "gilroy-medium";
+  color: rgba(0, 0, 0, 0.6);
+    font-size: 3.5vw;
+    text-align: center;
+    width: 45vw;
+}
+
+footer{
+
+    height: 15vw;
+    top: 418vw;
+
+}
+
+footer div.infofooter{
+  display: flex;
+  width: 100vw;
+  padding: 0.7vw 8.1vw 0vw 9vw;
+}
+
+
+footer div.infofooter p{
+  text-align: right;
+  color: white;
+  font-family: "gilroy";
+  font-size: 4vw;
+  margin: 4.8vw 4vw 0 1vw;
+}
+
+footer div.brasil{
+  display: flex; 
+  position: relative;
+  float: right;
+}
+
+footer div.brasil img{
+  margin: 4.8vw 2vw 0 6vw;
+  width: 4vw;
+  height: 4vw;
+}
+
+footer div.brasil p{
+      margin: 4.8vw 0vw 0 0vw;
+}
+
+footer ul{
+  display: none;
+}
+
+}
