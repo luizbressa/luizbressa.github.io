@@ -208,22 +208,11 @@ section.amarela ul li img.passos1{
   margin: 0 0 0 1.5vw;
 }
 .passos1{}
-section.amarela ul li img.passos2{
-  width: 11.2666vw;
-  margin: 0 0 0 2.7vw;
-}
-section.amarela ul li img.passos3{
-  width: 10.2666vw;
-  margin: 0 0 0 2.7vw;
-}
-section.amarela ul li img.passos6{
-  width: 10.3666vw;
-  margin: 0 0 0 2.5vw;
-}
-section.amarela ul li img.passos5{
-  width: 8.2666vw;
-  margin: 0 0 0 3.7vw;
-}
+section.amarela ul li img.passos2{  width: 11.2666vw;  margin: 0 0 0 2.5vw;}
+section.amarela ul li img.passos3{  width: 10.2666vw;  margin: 0 0 0 2.7vw;}
+section.amarela ul li img.passos6{  width: 10.3666vw;  margin: 0 0 0 2.5vw;}
+section.amarela ul li img.passos5{  width: 9.2666vw;  margin: 0 0 0 3.2vw;}
+section.amarela ul li img.passos4{  width: 9.2666vw;  margin: 0 0 0 3.2vw;}
 .divpassos1{  animation-delay: 0.2s;}
 .divpassos2{  animation-delay: 0.4s;}
 .divpassos9{  animation-delay: 0.6s;}
@@ -239,12 +228,15 @@ section.amarela ul li h2{
     text-align: center;
     margin: 2vw 0 1vw 0;
 }
-section.amarela ul li h2.reuni{
-  margin: 1.5vw 0 1vw 0;
-}
-section.amarela ul li h2.impr{
-  margin: 1.4vw 0 1vw 0;
-}
+
+section.amarela ul li h2.h2passos1{margin: 1.86 vw 0 1vw 0;}
+section.amarela ul li h2.h2passos2{margin: 2.2vw 0 1vw 0;}
+section.amarela ul li h2.h2passos3{margin: 1.52vw 0 1vw 0;}
+section.amarela ul li h2.h2passos4{margin: 1.61vw 0 1vw 0;}
+section.amarela ul li h2.h2passos5{margin: 1.16vw 0 1vw 0;}
+section.amarela ul li h2.h2passos6{margin: 1.3vw 0 1vw 0;}
+
+
 
 
 section.amarela ul li p{
