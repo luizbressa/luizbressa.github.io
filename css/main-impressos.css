@@ -180,8 +180,6 @@ section.amarela p.normal span{
     color: #CC00B8;
 }
 
-
-
 section.amarela ul{
   margin: 3vw 0 0 3vw;  
   width:94vw;
@@ -248,10 +246,50 @@ section.amarela ul li p{
     width: 10.66666vw;
 }
 
+section.branca{
+  width: 100vw;
+  display: flex;
+}
+section.branca div.cartoes{
+  width: 50vw;
+   background:url(../img/banner-branco2.png) no-repeat, center center;
+     background-size: 100% 100%;
+     height: 80vw;
+}
+
+section.branca div.cartoes h1{  font-family: 'gilroy-extrabold';  color: #E0006C;  font-size: 4vw;text-align: center;margin: 4vw 0 0 0;
+}
+section.branca div.cartoes p{
+  font-family: 'gilroy';  color: #E0006C;  font-size: 1.1vw; text-align: center;margin: 1vw 0 0 5vw; width: 40vw; line-height: 1.3vw;
+}
+
+/*00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+section.branca div.flyers{
+  width: 50vw;
+  background:url(../img/banner-rosa-2.png)no-repeat, center center;
+  background-size: 100% 100%;
+  height: 80vw;
+}
+section.branca div.flyers h1{  font-family: 'gilroy-extrabold';  color: white;  font-size: 4vw;   margin: 4vw 0 0 0; text-align: center;
+}
+section.branca div.flyers p{
+    font-family: 'gilroy';  color: white;  font-size: 1.1vw; text-align: center;margin: 1vw 0 0 5vw; width: 40vw; line-height: 1.3vw;
+}
+
+
+
+
+
+
+
+
+
 
 footer{
   position:absolute;
-  top: 118vw;
+  top: 125vw;
   left: 0;
 	 background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
