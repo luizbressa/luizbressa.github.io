@@ -292,6 +292,9 @@ section.amarela ul li.cdbli:hover{background: linear-gradient(rgba(0, 0, 0,0.4),
 section.amarela ul li.ccli{background:url(../img/logo-cc.png),url(../img/logo-cc-2.png) center center; background-size: 100% 100%;}
 section.amarela ul li.ccli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-cc-2.png) center center;background-size: 105% 105%;}
 
+section.amarela ul li.fffli{background:url(../img/logo-fff.png),url(../img/logo-fff-2.png) center center; background-size: 100% 100%;}
+section.amarela ul li.fffli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-fff-2.png) center center;background-size: 105% 105%;}
+
 
 
 
@@ -883,6 +886,105 @@ section.amarela div.cdgdiv p.phistoria{
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 */
 
+section.amarela div.fffdiv{
+  display: none;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.88);
+  width: 90vw;
+  height: 51vw;
+  position: absolute;
+  left: 5vw;
+  top: 63vw;
+}
+
+section.amarela div.fffdiv h3{
+  cursor: default;
+  margin: 3vw 0 0vw 0;
+  text-align:center;
+  font-family: 'gilroy-heavyitalic';
+  text-decoration: none;
+  /*color: #363636;*/
+  color: white;
+  font-size: 5vw;
+  letter-spacing: 0.01vw;
+}
+
+section.amarela div.fffdiv h2{
+
+  position:absolute; left: 2vw; top: 10vw;
+  font-family: 'gilroy-extrabold';
+  color: white;
+  font-size: 3vw;
+  letter-spacing: 0.01vw;
+}
+
+img.x{
+  cursor: pointer;
+  width: 2.5vw;height:auto;
+  position: absolute; left: 85vw; top: 2vw;
+} 
+section.amarela div.fffdiv img.comp{
+  width: 50vw;height:auto;
+  position: absolute; left: 3vw; top: 11.5vw;
+} 
+section.amarela div.fffdiv p.pcorestxt{
+  position: absolute;  width: 27vw; left: 58.3vw;  top: 22vw;
+    font-family: 'gilroy';color: white;font-size: 1vw;}
+
+
+
+section.amarela div.fffdiv p.ffftxt{font-family: 'gilroy';color: white;font-size: 1vw;}
+
+section.amarela div.fffdiv p.ffftxt1{
+  position: absolute; width: 12vw; left: 3.2vw;  top: 18.3vw; }
+
+section.amarela div.fffdiv p.ffftxt2{
+   position: absolute; width: 12vw; left: 40vw;  top: 14.4vw;
+}
+section.amarela div.fffdiv p.ffftxt3{
+     position: absolute; width: 9.8vw; left: 4.3vw;  top: 35vw;
+}
+section.amarela div.fffdiv p.ffftxt4{
+    text-align: right; position: absolute; width: 11vw; left: 41.9vw;  top: 31.5vw;
+}
+section.amarela div.fffdiv h2.corestxt{
+  padding: 0 0 0 0; position: absolute; top: 10vw; left: 58vw;
+}
+
+
+section.amarela div.fffdiv img.cores{
+  width: 28vw;
+  position: absolute; left: 58.3vw; top: 14vw;
+}
+section.amarela div.fffdiv h2.opcoes{
+  padding: 0 0 0 0; position: absolute; top: 29vw; left: 58vw;
+}
+section.amarela div.fffdiv div.divopcoes{
+  display: flex;
+  position: absolute;
+  left: 57.4vw;
+  top: 34vw;
+  width: 30.6vw;
+  height: 10vw;
+  background-color: none;
+}
+section.amarela div.fffdiv div.divopcoes div{
+  background-size: 170% 100%;
+  margin: 0 0.6vw 0 0.6vw;
+  transition: 0.2s;
+  width: 9vw;
+  height: 15vw;
+  cursor: default;
+}
+
+
+.fff-opcao-1{ background:url(../img/logo-koc-3.png) center center;}
+.fff-opcao-2{ background:url(../img/logo-koc-4.png) center center;}
+.fff-opcao-3{ background:url(../img/logo-koc-5.png) center center;}
+
+/*
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
 
 footer{
   position:absolute;
@@ -1058,7 +1160,7 @@ header div.menu{
 header div.menucascata{
 border-bottom-left-radius: 2vw;
 border-bottom-right-radius: 2vw;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 18vw;
   left: 30vw;
@@ -1172,7 +1274,7 @@ section.amarela{
   background:url(../img/banner-amarelo.png) no-repeat, center center;
   background-size: 100% 100%;
   padding:0 0 0vw 0;
-  height: 190vw;
+  height: 235vw;
 }
 section.amarela h1{
   text-align:center;
@@ -1301,7 +1403,7 @@ section.amarela ul li.ccli{background:url(../img/logo-cc.png) center center; bac
 footer{
 
     height: 15vw;
-    top: 418vw;
+    top: 463vw;
 
 }
 
