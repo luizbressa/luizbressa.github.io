@@ -925,7 +925,7 @@ img.x{
 } 
 section.amarela div.fffdiv img.comp{
   width: 50vw;height:auto;
-  position: absolute; left: 3vw; top: 11.5vw;
+  position: absolute; left: 3vw; top: 15.5vw;
 } 
 section.amarela div.fffdiv p.pcorestxt{
   position: absolute;  width: 27vw; left: 58.3vw;  top: 22vw;
@@ -936,16 +936,13 @@ section.amarela div.fffdiv p.pcorestxt{
 section.amarela div.fffdiv p.ffftxt{font-family: 'gilroy';color: white;font-size: 1vw;}
 
 section.amarela div.fffdiv p.ffftxt1{
-  position: absolute; width: 12vw; left: 3.2vw;  top: 18.3vw; }
+  position: absolute; width: 12vw; left: 3vw;  top: 18.3vw; }
 
 section.amarela div.fffdiv p.ffftxt2{
-   position: absolute; width: 12vw; left: 40vw;  top: 14.4vw;
+   position: absolute; width: 12vw; left: 43.5vw;  top: 21.9vw;
 }
 section.amarela div.fffdiv p.ffftxt3{
-     position: absolute; width: 9.8vw; left: 4.3vw;  top: 35vw;
-}
-section.amarela div.fffdiv p.ffftxt4{
-    text-align: right; position: absolute; width: 11vw; left: 41.9vw;  top: 31.5vw;
+     position: absolute; width: 9.8vw; left: 3vw;  top: 35.8vw;
 }
 section.amarela div.fffdiv h2.corestxt{
   padding: 0 0 0 0; position: absolute; top: 10vw; left: 58vw;
