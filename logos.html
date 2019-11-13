@@ -324,32 +324,60 @@ $(document).ready(function() {
     $('#box').hScroll(30); // You can pass (optionally) scrolling amount
 });
 
-
+2
   $(document).ready(function(){
 
   $(".opcao-1").hover(function(){
 if($(window).width()>481){
     $(this).css({"width": "15vw", "background-size": "100% 100%"});$(".opcao-2").css({"width": "6vw", "background-size": "250% 100%"});$(".opcao-3").css({"width": "6vw", "background-size": "250% 100%"});}
     else{
-    $(this).css({"width": "38.33333vw", "background-size": "100% 100%"});
+    $(this).css({"width": "41.666666633vw", "background-size": "100% 100%"});
     $(".opcao-2").css({"width": "15.33333vw", "background-size": "250% 100%"});
     $(".opcao-3").css({"width": "15.333333vw", "background-size": "250% 100%"});
   }
   }, 
     function(){
       if($(window).width()>481){
-
     $(this).css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-2").css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-3").css({"width": "9vw", "background-size": "170% 100%"});
-}else{$(this).css({"width": "23vw", "background-size": "170% 100%"});
-    $(".opcao-2").css({"width": "23vw", "background-size": "170% 100%"});
-    $(".opcao-3").css({"width": "23vw", "background-size": "170% 100%"});}
-
+}else{$(this).css({"width": "25vw", "background-size": "170% 100%"});
+    $(".opcao-2").css({"width": "25vw", "background-size": "170% 100%"});
+    $(".opcao-3").css({"width": "25vw", "background-size": "170% 100%"});}
   });
 
-$(".opcao-2").hover(function(){
-    $(this).css({"width": "15vw", "background-size": "100% 100%"});$(".opcao-1").css({"width": "6vw", "background-size": "250% 100%"});$(".opcao-3").css({"width": "6vw", "background-size": "250% 100%"});}, function(){$(this).css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-1").css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-3").css({"width": "9vw", "background-size": "170% 100%"});});
-$(".opcao-3").hover(function(){
-    $(this).css({"width": "15vw", "background-size": "100% 100%"});$(".opcao-1").css({"width": "6vw", "background-size": "250% 100%"});$(".opcao-2").css({"width": "6vw", "background-size": "250% 100%"});}, function(){$(this).css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-1").css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-2").css({"width": "9vw", "background-size": "170% 100%"});});
+  $(".opcao-2").hover(function(){
+if($(window).width()>481){
+    $(this).css({"width": "15vw", "background-size": "100% 100%"});$(".opcao-1").css({"width": "6vw", "background-size": "250% 100%"});$(".opcao-3").css({"width": "6vw", "background-size": "250% 100%"});}
+    else{
+    $(this).css({"width": "41.666666633vw", "background-size": "100% 100%"});
+    $(".opcao-1").css({"width": "15.33333vw", "background-size": "250% 100%"});
+    $(".opcao-3").css({"width": "15.333333vw", "background-size": "250% 100%"});
+  }
+  }, 
+    function(){
+      if($(window).width()>481){
+    $(this).css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-1").css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-3").css({"width": "9vw", "background-size": "170% 100%"});
+}else{$(this).css({"width": "25vw", "background-size": "170% 100%"});
+    $(".opcao-1").css({"width": "25vw", "background-size": "170% 100%"});
+    $(".opcao-3").css({"width": "25vw", "background-size": "170% 100%"});}
+  });
+
+ $(".opcao-3").hover(function(){
+if($(window).width()>481){
+    $(this).css({"width": "15vw", "background-size": "100% 100%"});$(".opcao-1").css({"width": "6vw", "background-size": "250% 100%"});$(".opcao-2").css({"width": "6vw", "background-size": "250% 100%"});}
+    else{
+    $(this).css({"width": "41.666666633vw", "background-size": "100% 100%"});
+    $(".opcao-1").css({"width": "15.33333vw", "background-size": "250% 100%"});
+    $(".opcao-2").css({"width": "15.333333vw", "background-size": "250% 100%"});
+  }
+  }, 
+    function(){
+      if($(window).width()>481){
+    $(this).css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-1").css({"width": "9vw", "background-size": "170% 100%"});$(".opcao-2").css({"width": "9vw", "background-size": "170% 100%"});
+}else{$(this).css({"width": "25vw", "background-size": "170% 100%"});
+    $(".opcao-1").css({"width": "25vw", "background-size": "170% 100%"});
+    $(".opcao-2").css({"width": "25vw", "background-size": "170% 100%"});}
+  });
+
 });
 
 $(document).mouseup(function (e){
