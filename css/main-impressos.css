@@ -249,12 +249,13 @@ section.amarela ul li p{
 section.branca{
   max-width: 100vw;
   display: flex;
+  height: 67vw;
 }
 section.branca div.cartoes{
   width: 50vw;
    background:url(../img/banner-branco2.png) no-repeat, center center;
      background-size: 100% 100%;
-     height: 80vw;
+      height: 100%;
 }
 
 section.branca div.cartoes h1{  font-family: 'gilroy-extrabold';  color: #E0006C;  font-size: 4vw;text-align: center;margin: 4vw 0 0 0;
@@ -342,7 +343,7 @@ section.branca div.flyers{
   width: 50vw;
   background:url(../img/banner-rosa-2.png)no-repeat, center center;
   background-size: 100% 100%;
-  height: 80vw;
+  height: 100%;
 }
 section.branca div.flyers h1{  font-family: 'gilroy-extrabold';  color: white;  font-size: 4vw;   margin: 4vw 0 0 0; text-align: center; letter-spacing: 0.03vw;
 }
@@ -361,7 +362,7 @@ section.branca div.flyers p{
 
 footer{
   position:absolute;
-  top: 125vw;
+  top: 112vw;
   left: 0;
 	 background-color: rgba(0, 0, 0, 0.5);
     width: 100%;

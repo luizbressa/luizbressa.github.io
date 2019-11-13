@@ -1308,29 +1308,21 @@ section.amarela ul li h2{
     opacity: 0;
     font-size: 0vw;
 }
-/*
+
 section.amarela div.serjaodiv{
   width: 90vw;
-  height: 162vw;
+  height: 182vw;
   left: 5vw;
   top: 253vw;
 }
 
 
 section.amarela div.serjaodiv h3{
-  text-align: center;
-  margin: 8vw 0 0vw 0;
-  text-align:center;
-  font-size: 8vw;
+display:none;
 }
 
-section.amarela div.serjaodiv h2{
-  position:absolute; left: 2vw; top: 20vw;
-  font-family: 'gilroy-extrabold';
-  color: white;
-  font-size: 7vw;
-  letter-spacing: 0.01vw;
-}
+section.amarela div.serjaodiv >h2{
+display:none;}
 
 section.amarela div.serjaodiv h2.coresserjaotxt{
   padding: 0 0 0 0; position: absolute; top: 80vw; left: 5vw;
@@ -1341,58 +1333,36 @@ section.amarela div.serjaodiv h2.opcoesserjao{
 
 section.amarela div.serjaodiv img.coresserjao{
   width: 78vw;
-  position: absolute; left: 4vw; top: 70vw;
+  position: absolute; left: 6vw; top: 90vw;
 }
 
 section.amarela div.serjaodiv img.x{
   cursor: pointer;
-  width: 6vw;height:auto;
-  position: absolute; left: 82vw; top: 2vw;
+  width: 8vw;height:auto;
+  position: absolute; left: 78vw; top: 4vw;
 } 
 section.amarela div.serjaodiv img.complogoserjao{
-  width: 85vw;height:auto;
-  position: absolute; left: 2vw; top: 8vw;
+  width: 65vw;height:auto;
+  position: absolute; left: 13vw; top: 18vw;
 } 
-section.amarela div.serjaodiv p.pcoresserjaotxt{
-  display:none;}
-
-section.amarela div.serjaodiv p.serjaotxt1{
+section.amarela div.serjaodiv p{
   display: none;
-  position: absolute; width: 12vw; left: 2.1vw;  top: 8.3vw;
-    font-family: 'gilroy';color: white;font-size: 1vw;}
-
-section.amarela div.serjaodiv p.serjaotxt2{
-  display: none;
-   position: absolute; width: 13vw; left: 37.8vw;  top: 6vw;
-    font-family: 'gilroy';color: white;font-size: 1vw;
 }
-section.amarela div.serjaodiv p.serjaotxt3{
-  display: none;
-     position: absolute; width: 10vw; left: 1.1vw;  top: 22.2vw;
-    font-family: 'gilroy';color: white;font-size: 1vw;
+section.amarela div.serjaodiv div.divopcoes{
+  position: absolute;
+  left: 7.5vw;
+  top: 123vw;
+  width: 75vw;
+  height: 10vw;
 }
-section.amarela div.serjaodiv p.serjaotxt4{
-  display: none;
-    position: absolute; width: 12vw; left: 39.1vw;  top: 26.9vw;
-    font-family: 'gilroy';color: white;font-size: 1vw;
+section.amarela div.serjaodiv div.divopcoes div{
+  background-size: 170% 100%;
+  margin: 0 0.6vw 0 0.6vw;
+  transition: 0.2s;
+  width: 25vw;
+  height: 38.333333vw;
+  cursor: default;
 }
-
-*/
-
-section.amarela ul li.serjaoli{background:url(../img/logo-serjao.png) center center;   background-size: 100% 100%;}
-
-
-section.amarela ul li.rrli{background:url(../img/logo-rr.png) center center; background-size: 100% 100%;}
-
-section.amarela ul li.kocli{background:url(../img/logo-koc.png) center center; background-size: 100% 100%;}
-
-section.amarela ul li.pdali{background:url(../img/logo-pda.png) center center; background-size: 100% 100%;}
-
-
-section.amarela ul li.cdbli{background:url(../img/logo-cdb.png) center center; background-size: 100% 100%;}
-
-
-section.amarela ul li.ccli{background:url(../img/logo-cc.png) center center; background-size: 100% 100%;}
 
 
 
