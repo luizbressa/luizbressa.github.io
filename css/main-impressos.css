@@ -247,7 +247,7 @@ section.amarela ul li p{
 }
 
 section.branca{
-  width: 100vw;
+  max-width: 100vw;
   display: flex;
 }
 section.branca div.cartoes{
