@@ -1325,15 +1325,17 @@ section.amarela div.serjaodiv >h2{
 display:none;}
 
 section.amarela div.serjaodiv h2.coresserjaotxt{
-  padding: 0 0 0 0; position: absolute; top: 80vw; left: 5vw;
+  display: block; font-size: 8vw; font-family: 'gilroy';
+  padding: 0 0 0 0; position: absolute; top: 83vw; left: 5vw;
 }
 section.amarela div.serjaodiv h2.opcoesserjao{
-  padding: 0 0 0 0; position: absolute; top: 110vw; left: 5vw;
+    display: block; font-size: 8vw; font-family: 'gilroy';
+  padding: 0 0 0 0; position: absolute; top: 121vw; left: 5vw;
 }
 
 section.amarela div.serjaodiv img.coresserjao{
   width: 78vw;
-  position: absolute; left: 6vw; top: 90vw;
+  position: absolute; left: 6vw; top: 93vw;
 }
 
 section.amarela div.serjaodiv img.x{
@@ -1351,7 +1353,7 @@ section.amarela div.serjaodiv p{
 section.amarela div.serjaodiv div.divopcoes{
   position: absolute;
   left: 7.5vw;
-  top: 123vw;
+  top: 132vw;
   width: 75vw;
   height: 10vw;
 }
