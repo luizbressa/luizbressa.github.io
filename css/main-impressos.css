@@ -282,7 +282,7 @@ section.branca div.cartoes div.imgcartao{
   margin: 0vw 0 0 1vw;
   width: 30vw; height: 17vw;  
     transition: 0.3s;
-  background:url(../img/cartao-bressa.png), url(../img/cartao-bressa.png) center center;     background-size: 100% 100%;
+  background:url(../img/cartao-bressa.png) center center;     background-size: 100% 100%;
 }
 section.branca div.cartoes div.imgcartao:hover{ 
       background-color: black;
@@ -316,7 +316,7 @@ section.branca div.cartoes div.cartaofarol div.imgcartao{
   margin: 0vw 0 0 19vw;
   width: 30vw; height: 17vw;  
     transition: 0.3s;
-  background:url(../img/cartao-frl.png), url(../img/cartao-frl2.png) center center;     background-size: 100% 100%;
+  background:url(../img/cartao-frl.png) center center;     background-size: 100% 100%;
 }
 section.branca div.cartoes div.cartaofarol div.imgcartao:hover{ 
       background-color: black;
