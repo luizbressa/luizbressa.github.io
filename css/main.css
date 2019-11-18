@@ -196,18 +196,32 @@ section.bannerdefundo p{
 }
 
 section.bannerdefundo h3{
+  opacity:0;
   cursor: pointer;
-text-align: center;
-background-color: #F9BB03;
-color: white;
-border-radius: 2vw;
+  text-align: center;
+  background-color: #F9BB03;
+  color: white;
+  border-radius: 2vw;
   font-family: "gilroy";
   width: 12vw;
   margin: 3vw 0 0 43.5vw;
   padding: 0.5vw 0 0.5vw 0;
   transition: 0.3s;
+
+}
+section.bannerdefundo h3.fadeIn{
+  animation-duration: 1s;
+    animation-delay: 0.3s;
 }
 
+section.bannerdefundo h3.fadeOutRight{
+  animation-duration: 0.5s; 
+      animation-delay: 0.1s;
+
+}
+section.bannerdefundo div.fadeInLeft{
+    animation-delay: 0.1s;
+}
 
 section.bannerdefundo h3:hover{
     transition: 0.3s;
@@ -219,10 +233,10 @@ section.bannerdefundo div.quero{
   width:20vw;
   height: 5vw;
   position: absolute;
-  left:-32.5vw;
-  top: 28vw;
+  left:-33vw;
+  top: 26.9vw;
   display: none;
-  background-color: rgba(0,0,0,0.4);
+  background-color: none;
 }
 
 section.bannerdefundo a.icons-dp{
@@ -723,6 +737,7 @@ section.bannerdefundo{
 }
 
 section.bannerdefundo h2{
+
 	padding: 65vw 0 0 0;
  	text-align:center;
  	font-size:15vw;
@@ -730,9 +745,10 @@ section.bannerdefundo h2{
 }
 	
 section.bannerdefundo p{
+  width: 70vw;
 	font-weight: 400;
 	font-size: 6vw;
-	padding: 7vw 0 0 0;
+	padding: 7vw 0 0 15vw;
  	text-align:center;
 	margin: 0;
 

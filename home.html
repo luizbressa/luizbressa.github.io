@@ -51,8 +51,8 @@
 
 
   <h2 class="mkt">Marketing</h2>
-  <p class="mkt2">Eleve seu negócio a um <br>outro nível</p>
-  <h3 data-href="https://whatsfacil.com/bac2e4">Quero</h3>
+  <p class="mkt2">Eleve seu negócio a um outro nível</p>
+  <h3 data-href="https://whatsfacil.com/bac2e4">Contatar</h3>
 
   <div class="quero">
   <ul class="icons-contato">
@@ -268,8 +268,8 @@ if (hasTouch()) { // remove all :hover stylesheets
 }
     $('section.bannerdefundo h3').click(function() {
         if($(window).width()>481){
-          $(this).addClass('animated fast fadeOut');
-         $("section.bannerdefundo div.quero").fadeIn(500);
+          $(this).addClass('animated fast fadeOutRight');
+         $("section.bannerdefundo div.quero").fadeIn(1000).addClass('animated fast fadeInLeft');
       }else{
            var url = $(this).attr("data-href");
             window.open(url);
