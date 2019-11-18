@@ -23,7 +23,7 @@
     <li><a class="icons-dp icoface"href="https://www.facebook.com/luiz.bressiani"  target="_blank"></a></li>
     <li><a class="icons-dp icoinsta"href="https://www.instagram.com/bressaarts/" target="_blank"></a></li>
     <li><a class="icons-dp icozap"href="https://api.whatsapp.com/send?phone=5549991359002" target="_blank"></a></li>
-    <li><a class="icons-dp icomail"href="mailto:publicidade.luizbressiani@gmail.com" target="_blank"></a></li>
+    <li><a class="icons-dp icomail"href="mailto:luiz@bressaarts.com" target="_blank"></a></li>
     <li><a class="icons-dp icoytb"href="https://www.youtube.com/channel/UCRHVcgk9OM6IM5HRTAAo1bg" target="_blank"></a></li>
   </ul>
 
@@ -51,10 +51,18 @@
 
 
   <h2 class="mkt">Marketing</h2>
-  <p class="mkt2">Eleve seu negócio a um</p>
-    <p class="negrito">outro nível</p>
+  <p class="mkt2">Eleve seu negócio a um <br>outro nível</p>
+  <h3 data-href="https://whatsfacil.com/bac2e4">Quero</h3>
 
-
+  <div class="quero">
+  <ul class="icons-contato">
+    <li><a class="icons-dp icoface"href="https://www.facebook.com/luiz.bressiani"  target="_blank"></a></li>
+    <li><a class="icons-dp icoinsta"href="https://www.instagram.com/bressaarts/" target="_blank"></a></li>
+    <li><a class="icons-dp icozap"href="https://api.whatsapp.com/send?phone=5549991359002" target="_blank"></a></li>
+    <li><a class="icons-dp icomail"href="mailto:publicidade.luizbressiani@gmail.com" target="_blank"></a></li>
+    <li><a class="icons-dp icoytb"href="https://www.youtube.com/channel/UCRHVcgk9OM6IM5HRTAAo1bg" target="_blank"></a></li>
+  </ul>
+</div>
  </section>
 </div>
 
@@ -210,6 +218,7 @@ $(document).ready(function() {
 
      $('section.bannerdefundo h2').addClass('animated fadeIn');
      $('section.bannerdefundo p').addClass('animated fadeIn');
+      $('section.bannerdefundo h3').addClass('animated fadeIn');
 
  $(window).on('scroll', function() { 
             if ($(window).scrollTop() >= $( '.branca').offset().top + $('.branca'). outerHeight() - window.innerHeight) { 
@@ -257,6 +266,15 @@ if (hasTouch()) { // remove all :hover stylesheets
         }
     } catch (ex) {}
 }
+    $('section.bannerdefundo h3').click(function() {
+        if($(window).width()>481){
+          $(this).addClass('animated fast fadeOut');
+         $("section.bannerdefundo div.quero").fadeIn(500);
+      }else{
+           var url = $(this).attr("data-href");
+            window.open(url);
+      }
+});
 
 
 </script>
