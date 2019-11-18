@@ -1367,6 +1367,216 @@ section.amarela div.serjaodiv div.divopcoes div{
 }
 
 
+section.amarela div.rrdiv{
+  width: 90vw;  height: 182vw;  left: 5vw;  top: 253vw;
+}
+
+
+section.amarela div.rrdiv h3{
+display:none;
+}
+
+section.amarela div.rrdiv >h2{
+display:none;}
+
+section.amarela div.rrdiv h2.corestxt{
+  display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 83vw; left: 5vw;
+}
+section.amarela div.rrdiv h2.opcoes{
+    display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 121vw; left: 5vw;
+}
+
+section.amarela div.rrdiv img.cores{
+  width: 78vw;  position: absolute; left: 6vw; top: 93vw;
+}
+
+section.amarela div.rrdiv img.x{
+  cursor: pointer;  width: 8vw;height:auto;  position: absolute; left: 78vw; top: 4vw;
+} 
+section.amarela div.rrdiv img.comp{
+  width: 74vw;height:auto;  position: absolute; left: 9.5vw; top: 10vw;
+} 
+section.amarela div.rrdiv p{
+  display: none;
+}
+section.amarela div.rrdiv div.divopcoes{
+  position: absolute;  left: 7.5vw;  top: 132vw;  width: 75vw;  height: 10vw;}
+section.amarela div.rrdiv div.divopcoes div{
+  background-size: 170% 100%;  margin: 0 0.6vw 0 0.6vw;  transition: 0.2s;  width: 25vw;
+ height: 41.66666vw;}
+
+
+section.amarela div.kocdiv{
+  width: 90vw;  height: 182vw;  left: 5vw;  top: 253vw;
+}
+section.amarela div.kocdiv h3{
+display:none;
+}
+section.amarela div.kocdiv >h2{
+display:none;}
+section.amarela div.kocdiv h2.corestxt{
+  display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 80vw; left: 5vw;
+}
+section.amarela div.kocdiv h2.opcoes{
+    display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 121vw; left: 5vw;
+}
+section.amarela div.kocdiv img.cores{
+  width: 78vw;  position: absolute; left: 6vw; top: 90vw;
+}
+section.amarela div.kocdiv img.x{
+  cursor: pointer;  width: 8vw;height:auto;  position: absolute; left: 78vw; top: 4vw;
+} 
+section.amarela div.kocdiv img.comp{
+  width: 74vw;height:auto;  position: absolute; left: 9.5vw; top: 18vw;
+} 
+section.amarela div.kocdiv p{
+  display: none;
+}
+section.amarela div.kocdiv div.divopcoes{
+  position: absolute;  left: 7.5vw;  top: 132vw;  width: 75vw;  height: 10vw;}
+section.amarela div.kocdiv div.divopcoes div{
+  background-size: 170% 100%;  margin: 0 0.6vw 0 0.6vw;  transition: 0.2s;  width: 25vw;
+ height: 41.66666vw;}
+
+
+section.amarela div.pdadiv{
+  width: 90vw;  height: 182vw;  left: 5vw;  top: 253vw;
+}
+section.amarela div.pdadiv h3{
+display:none;
+}
+section.amarela div.pdadiv >h2{
+display:none;}
+section.amarela div.pdadiv h2.corestxt{
+  display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 83vw; left: 5vw;
+}
+section.amarela div.pdadiv h2.opcoes{
+    display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 121vw; left: 5vw;
+}
+section.amarela div.pdadiv img.cores{
+  width: 78vw;  position: absolute; left: 6vw; top: 93vw;
+}
+section.amarela div.pdadiv img.x{
+  cursor: pointer;  width: 8vw;height:auto;  position: absolute; left: 78vw; top: 4vw;
+} 
+section.amarela div.pdadiv img.comp{
+  width: 74vw;height:auto;  position: absolute; left: 9.5vw; top: 18vw;
+} 
+section.amarela div.pdadiv p{
+  display: none;
+}
+section.amarela div.pdadiv div.divopcoes{
+  position: absolute;  left: 7.5vw;  top: 132vw;  width: 75vw;  height: 10vw;}
+section.amarela div.pdadiv div.divopcoes div{
+  background-size: 170% 100%;  margin: 0 0.6vw 0 0.6vw;  transition: 0.2s;  width: 25vw;
+ height: 41.66666vw;}
+
+
+section.amarela div.cdbdiv{
+  width: 90vw;  height: 182vw;  left: 5vw;  top: 273vw;
+}
+section.amarela div.cdbdiv h3{
+display:none;
+}
+section.amarela div.cdbdiv >h2{
+display:none;}
+section.amarela div.cdbdiv h2.corestxt{
+  display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 72vw; left: 5vw;
+}
+section.amarela div.cdbdiv h2.opcoes{
+    display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 130vw; left: 5vw;
+}
+section.amarela div.cdbdiv img.cores{
+  width: 78vw;  position: absolute; left: 6vw; top: 82vw;
+}
+section.amarela div.cdbdiv img.x{
+  cursor: pointer;  width: 8vw;height:auto;  position: absolute; left: 78vw; top: 4vw;
+} 
+section.amarela div.cdbdiv img.comp{
+  width: 74vw;height:auto;  position: absolute; left: 9.5vw; top: 13vw;
+} 
+section.amarela div.cdbdiv p{
+  display: none;
+}
+section.amarela div.cdbdiv p.phistoria{
+  display: block;top:140vw;font-size:4.8vw;line-height:5.3vw; width: 80vw;left:5vw; font-family: 'gilroy-thin';
+}
+section.amarela div.cdbdiv div.divopcoes{
+  position: absolute;  left: 7.5vw;  top: 132vw;  width: 75vw;  height: 10vw;}
+section.amarela div.cdbdiv div.divopcoes div{
+  background-size: 170% 100%;  margin: 0 0.6vw 0 0.6vw;  transition: 0.2s;  width: 25vw;
+ height: 41.66666vw;}
+
+
+section.amarela div.cdgdiv{
+  width: 90vw;  height: 182vw;  left: 5vw;  top: 273vw;
+}
+section.amarela div.cdgdiv h3{
+display:none;
+}
+section.amarela div.cdgdiv >h2{
+display:none;}
+section.amarela div.cdgdiv h2.corestxt{
+  display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 90vw; left: 5vw;
+}
+section.amarela div.cdgdiv h2.opcoes{
+    display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 129vw; left: 5vw;
+}
+section.amarela div.cdgdiv img.cores{
+  width: 78vw;  position: absolute; left: 6vw; top: 100vw;
+}
+section.amarela div.cdgdiv img.x{
+  cursor: pointer;  width: 8vw;height:auto;  position: absolute; left: 78vw; top: 4vw;
+} 
+section.amarela div.cdgdiv img.comp{
+  width: 74vw;height:auto;  position: absolute; left: 9.5vw; top: 10vw;
+} 
+section.amarela div.cdgdiv p{
+  display: none;
+}
+section.amarela div.cdgdiv p.phistoria{
+  display: block;top:139vw;font-size:4.8vw;line-height:5.3vw; width: 80vw;left:5vw; font-family: 'gilroy-thin';
+}
+section.amarela div.cdgdiv div.divopcoes{
+  position: absolute;  left: 7.5vw;  top: 132vw;  width: 75vw;  height: 10vw;}
+section.amarela div.cdgdiv div.divopcoes div{
+  background-size: 170% 100%;  margin: 0 0.6vw 0 0.6vw;  transition: 0.2s;  width: 25vw;
+ height: 41.66666vw;}
+
+section.amarela div.fffdiv{
+  width: 90vw;  height: 182vw;  left: 5vw;  top: 273vw;
+}
+section.amarela div.fffdiv h3{
+display:none;
+}
+section.amarela div.fffdiv >h2{
+display:none;}
+section.amarela div.fffdiv h2.corestxt{
+  display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 80vw; left: 5vw;
+}
+section.amarela div.fffdiv h2.opcoes{
+    display: block; font-size: 8vw; font-family: 'gilroy';  padding: 0 0 0 0; position: absolute; top: 120vw; left: 5vw;
+}
+section.amarela div.fffdiv img.cores{
+  width: 78vw;  position: absolute; left: 6vw; top: 90vw;
+}
+section.amarela div.fffdiv img.x{
+  cursor: pointer;  width: 8vw;height:auto;  position: absolute; left: 78vw; top: 4vw;
+} 
+section.amarela div.fffdiv img.comp{
+  width: 74vw;height:auto;  position: absolute; left: 9.5vw; top: 25vw;
+} 
+section.amarela div.fffdiv p{
+  display: none;
+}
+section.amarela div.fffdiv p.phistoria{
+  display: block;top:139vw;font-size:4.8vw;line-height:5.3vw; width: 80vw;left:5vw; font-family: 'gilroy-thin';
+}
+section.amarela div.fffdiv div.divopcoes{
+  position: absolute;  left: 7.5vw;  top: 132vw;  width: 75vw;  height: 10vw;}
+section.amarela div.fffdiv div.divopcoes div{
+  background-size: 170% 100%;  margin: 0 0.6vw 0 0.6vw;  transition: 0.2s;  width: 25vw;
+ height: 41.66666vw;}
 
 
 footer{
