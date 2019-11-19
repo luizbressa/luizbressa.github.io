@@ -17,8 +17,7 @@
 
  <header>
     <a class="logo" href="/home"></a>
-
- 
+   <a class="bonezin" href="/home"></a>
   <ul class="icons-contato">
     <li><a class="icons-dp icoface"href="https://www.facebook.com/luiz.bressiani"  target="_blank"></a></li>
     <li><a class="icons-dp icoinsta"href="https://www.instagram.com/bressaarts/" target="_blank"></a></li>
@@ -276,6 +275,26 @@ if (hasTouch()) { // remove all :hover stylesheets
       }
 });
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+
+   if($(window).width()>481){
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+     $('header a.bonezin').fadeIn();
+     $("a.logo").addClass('animated fadeOutUp');
+     $('header ul').addClass('animated fadeOutUp');
+     $('header').animate({"height": "3vw"},300);
+     $('header').stop();
+  } else {
+     $('header ul').removeClass('fadeOutUp');
+     $('header ul').addClass('fadeInDown');
+     $('header').stop();
+     $('header').animate({"height": "5vw"},300);
+     $('header a.logo').removeClass('fadeOutUp');
+     $('header a.logo').addClass('fadeInDown');
+     $('header a.bonezin').fadeOut();
+}}}
 
 </script>
 

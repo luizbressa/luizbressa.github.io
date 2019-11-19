@@ -75,7 +75,7 @@ section p{   cursor: default;}
 
 header{
 	background-color: rgba(0, 0, 0, 0.5);
-	position: absolute;
+  position: fixed;
   	z-index: -1;
 	z-index: 2;
     left:0;
@@ -149,6 +149,23 @@ header a.logo:hover{
   width: 13.5vw;
   height: 3.2vw;
 }
+header a.fadeOutUp{  animation-duration: 0.5s;     animation-delay: 0.2s;}
+header a.fadeInDown{  animation-duration: 0.5s;     animation-delay: 0.1s;}
+header ul.fadeOutUp{  animation-duration: 0.6s;     animation-delay: 0.2s;}
+header ul.fadeInDown{  animation-duration: 0.5s;     animation-delay: 0.1s;}
+
+header a.bonezin{
+  background:url(../img/logo-branco-pqn.png)no-repeat, center center;
+  background-size: 100% 100%;
+  cursor: pointer;
+  display: none;
+  width:2.5vw;
+  height:2.5vw;
+  position: absolute;
+  left: 48.75vw;
+  top: 0.25vw;
+}
+
 
 header div.menu{
 	display: none;
@@ -199,14 +216,13 @@ section.bannerdefundo h3{
   opacity:0;
   cursor: pointer;
   text-align: center;
-  background-image: linear-gradient(rgb(248, 211, 0), rgb(255, 149, 0));
+  background-image: linear-gradient(rgb(252, 177, 3), rgb(252, 115, 3));
   color: white;
   border-radius: 2vw;
   font-family: "gilroy";
   width: 12vw;
   margin: 3vw 0 0 43.5vw;
   padding: 0.5vw 0 0.5vw 0;
-  transition: 0.3s;
 
 }
 section.bannerdefundo h3.fadeIn{
@@ -224,9 +240,8 @@ section.bannerdefundo div.fadeInLeft{
 }
 
 section.bannerdefundo h3:hover{
-    transition: 0.3s;
+
   background-image: linear-gradient(rgb(255, 149, 0), rgb(255, 149, 0));
-text-decoration: underline;
 }
 
 section.bannerdefundo div.quero{
