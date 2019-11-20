@@ -332,7 +332,6 @@ section.bannerdefundo ul.icons-contato li a img:hover{
  section.branca ul li img{
    width: 50%;
    margin: 1vw 0 2vw 25%;
-    transition: 0.1s;
   	
 }
  section.branca ul li h2{ 
@@ -347,7 +346,6 @@ section.bannerdefundo ul.icons-contato li a img:hover{
 	border: #E2046B solid 1.3px;
 	padding: 0.6vw 0 0.5vw 0;
 	border-radius: 2vw;
-	transition: 0.15s;
 }
 
 section.branca ul li h2.midiastxt{ 
@@ -358,6 +356,7 @@ section.branca ul li h2.midiastxt{
 
 
  section.branca ul li a:hover h2{
+
   cursor: pointer;
   background: linear-gradient(rgba(230, 7, 110), rgba(209, 10, 102));
 	color: white;
