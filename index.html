@@ -291,6 +291,7 @@ function scrollFunction() {
   } else {
      $('header ul').removeClass('fadeOutUp');
      $('header ul').addClass('fadeInDown');
+     $('header').stop();
      $('header').animate({"height": "5vw"},300);
      $('header a.logo').removeClass('fadeOutUp');
      $('header a.logo').addClass('fadeInDown');
