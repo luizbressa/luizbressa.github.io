@@ -66,11 +66,14 @@ body::after{
     position:absolute; z-index:-1;
     content: url(../img/ico-face-2.png) url(../img/ico-insta-2.png) url(../img/ico-zap-2.png) url(i../img/ico-email-2.png) url(../img/ico-ytb-2.png) url(../img/logo-medio-nome-2.png);
 }
-
+  
 html { 
 font-size: calc(1vw + 1vw);
 }
 
+body{
+  overflow-x:hidden;
+}
 section h1{    cursor: default;}
 section h2{ cursor: default;}
 section p{   cursor: default;}
@@ -230,9 +233,8 @@ section.amarela ul li{
 section.amarela ul li div{
   padding: 3vw 0 0 0;
   width: 15.66666vw;
-
-
 }
+
 section.amarela ul li img{
   width: 8.66666vw;
   margin: 0 0 0 3.5vw;
@@ -283,24 +285,26 @@ section.amarela ul li p{
 }
 
 section.branca{
-  max-width: 100vw;
-  display: flex;
-  height: 67vw;
+  width: 100vw;
 }
 section.branca div.cartoes{
-  width: 50vw;
-   background:url(../img/banner-branco2.png) no-repeat, center center;
-     background-size: 100% 100%;
-      height: 100%;
+  width: 100vw;
+  background:url(../img/banner-branco2.png) no-repeat, center center;
+  background-size: 150% 300%;
+  height: 40vw;
 }
 
-section.branca div.cartoes h1{  font-family: 'gilroy-extrabold';  color: #E0006C;  font-size: 4vw;text-align: center;margin: 4vw 0 0 0;
+section.branca div.cartoes h1{  font-family: 'gilroy-extrabold';  color: #E0006C;  font-size: 4vw;text-align: center;padding: 4vw 0 0 0;
 }
 section.branca div.cartoes> p{
-  font-family: 'gilroy';  color: #E0006C;  font-size: 1.1vw; text-align: center;margin: 1vw 0 0 5vw; width: 40vw; line-height: 1.3vw;
+  font-family: 'gilroy';  color: #E0006C;  font-size: 1.1vw; text-align: center; padding: 1vw 0 0 30vw; width: 40vw; line-height: 1.3vw;
 }
 
-
+section.branca div.cartoes div.cartoesinfo{
+  display:flex;
+  width:100vw;
+  flex-wrap: wrap;
+}
 
 /*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
 
@@ -361,12 +365,12 @@ section.branca div.cartoes div.cartaofarol div.imgcartao:hover{
 
 section.branca div.cartoes div.cartaofarol h2{
     font-family: 'gilroy-extrabold';  color: #CC1F19;  font-size: 3.5vw; ;
-    position: absolute; left: 10vw; top: 90.9vw;
+    position: absolute; left: 60vw; top: 68.7vw;
 }
 
 section.branca div.cartoes div.cartaofarol p.pfarol{
     font-family: 'gilroy';    color: rgba(0, 0, 0, 0.8);  font-size: 1.1vw; ;
-    position: absolute; left: -16.8vw; top: 95.3vw; width: 16vw; text-align: right;
+    position: absolute;  left: 33.2vw; top: 73.2vw; width: 16vw; text-align: right;
 }
 
 
@@ -376,16 +380,19 @@ section.branca div.cartoes div.cartaofarol p.pfarol{
 
 
 section.branca div.flyers{
-  width: 50vw;
+  width: 100vw;
   background:url(../img/banner-rosa-2.png)no-repeat, center center;
   background-size: 100% 100%;
-  height: 100%;
+  height: 58vw;
 }
-section.branca div.flyers h1{  font-family: 'gilroy-extrabold';  color: white;  font-size: 4vw;   margin: 4vw 0 0 0; text-align: center; letter-spacing: 0.03vw;
+section.branca div.flyers h1{  font-family: 'gilroy-extrabold';  color: white;  font-size: 4vw;   padding: 4vw 0 0 0; text-align: center; letter-spacing: 0.03vw;
 }
 section.branca div.flyers p{
-    font-family: 'gilroy';  color: white;  font-size: 1.1vw; text-align: center;margin: 1vw 0 0 5vw; width: 40vw; line-height: 1.3vw;
+    font-family: 'gilroy';  color: white;  font-size: 1.1vw; text-align: center;padding: 1vw 0 0 30vw; width: 40vw; line-height: 1.3vw;
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 
 section.branca div.flyers div.flyerserjao{
   width: 50vw;
@@ -400,14 +407,14 @@ section.branca div.flyers div.flyerserjao div.imgflyer{
 
 section.branca div.flyers div.flyerserjao h2{
    font-family: 'gilroy-extrabold';  background: linear-gradient(rgb(255, 191, 0), rgb(255, 149, 0));  font-size: 3.5vw; ;
-    position: absolute; left: 76vw; top: 64.9vw;  -webkit-background-clip: text;
+    position: absolute; left: 26vw; top: 105.6vw;  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 
 section.branca div.flyers div.flyerserjao p.pserjao{
 font-family: 'gilroy';  color: white; font-size: 1.2vw; width: 18vw; line-height: 1.3vw ; text-align: left;
-position: absolute; top:72vw; left: 71.3vw;
+position: absolute; top:112.5vw; left: -3.6vw;
 }
 
 
@@ -417,7 +424,7 @@ position: absolute; top:72vw; left: 71.3vw;
 
 footer{
   position:absolute;
-  top: 112vw;
+  top: 143vw;
   left: 0;
 	 background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
