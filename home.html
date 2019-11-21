@@ -283,7 +283,7 @@ function scrollFunction() {
 
    if($(window).width()>481){
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-     $('header a.bonezin').fadeIn();
+     $('header a.bonezin').fadeIn(700);
      $("a.logo").addClass('animated fadeOutUp');
      $('header ul').addClass('animated fadeOutUp');
      $('header').animate({"height": "3vw"},300);
@@ -295,7 +295,7 @@ function scrollFunction() {
      $('header').animate({"height": "5vw"},300);
      $('header a.logo').removeClass('fadeOutUp');
      $('header a.logo').addClass('fadeInDown');
-     $('header a.bonezin').fadeOut();
+     $('header a.bonezin').fadeOut(700);
 }}}
 
 </script>

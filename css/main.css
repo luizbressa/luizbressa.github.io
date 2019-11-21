@@ -162,7 +162,7 @@ header a.bonezin{
   width:2.5vw;
   height:2.5vw;
   position: absolute;
-  left: 48.75vw;
+  left: 11.75vw;
   top: 0.25vw;
 }
 
@@ -905,7 +905,7 @@ section.fundorosa{
 	background:url(../img/banner-rosa-2.png) center center;
   	background-size: 100% 140%;
   	width: 100vw;
-  	height: 430vw;
+  	height: 437vw;
 
 }
 
@@ -930,7 +930,7 @@ section.fundorosa p.textohistoria{
 
 footer{
     height: 15vw;
-    top: 858vw;
+    top: 865vw;
 
 }
 
