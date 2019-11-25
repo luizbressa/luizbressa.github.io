@@ -627,7 +627,7 @@ div.container{
 
 header{
 	background-color: rgba(0, 0, 0, 0.5);
-	position: fixed;
+	position: absolute;
     left:0;
     top:0;
     height: 18vw;
