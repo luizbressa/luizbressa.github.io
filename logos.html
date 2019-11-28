@@ -233,9 +233,9 @@
 <p class="pcorestxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
 <h2 class="opcoes">Outras opções</h2>
 <div class="divopcoes">
-<div class="opcao-1 pda-opcao-1"></div>
-<div class="opcao-2 pda-opcao-2"></div>
-<div class="opcao-3 pda-opcao-3"></div>
+<div class="opcao-1 liwgsdiv-opcao-1"></div>
+<div class="opcao-2 liwgsdiv-opcao-2"></div>
+<div class="opcao-3 liwgsdiv-opcao-3"></div>
 </div>
 </div>
 </section>
@@ -392,34 +392,40 @@ $(document).mouseup(function (e){
   }
 }); 
 
+$('img.x').click(function() {$('div.divlogo').fadeOut(200);});
 
 $('li.serjaoli').click(function(){if($(window).width()>481){$('div.serjaodiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}
 else{$('img.complogoserjao').attr("src","img/logo-serjao-mobile.png");$('div.serjaodiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
-$('img.x').click(function() {$('div.divlogo').fadeOut(200);});
+
 
 $('li.rrli').click(function(){if($(window).width()>481){$('div.rrdiv').fadeIn(200);}
 else{$('img.comp').attr("src","img/logo-rr-mobile.png");$('div.rrdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
-$('img.x').click(function() {$('div.divlogo').fadeOut(200);});
+
 
 $('li.kocli').click(function(){if($(window).width()>481){$('div.kocdiv').fadeIn(200);}
 else{$('img.comp').attr("src","img/logo-koc-mobile.png");$('div.kocdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
-$('img.x').click(function() {$('div.divlogo').fadeOut(200);});
+
 
 $('li.pdali').click(function(){if($(window).width()>481){$('div.pdadiv').fadeIn(200);}
 else{$('img.comp').attr("src","img/logo-pda-mobile.png");$('div.pdadiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
-$('img.x').click(function() {$('div.divlogo').fadeOut(200);});
+
 
 $('li.cdbli').click(function(){if($(window).width()>481){$('div.cdbdiv').fadeIn(200);}
 else{$('img.comp').attr("src","img/logo-cdb-mobile.png");$('div.cdbdiv img.cores').attr("src","img/cores-cdb-mobile.png");$('div.cdbdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);$('p.phistoria').text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.");}}); 
-$('img.x').click(function() {$('div.divlogo').fadeOut(200);});
+
 
 $('li.ccli').click(function(){if($(window).width()>481){$('div.cdgdiv').fadeIn(200);}
 else{$('img.comp').attr("src","img/logo-cc-mobile.png");$('div.cdgdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);$('p.phistoria').text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.");}}); 
-$('img.x').click(function() {$('div.divlogo').fadeOut(200);});
+
 
 $('li.fffli').click(function(){if($(window).width()>481){$('div.fffdiv').fadeIn(200);}
 else{$('img.comp').attr("src","img/logo-fff-mobile.png");$('div.fffdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
-$('img.x').click(function() {$('div.divlogo').fadeOut(200);});
+
+
+$('li.liwgsli').click(function(){if($(window).width()>481){$('div.liwgsdiv').fadeIn(200);}
+else{$('img.comp').attr("src","img/logo-liwgs-mobile.png");$('div.liwgsdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
+
+
 
      $('section.branca h1').addClass('animated fadeIn');
      $('section.branca p').addClass('animated fadeIn');

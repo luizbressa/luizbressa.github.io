@@ -1040,7 +1040,7 @@ section.amarela div.fffdiv div.divopcoes div{
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 */
 
-section.amarela div.rrdiv{
+section.amarela div.liwgsdiv{
   display: none;
   position: relative;
   background-color: rgba(0, 0, 0, 0.88);
@@ -1051,7 +1051,7 @@ section.amarela div.rrdiv{
   top: 63vw;
 }
 
-section.amarela div.rrdiv h3{
+section.amarela div.liwgsdiv h3{
   cursor: default;
   margin: 3vw 0 0vw 0;
   text-align:center;
@@ -1063,7 +1063,7 @@ section.amarela div.rrdiv h3{
   letter-spacing: 0.01vw;
 }
 
-section.amarela div.rrdiv h2{
+section.amarela div.liwgsdiv h2{
 
   position:absolute; left: 2vw; top: 10vw;
   font-family: 'gilroy-extrabold';
@@ -1077,40 +1077,40 @@ img.x{
   width: 2.5vw;height:auto;
   position: absolute; left: 85vw; top: 2vw;
 } 
-section.amarela div.rrdiv img.comp{
+section.amarela div.liwgsdiv img.comp{
   width: 50vw;height:auto;
   position: absolute; left: 3vw; top: 11vw;
 } 
-section.amarela div.rrdiv p.pcorestxt{
+section.amarela div.liwgsdiv p.pcorestxt{
   position: absolute;  width: 27vw; left: 58.3vw;  top: 22vw;
     font-family: 'gilroy';color: white;font-size: 1vw;}
 
 
 
-section.amarela div.rrdiv p.rrtxt{font-family: 'gilroy';color: white;font-size: 1vw;}
+section.amarela div.liwgsdiv p.liwgstxt{font-family: 'gilroy';color: white;font-size: 1vw;}
 
-section.amarela div.rrdiv p.rrtxt1{
+section.amarela div.liwgsdiv p.liwgstxt1{
   position: absolute; width: 12vw; left: 3.1vw;  top: 22vw; }
 
-section.amarela div.rrdiv p.rrtxt2{
+section.amarela div.liwgsdiv p.liwgstxt2{
    position: absolute; width: 12vw; left: 39.85vw;  top: 14vw;
 }
-section.amarela div.rrdiv p.rrtxt4{
+section.amarela div.liwgsdiv p.liwgstxt4{
     text-align: right; position: absolute; width: 12vw; left: 40.9vw;  top: 33.9vw;
 }
-section.amarela div.rrdiv h2.corestxt{
+section.amarela div.liwgsdiv h2.corestxt{
   padding: 0 0 0 0; position: absolute; top: 10vw; left: 58vw;
 }
 
 
-section.amarela div.rrdiv img.cores{
+section.amarela div.liwgsdiv img.cores{
   width: 28vw;
   position: absolute; left: 58.3vw; top: 14vw;
 }
-section.amarela div.rrdiv h2.opcoes{
+section.amarela div.liwgsdiv h2.opcoes{
   padding: 0 0 0 0; position: absolute; top: 29vw; left: 58vw;
 }
-section.amarela div.rrdiv div.divopcoes{
+section.amarela div.liwgsdiv div.divopcoes{
   display: flex;
   position: absolute;
   left: 57.4vw;
@@ -1119,7 +1119,7 @@ section.amarela div.rrdiv div.divopcoes{
   height: 10vw;
   background-color: none;
 }
-section.amarela div.rrdiv div.divopcoes div{
+section.amarela div.liwgsdiv div.divopcoes div{
   background-size: 170% 100%;
   margin: 0 0.6vw 0 0.6vw;
   transition: 0.2s;
@@ -1128,10 +1128,10 @@ section.amarela div.rrdiv div.divopcoes div{
   cursor: default;
 }
 
-
-.rr-opcao-1{ background:url(../img/logo-rr.png) center center;}
-.rr-opcao-2{ background:url(../img/logo-rr-2.png) center center;}
-.rr-opcao-3{ background:url(../img/logo-rr.png) center center;}
+  
+.liwgs-opcao-1{ background:url(../img/logo-liwgs-3.png) center center;}
+.liwgs-opcao-2{ background:url(../img/logo-liwgs-4.png) center center;}
+.liwgs-opcao-3{ background:url(../img/logo-liwgs-5.png) center center;}
 
 
 /*
