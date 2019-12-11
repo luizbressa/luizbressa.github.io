@@ -526,7 +526,7 @@ section.fundorosa p.textohistoria{
 
 footer{
   position:absolute;
-  top: 187.4vw;
+  top: 227.4vw;
   left: 0;
 	 background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -593,6 +593,90 @@ footer ul li a.icomail:hover{ background:url(../img/ico-email-3.png) center cent
 footer ul li a.icoytb:hover{ background:url(../img/ico-ytb-3.png) center center;background-size: 100% 100%;   width: 2.3vw;height: 2.3vw;}
 
 
+section.branca2{
+  background:url(../img/banner-branco.png) center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 37vw;
+  padding: 3vw 0 0 0;
+}
+
+
+section.branca2 p.normal{
+  position: absolute;
+  left: 28vw;
+  top:125vw;
+  font-family: "gilroy";
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 5vw;
+
+}
+
+section.branca2 p.normal span{
+    font-family: "gilroy-black";
+    color: #CC00B8;
+}
+
+
+
+section.branca2 ul{
+  margin: 12vw 0 0 3vw;  
+  width:94vw;
+  display: flex;
+
+}
+
+section.branca2 ul li{
+  width: 15.66666vw;
+}
+
+section.branca2 ul li div{
+  padding: 3vw 0 0 0;
+  width: 15.66666vw;
+
+
+}
+section.branca2 ul li img{
+  width: 8.66666vw;
+  margin: 0 0 0 3.5vw;
+}
+section.branca2 ul li img.passos1{
+  width: 12.6666vw;
+  margin: 0 0 0 1.5vw;
+}
+.passos1{}
+section.branca2 ul li img.passos9{
+  width: 10.6666vw;
+  margin: 0 0 0 2.5vw;
+}
+.divpassos1{  animation-delay: 0.2s;}
+.divpassos2{  animation-delay: 0.4s;}
+.divpassos9{  animation-delay: 0.6s;}
+.divpassos6{  animation-delay: 0.8s;}
+.divpassos7{  animation-delay: 1s;}
+.divpassos8{  animation-delay: 1.2s;}
+
+section.branca2 ul li h2{
+  font-family: "gilroy-bold";
+  font-weight: bold;
+    color: #E2046B;
+    font-size: 1.8vw;
+    text-align: center;
+    margin: 2vw 0 1vw 0;
+}
+section.branca2 ul li h2.reuni{
+  margin: 1.5vw 0 1vw 0;
+}
+
+
+section.branca2 ul li p{
+   margin: 0 0 0 2.5vw;
+   font-family: "gilroy-medium";
+  color: rgba(0, 0, 0, 0.8);
+    font-size: 0.95vw;
+    text-align: center;
+    width: 10.66666vw;
+}
 
 /*
 section.bannerdefundo div ul{
@@ -901,6 +985,12 @@ section.fundoamarelo ul li{
 section.fundoamarelo ul li img{
 	width: 23vw;
 }
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 section.fundorosa{
