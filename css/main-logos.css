@@ -288,7 +288,7 @@ section.amarela div.serjaodiv img.complogoserjao{
 
 section.amarela div.rrdiv img.comp{
   width: 28vw;height:auto;
-  position: absolute; left: 8vw; top: 8vw;
+  position: absolute; left: 8vw; top: 9vw;
 } 
 
 
@@ -367,9 +367,9 @@ section.amarela div.fffdiv img.comp{
 
 
 
-.fff-opcao-1{ background:url(../img/logo-koc-3.png) center center;}
-.fff-opcao-2{ background:url(../img/logo-koc-4.png) center center;}
-.fff-opcao-3{ background:url(../img/logo-koc-5.png) center center;}
+.fff-opcao-1{ background:url(../img/logo-fff.png) center center;}
+.fff-opcao-2{ background:url(../img/logo-fff-2.png) center center;}
+.fff-opcao-3{ background:url(../img/logo-fff.png) center center;}
 
 
 /*
