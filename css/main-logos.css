@@ -718,8 +718,13 @@ section.amarela ul li h2{
 }
 
 section.amarela div.divlogo{
-  height: 100vh;
-  margin-top:   -50vh;
+  width: 80vw;
+  height: 160vw;
+  position: fixed;
+  top: 18vw;
+  left: 10vw;
+  margin-top: 0vw;
+  margin-left: 0vw;
 }
 
 img.x{
@@ -728,10 +733,10 @@ img.x{
 } 
 
 section.amarela div.divlogo h3{
-  text-align: center;
-  margin: 8vw 0 0vw 0vw;
+  margin: 5vw 0 0vw 5vw;
   font-family: 'gilroy-bold';
-  font-size: 8vw;
+  font-size: 6vw;
+  width: 60vw;
 }
 
 
@@ -750,27 +755,27 @@ section.amarela div.divlogo img.comp{
 
 
 section.amarela div.divlogo h2.opcoes{
-    padding: 0 0 0 0; position: absolute; top: 105vw; left: 10vw;
+    padding: 0 0 0 0; position: absolute; top: 105vw; left: 5vw;
 }
 
 section.amarela div.divlogo h2.corestxt{
-    padding: 0 0 0 0; position: absolute; top: 75vw; left: 10vw;
+    padding: 0 0 0 0; position: absolute; top: 75vw; left: 5vw;
 }
 
 section.amarela div.divlogo img.cores{
-  width: 60vw;
-  position: absolute; left: 10vw; top: 85vw;
+  width: 70vw;
+  position: absolute; left: 5vw; top: 85vw;
 }
 section.amarela div.divlogo div.divopcoes{
   display: flex;
-  position: absolute;  left: 10vw;  top: 115vw;  width: 60vw;
+  position: absolute;  left: 5vw;  top: 115vw;  width: 70vw;
   height: 10vw;  background-color: none;
 }
 
 section.amarela div.divlogo div.divopcoes div{
   background-size: 170% 100%;
   margin: 0 0.6vw 0 0.6vw;
-  transition: 0.2s;width: 9vw;height: 15vw;cursor: default;
+  transition: 0.2s;width: 25vw;height: 40vw;cursor: default;
 }
 
 section.amarela div.divlogo p.phistoria{
