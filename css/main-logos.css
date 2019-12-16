@@ -750,7 +750,7 @@ section.amarela div.divlogo h2{
 
 section.amarela div.divlogo img.comp{
   width: 60vw;height:auto;
-  position: absolute; left: 10vw; top: 20vw;
+  position: absolute; left: 10vw; top: 25vw;
 } 
 
 
@@ -783,25 +783,45 @@ section.amarela div.divlogo p.phistoria{
 
 section.amarela div.fffdiv img.comp{
   width: 60vw;height:auto;
-  position: absolute; left: 10vw; top: 40vw;
+  position: absolute; left: 10vw; top: 30vw;
 } 
 
 section.amarela div.fffdiv h3{
-  width: 60vw;height:auto;
-  position: absolute; left: 10vw; top: 30vw;
+  margin: 5vw 0 0vw 5vw;
+  font-family: 'gilroy-bold';
+  font-size: 5vw;
+  width: 60vw;
 } 
 
 
 section.amarela div.liwgsdiv img.comp{
   width: 50vw;height:auto;
-  position: absolute; left: 17vw; top: 20vw;
+  position: absolute; left: 17vw; top: 27vw;
 } 
 
 section.amarela div.kocdiv img.comp{
-  width: 50vw;height:auto;
-  position: absolute; left: 17vw; top: 20vw;
+  width: 70vw;height:auto;
+  position: absolute; left: 5vw; top: 27vw;
 } 
 
+section.amarela div.cdbdiv img.comp{
+  width: 70vw;height:auto;
+  position: absolute; left: 5vw; top: 25vw;
+}
+
+section.amarela div.rrdiv img.comp{
+  width: 70vw;height:auto;
+  position: absolute; left: 5vw; top: 18vw;
+} 
+
+section.amarela div.pdadiv img.comp{
+  width: 70vw;height:auto;
+  position: absolute; left: 5vw; top: 24vw;
+} 
+
+section.amarela div.cdgdiv img.comp{  width: 70vw;height:auto;
+  position: absolute; left: 5vw; top: 20vw;
+} 
 
 
 
