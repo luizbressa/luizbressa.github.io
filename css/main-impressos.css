@@ -678,7 +678,7 @@ section.branca div.cartoes{
   width: 100vw;
   background:url(../img/banner-branco2.png) no-repeat, center center;
   background-size: 100% 130%;
-  height: 310vw;
+  height: 314vw;
 }
 
 section.branca div.cartoes h1{font-size: 12vw;text-align: center;padding: 10vw 0 0 0;
@@ -708,7 +708,7 @@ section.branca div.cartoes div.cartaobressa > p{display: none;
 
 section.branca div.cartoes img.img1bressa{
    box-shadow: 0px 0px 4vw rgba(0,0,0,0.3);
-  margin: 17vw 0 0 5vw;
+  margin: 17vw 0 4vw 5vw;
   width: 90vw; height: auto;  
 }
 section.branca div.cartoes img.img2bressa{
@@ -733,7 +733,7 @@ section.branca div.cartoes div.cartaofarol > p{display: none;}
 
 section.branca div.cartoes img.img1farol{
    box-shadow: 0px 0px 4vw rgba(0,0,0,0.3);
-  margin: 17vw 0 0 5vw;
+  margin: 17vw 0 4vw 5vw;
   width: 90vw; height: auto; 
 }
 section.branca div.cartoes img.img2farol{
@@ -795,7 +795,7 @@ display:none;
 footer{
 
     height: 15vw;
-    top: 618vw;
+    top: 622vw;
 
 }
 
