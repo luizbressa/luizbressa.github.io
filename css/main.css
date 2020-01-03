@@ -333,11 +333,13 @@ section.bannerdefundo ul.icons-contato li a img:hover{
 }
 
  section.branca ul li img{
+   transition: 0.2s;
    width: 46%;
    margin: 1vw 0 1vw 27%;
   	
 }
  section.branca ul li h2{ 
+
     width: 78%;
     margin: 0 0 0 11%;
  	text-align: center;
@@ -359,6 +361,7 @@ section.branca ul li h2.midiastxt{
 
 
  section.branca ul li a:hover h2{
+   transition: 0.2s;
  margin: 0.37vw 0 0 11%;
   cursor: pointer;
   background: linear-gradient(rgba(230, 7, 110), rgba(209, 10, 102));
@@ -366,9 +369,9 @@ section.branca ul li h2.midiastxt{
 }
 
  section.branca ul li a:hover img{
-
-  width: 50%;
-  margin: 0.5vw 0 0.5vw 25%;
+ transition: 0.1s;
+  width: 48%;
+  margin: 0.75vw 0 0.75vw 26%;
 }
 
 
@@ -397,7 +400,7 @@ section.branca ul li h2.midiastxt{
 section.fundoamarelo h1{
        animation-duration: 1s;
 	padding: 0vw 0 0 8vw;
- 	font-family: "gilroy-black";
+ 	font-family: "gilroy-extrabold";
 	color: white ;
 	font-size: 5vw;
 	letter-spacing: 0.01vw;
@@ -440,7 +443,7 @@ section.fundoamarelo ul::-webkit-scrollbar{
 }
 
 section.fundoamarelo ul::-webkit-scrollbar-thumb {
-   background-color:rgba(226, 4, 107, 0.8); 
+   background-color:white; 
 }
 
 
