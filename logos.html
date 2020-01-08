@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/animate.css">
   <link rel="icon" href="img/ico-bressa-branco.png" sizes="16x16 32x32" type="image/png">
   <link rel="prefetch" href="img/logo-medio-nome-2.png"><link rel="prefetch" href="img/ico-face-2.png"><link rel="prefetch" href="img/ico-insta-2.png"><link rel="prefetch" href="img/ico-zap-2.png"><link rel="prefetch" href="img/ico-email-2.png"><link rel="prefetch" href="img/ico-ytb-2.png"><link rel="prefetch" href="img/logo-serjao-2.png">  <link rel="prefetch" href="img/logo-serjao-2.png">  <link rel="prefetch" href="img/logo-rr-2.png">  <link rel="prefetch" href="img/logo-pda-2.png">
-  <link rel="prefetch" href="img/logo-koc-2.png">  <link rel="prefetch" href="img/logo-cc-2.png">  <link rel="prefetch" href="img/logo-cdb-2.png">  <link rel="prefetch" href="img/logo-fff-2.png"> <link rel="prefetch" href="img/logo-liwgs-2.png">
+  <link rel="prefetch" href="img/logo-koc-2.png">  <link rel="prefetch" href="img/logo-cc-2.png">  <link rel="prefetch" href="img/logo-cdb-2.png">  <link rel="prefetch" href="img/logo-fff-2.png"> <link rel="prefetch" href="img/logo-liwgs-2.png"> <link rel="prefetch" href="img/logo-goat-2.png">
 
 
 </head>
@@ -48,12 +48,12 @@
 
 
 
-
+<div class="bloqueador">
 <section class="amarela">
 <h1>Já realizadas</h1>
 
 
-<ul>
+<ul class="lista1 lista">
   <li class="serjaoli"><h2>Autoposto Serjão</h2></li>
   <li class="rrli"><h2>Restaurante Realeza</h2></li>
   <li class="kocli"><h2>Kings of Custom</h2></li>
@@ -63,6 +63,11 @@
   <li class="fffli"><h2>Felipre Freitas Fotografia</h2></li>
   <li class="liwgsli"><h2>Liwgs</h2></li>
 </ul>
+
+<ul class="lista2 lista">
+  <li class="goatli"><h2>Goat</h2></li>
+</ul>
+
 
 <div class="serjaodiv divlogo">
 <h3>Autoposto Serjão</h3>
@@ -170,10 +175,32 @@
 <div class="opcao-3 liwgs-opcao-3"></div>
 </div>
 </div>
+
+<div class="goatdiv divlogo">
+<h3>Goat Apparel</h3>
+<img class="x" src="img/x.png">
+<img class="comp" src="img/logo-goat-mobile.png">
+<h2 class="corestxt">Cores</h2>
+<img class="cores" src="img/cores-fff.png">
+<h2 class="opcoes">Outras opções</h2>
+<div class="divopcoes">
+<div class="opcao-1 goat-opcao-1"></div>
+<div class="opcao-2 goat-opcao-2"></div>
+<div class="opcao-3 goat-opcao-3"></div>
+</div>
+</div>
+
+
 </section>
 
 
 
+
+
+<ul class="ul-nav-pag">
+<li><img class="pag1"src="img/bola-branca-1.png"><li>
+<li><img class="pag2"src="img/bola-branca-2.png"><li>
+</ul>
 
   
 
@@ -193,6 +220,7 @@
    <div class="brasil"><img src="img/ico-brasil.png"><p>Brasil - 2019</p></div>
   </div>
   </footer>
+<div class="bloqueador">
 
 
 
@@ -359,6 +387,11 @@ else{$('img.comp').attr("src","img/logo-liwgs-mobile.png");$('div.liwgsdiv').fad
 
 
 
+$('li.goatli').click(function(){if($(window).width()>481){$('div.goatdiv').fadeIn(200);}
+else{$('img.comp').attr("src","img/logo-goat-mobile.png");$('div.goatdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
+
+
+
      $('section.branca h1').addClass('animated fadeIn');
      $('section.branca p').addClass('animated fadeIn');
 
@@ -416,6 +449,57 @@ function scrollFunction() {
   } else {
 
 }}}
+
+
+$('img.pag2').click(function(){
+   if($(window).width()>481){
+  $('img.pag2').css({"width":"2vw", "margin":"0 0 0 0", "cursor":"default"});
+  $('img.pag1').css({"width":"1.5vw", "margin":"0.3vw 0 0 0", "cursor":"pointer"});
+
+  $("ul.lista1").removeClass('animated fadeOutLeft');
+  $("ul.lista1").addClass('animated fast fadeOutLeft');
+  $("ul.lista2").removeClass('animated fadeOutRight');
+  $("ul.lista2").css('display',"flex");
+  $("ul.lista2").addClass('animated fast fadeInRight');
+  $("ul.lista1").delay(400).fadeOut();
+
+}else{
+  $('img.pag2').css({"width":"7vw", "margin":"0 0 0 0", "cursor":"default"});
+  $('img.pag1').css({"width":"6vw", "margin":"0.6vw 0 0 0", "cursor":"pointer"});
+
+  $("ul.lista1").addClass('animated fadeOut');
+  $("ul.lista2").removeClass('animated fadeOut');
+  $("ul.lista2").css('display',"flex");
+  $("ul.lista2").addClass('animated fadeIn');
+}
+ 
+}); 
+
+$('img.pag1').click(function(){
+     if($(window).width()>481){
+  $('img.pag1').css({"width":"2vw", "margin":"0 0 0 0", "cursor":"default"});
+  $('img.pag2').css({"width":"1.5vw", "margin":"0.3vw 0 0 0", "cursor":"pointer"});
+
+  $("ul.lista2").removeClass('animated fadeOutRight');
+  $("ul.lista1").removeClass('animated fadeOutLeft');
+  $("ul.lista2").addClass('animated fast fadeOutRight');
+  $("ul.lista1").css('display',"flex");
+  $("ul.lista1").addClass('animated fast fadeInLeft');
+  $("ul.lista2").delay(400).fadeOut();
+
+}else{
+  $('img.pag1').css({"width":"7vw", "margin":"0 0 0 0", "cursor":"default"});
+  $('img.pag2').css({"width":"6vw", "margin":"0.6vw 0 0 0", "cursor":"pointer"});
+
+  $("ul.lista1").removeClass('animated fadeOut');
+  $("ul.lista2").addClass('animated fadeOut');
+  $("ul.lista1").css('display',"flex");
+  $("ul.lista1").addClass('animated fadeIn');
+}
+
+}); 
+
+
 
 </script>
 

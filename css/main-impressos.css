@@ -223,10 +223,11 @@ section.amarela span{
 }
 
  section.amarela h2{
-    font-family: 'gilroy-black';
+    font-family: 'gilroy-bold';
     margin: 4vw 0 0 0;
     text-align: center;
     font-size:3vw;
+    letter-spacing: 0.005vw;
   color: rgba(0, 0, 0, 0.9);
  }
 section.amarela div{
