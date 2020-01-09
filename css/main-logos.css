@@ -231,6 +231,10 @@ section.amarela ul.lista1 li.serjaoli:hover{background: linear-gradient(rgba(0, 
 section.amarela ul.lista1 li.rrli{background:url(../img/logo-rr.png) center center; background-size: 100% 100%;}
 section.amarela ul.lista1 li.rrli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-rr-2.png) center center;background-size: 105% 105%;}
 
+section.amarela ul.lista1 li.goatli{background:url(../img/logo-goat.png) center center; background-size: 100% 100%;}
+section.amarela ul.lista1 li.goatli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-goat-2.png) center center;background-size: 105% 105%;}
+
+
 section.amarela ul.lista1 li.kocli{background:url(../img/logo-koc.png) center center; background-size: 100% 100%;}
 section.amarela ul.lista1 li.kocli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-koc-2.png) center center;background-size: 105% 105%;}
 
@@ -240,14 +244,19 @@ section.amarela ul.lista1 li.pdali:hover{background: linear-gradient(rgba(0, 0, 
 section.amarela ul.lista1 li.cdbli{background:url(../img/logo-cdb.png) center center; background-size: 100% 100%;}
 section.amarela ul.lista1 li.cdbli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-cdb-2.png) center center;background-size: 105% 105%;}
 
-section.amarela ul.lista1 li.ccli{background:url(../img/logo-cc.png) center center; background-size: 100% 100%;}
-section.amarela ul.lista1 li.ccli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-cc-2.png) center center;background-size: 105% 105%;}
+
 
 section.amarela ul.lista1 li.fffli{background:url(../img/logo-fff.png) center center; background-size: 100% 100%;}
 section.amarela ul.lista1 li.fffli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-fff-2.png) center center;background-size: 105% 105%;}
 
 section.amarela ul.lista1 li.liwgsli{background:url(../img/logo-liwgs.png) center center; background-size: 100% 100%;}
 section.amarela ul.lista1 li.liwgsli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-liwgs-2.png) center center;background-size: 105% 105%;}
+
+section.amarela ul.lista2 li.ccli{background:url(../img/logo-cc.png) center center; background-size: 100% 100%;}
+section.amarela ul.lista2 li.ccli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-cc-2.png) center center;background-size: 105% 105%;}
+
+section.amarela ul.lista2 li.vdvli{background:url(../img/logo-vdv-2.png) center center; background-size: 100% 100%;}
+section.amarela ul.lista2 li.vdvli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-vdv.png) center center;background-size: 105% 105%;}
 
 
 
@@ -409,6 +418,15 @@ section.amarela div.goatdiv img.comp{
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 */
 
+section.amarela div.vdvdiv img.comp{
+  width: 28vw;height:auto;
+  position: absolute; left: 7.5vw; top: 10vw;
+} 
+
+/*
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
+
 
 footer{
   position:absolute;
@@ -556,9 +574,6 @@ section.amarela ul.lista2{
   top: 22vw;
 }
 
-
-section.amarela ul.lista2 li.goatli{background:url(../img/logo-goat.png) center center; background-size: 100% 100%;}
-section.amarela ul.lista2 li.goatli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-goat-2.png) center center;background-size: 105% 105%;}
 
 
 section.amarela ul.lista2 li{
@@ -932,6 +947,10 @@ section.amarela div.cdgdiv img.comp{  width: 64vw;height:auto;
   position: absolute; left: 9vw; top: 20vw;
 } 
 
+
+section.amarela div.goatdiv img.comp{  width: 64vw;height:auto;
+  position: absolute; left: 9vw; top: 40vw;
+} 
 
 
 
