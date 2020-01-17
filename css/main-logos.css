@@ -258,7 +258,8 @@ section.amarela ul.lista2 li.ccli:hover{background: linear-gradient(rgba(0, 0, 0
 section.amarela ul.lista2 li.vdvli{background:url(../img/logo-vdv-2.png) center center; background-size: 100% 100%;}
 section.amarela ul.lista2 li.vdvli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-vdv.png) center center;background-size: 105% 105%;}
 
-
+section.amarela ul.lista2 li.vufcli{background:url(../img/logo-vufc.png) center center; background-size: 100% 100%;}
+section.amarela ul.lista2 li.vufcli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-vufc-2.png) center center;background-size: 105% 105%;}
 
 
 
@@ -427,6 +428,17 @@ section.amarela div.vdvdiv img.comp{
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 */
 
+section.amarela div.vufcdiv img.comp{
+  width: 20vw;height:auto;
+  position: absolute; left: 11vw; top: 10vw;
+} 
+
+
+/*
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
+
+
 
 footer{
   position:absolute;
@@ -525,6 +537,13 @@ section.amarela div.divlogo h3{
   font-size: 3vw;
   letter-spacing: 0.01vw;
 }
+
+
+section.amarela div.divlogo img.camisa{
+  position: absolute;  left: 44.6vw;  top: 21vw; 
+   width: 33vw;
+} 
+
 
 
 section.amarela div.divlogo h2{
@@ -878,6 +897,12 @@ section.amarela div.divlogo img.comp{
 } 
 
 
+section.amarela div.divlogo img.camisa{
+   position: absolute; left: 2.5vw; top: 100vw;
+   width:75vw;
+} 
+
+
 section.amarela div.divlogo h2.opcoes{
     padding: 0 0 0 0; position: absolute; top: 88vw; left: 5vw;
 }
@@ -952,7 +977,10 @@ section.amarela div.goatdiv img.comp{  width: 64vw;height:auto;
   position: absolute; left: 9vw; top: 40vw;
 } 
 
-
+section.amarela div.vufcdiv img.comp{
+width: 50vw;height:auto;
+  position: absolute; left: 15vw; top: 19vw;
+} 
 
 
 

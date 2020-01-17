@@ -61,14 +61,14 @@
   <li class="kocli"><h2>Kings of Custom</h2></li>
   <li class="pdali"><h2>Papo de Adolescente</h2></li>
   <li class="cdbli"><h2>Campanha do Brinquedo</h2></li>
-
   <li class="fffli"><h2>Felipre Freitas Fotografia</h2></li>
   <li class="liwgsli"><h2>Liwgs</h2></li>
 </ul>
 
 <ul class="lista2 lista">
-    <li class="ccli"><h2>Copa do Gole</h2></li>
+  <li class="ccli"><h2>Copa do Gole</h2></li>
   <li class="vdvli"><h2>Vale das Videiras FC</h2></li>
+  <li class="vufcli"><h2>Videira United FC</h2></li>
 </ul>
 
 
@@ -199,10 +199,22 @@
 <img class="comp" src="img/logo-vdv-mobile.png">
 <h2 class="corestxt">Cores</h2>
 <img class="cores" src="img/cores-vdv.png">
-<h2 class="opcoes">História</h2>
- <p class="phistoria">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et maximus tortor. Nam pretium viverra elit quis vestibulum. Nulla ac justo sit amet neque aliquet accumsan. In feugiat metus sit amet condimentum luctus.</p>
+ <h2 class="opcoes">Camisa</h2>
+<img class="camisa" src="img/camisa-vdv.png">
 </div>
+
+
+<div class="vufcdiv divlogo">
+<h3>Videira United FC</h3>
+<img class="x" src="img/x.png">
+<img class="comp" src="img/logo-vufc-mobile.png">
+<h2 class="corestxt">Cores</h2>
+<img class="cores" src="img/cores-vufc.png">
+<h2 class="opcoes">Camisa</h2>
+<img class="camisa" src="img/camisa-vufc.png">
 </div>
+
+
 
 </section>
 
@@ -407,6 +419,10 @@ else{$('img.comp').attr("src","img/logo-goat-mobile.png");$('div.goatdiv').fadeI
 $('li.vdvli').click(function(){if($(window).width()>481){$('div.vdvdiv').fadeIn(200);}
 else{$('img.comp').attr("src","img/logo-vdv-mobile.png");$('div.vdvdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
 
+$('li.vufcli').click(function(){if($(window).width()>481){$('div.vufcdiv').fadeIn(200);}
+else{$('img.comp').attr("src","img/logo-vufc-mobile.png");$('div.vufcdiv').fadeIn(200);$('div.divopcoes').fadeIn(200);}}); 
+
+
 
      $('section.branca h1').addClass('animated fadeIn');
      $('section.branca p').addClass('animated fadeIn');
@@ -479,6 +495,7 @@ $('img.pag2').click(function(){
   $("ul.lista2").addClass('animated fast fadeInRight');
   $("ul.lista1").delay(400).fadeOut();
 
+
 }else{
   $('img.pag2').css({"width":"7vw", "margin":"0 0 0 0", "cursor":"default"});
   $('img.pag1').css({"width":"6vw", "margin":"0.6vw 0 0 0", "cursor":"pointer"});
@@ -487,12 +504,14 @@ $('img.pag2').click(function(){
   $("ul.lista2").removeClass('animated fadeOut');
   $("ul.lista2").css('display',"flex");
   $("ul.lista2").addClass('animated fadeIn');
+  $("ul.lista1").css('display',"none");
 }
  
 }); 
 
 $('img.pag1').click(function(){
-     if($(window).width()>481){
+
+  if($(window).width()>481){
   $('img.pag1').css({"width":"2vw", "margin":"0 0 0 0", "cursor":"default"});
   $('img.pag2').css({"width":"1.5vw", "margin":"0.3vw 0 0 0", "cursor":"pointer"});
 
@@ -502,6 +521,7 @@ $('img.pag1').click(function(){
   $("ul.lista1").css('display',"flex");
   $("ul.lista1").addClass('animated fast fadeInLeft');
   $("ul.lista2").delay(400).fadeOut();
+ 
 
 }else{
   $('img.pag1').css({"width":"7vw", "margin":"0 0 0 0", "cursor":"default"});
@@ -511,6 +531,7 @@ $('img.pag1').click(function(){
   $("ul.lista2").addClass('animated fadeOut');
   $("ul.lista1").css('display',"flex");
   $("ul.lista1").addClass('animated fadeIn');
+  $("ul.lista2").css('display',"none");
 }
 
 }); 
