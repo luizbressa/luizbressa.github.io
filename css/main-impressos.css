@@ -224,43 +224,43 @@ section.amarela span{
 
  section.amarela h2{
     font-family: 'gilroy-bold';
-    margin: 4vw 0 0 0;
+    margin: 7vw 0 0 0;
     text-align: center;
     font-size:3vw;
     letter-spacing: 0.005vw;
   color: rgba(0, 0, 0, 0.9);
  }
 section.amarela div{
-  margin: 4vw 0 0 12.5vw;
+  margin: 0vw 0 0 0vw;
  }
  section.amarela a{
-  margin: 0 3vw 0 3vw;
+  margin: 0 0vw 0 0vw;
  }
 
   section.amarela a img.graf1{
-    width: 16vw;
-    padding: 0 0 1vw 3vw;
+    width: 12vw;
+    padding: 4vw 0 1vw 26vw;
 
   }
 
 section.amarela a img.graf2{
-width: 18vw;
-
+width: 14vw;
+    padding: 0 0 0vw 5vw;
  }
-
  section.amarela a img.graf3{
-    width: 15vw;
-    padding: 0 0 0vw 0;
+    width: 11vw;
+    padding: 0 0 0vw 5vw;
 
 }
 
   section.amarela a img{
-            opacity: 0.9;  
-  }
-section.amarela a img:hover{
-            opacity: 1;  
+            opacity: 0.7;  
   }
 
+
+  section.amarela a img:hover{
+            opacity: 1;  
+  }
 section.branca{
   width: 100vw;
 }
@@ -654,14 +654,17 @@ section.amarela div{
  }
 
   section.amarela a img.graf1{
-    width: 35vw;
+       padding: 1vw 0 0vw 3vw;
+    width: 32vw;
   }
 
 section.amarela a img.graf2{
+      padding: 0 0 0vw 0vw;
     width: 35vw;
  }
 
  section.amarela a img.graf3{
+     padding: 0 0 0vw 0vw;
     width: 30vw;
 }
 
