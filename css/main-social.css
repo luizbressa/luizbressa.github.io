@@ -201,11 +201,18 @@ section.branca{
 section.branca h1{
   text-align: center;
   font-family: "gilroy-black";
-  font-size: 7vw;
+  font-size: 5vw;
   padding-top: 10vw;
   color: #E7006F;
 }
-
+section.branca p{
+  text-align: center;
+  font-family: "gilroy";
+  font-size: 1.2vw;
+  margin: 2vw 0 0 17vw;
+  width: 66vw;
+  color: #E7006F;
+}
 
 
 
