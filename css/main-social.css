@@ -194,7 +194,7 @@ section.branca{
   background: url(../img/banner-branco.png);
   background-size: 100% 100%;
   width: 100vw;
-  height: 100vw;
+  height: 45vw;
 }
 
 
@@ -214,12 +214,46 @@ section.branca p{
   color: #E7006F;
 }
 
+ section.branca ul{
+  display: flex;
+  padding: 0 0 0 29.4vw;
+  margin: 4vw 0 0 0;
+ }
 
+ section.branca li{
+  border-radius: 0px 0.7vw 0.7vw 0vw;
+      background: rgba(0,0, 0,0.05);
+   padding: 1vw 0vw 1vw 0vw;
+   font-family: "gilroy";
+   cursor: pointer;
+   width: 10vw;
+   text-align: center;
+   font-size: 1.5vw;
+    color: #E7006F;
+ }
+
+ section.branca li.lidivu{
+    border-radius:  0.7vw 0vw 0vw 0.7vw;
+   border-right: solid #E7006F 2px;
+ }
+ section.branca li.lipromo{
+    border-radius:  0vw 0vw 0vw 0vw;
+   border-right: solid #E7006F 2px;
+ }
+  section.branca li.listo{
+    border-radius:  0vw 0vw 0vw 0vw;
+   border-right: solid #E7006F 2px;
+ }
+
+
+  section.branca li:hover{
+    background: rgba(0,0,0,0.1);
+ }
 
 
 footer{
   position:absolute;
-  top: 163vw;
+  top: 45vw;
   left: 0;
 	 background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
