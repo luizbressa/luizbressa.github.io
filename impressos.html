@@ -54,6 +54,11 @@
 <h1 class="animated fadeIn">Impressos</h1>
 <p class="normal animated fadeIn">Impressão e produção de <span>cartões, flyers e folders.</span> Contato com gráficas especializadas para todo tipo de serviço.
 </p>
+
+<ul>
+<li class="licartoes">Cartões</li>
+<li class="liflyers">Flyers</li>
+</ul>
 <h2 class="animated fadeIn">Gráficas Parceiras</h1>
 <div>
 <a href="https://www.facebook.com/dreschcomunicacao/"  target="_blank"><img class="graf1" src="img/logo-dresch.png"></a>
@@ -141,12 +146,6 @@
 
     var cascata = 0;
 
-    $('section.fundoamarelo h1').click(function() {
-      console.log("deu boa");
-    $('h2.mkt').css({
-        "color": "black"
-    });
-});
   
 
   function myFunction(x) {
@@ -254,6 +253,16 @@ function scrollFunction() {
 }
 
 }} 
+
+
+    $('li.licartoes').click(function() {
+       $('html, body').animate({
+        scrollTop: $("section.branca").offset().top});
+});
+    $('li.liflyers').click(function() {
+       $('html, body').animate({
+        scrollTop: $("div.flyers").offset().top});
+});
 
 </script>
 
