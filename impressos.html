@@ -68,7 +68,7 @@
 </section>
 </div>
 
-
+<img class="top" src="img/top.png"></img>
 <section class="branca">
 <div class="container">
 
@@ -100,7 +100,7 @@
   <h1>Panfletos</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae dolor placerat, lacinia metus ut, viverra nunc. Pellentesque dictum eleifend eros et viverra. In laoreet lorem eget nisl viverra, non eleifend augue blandit.</p>
   
-   <div class="flyerserjao">
+   <div class="flyersinfo">
   <div class="imgflyer"></div>
 <!--   <h2>Autosposto<br>Serjão</h2>
   <p class="pserjao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae dolor placerat, lacinia metus ut, viverra nunc. Pellentesque dictum eleifend eros et viverra. In laoreet lorem eget nisl viverra, non eleifend augue blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae dolor placerat, lacinia metus ut, viverra nunc. Pellentesque dictum eleifend eros et viverra. In laoreet lorem eget nisl viverra, non eleifend augue blandit.</p> -->
@@ -252,7 +252,19 @@ function scrollFunction() {
 
 }
 
-}} 
+}
+ if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    $("img.top").fadeIn();
+  } else {
+    $("img.top").fadeOut();
+  }
+} 
+    $('img.top').click(function() {
+      $('html, body').animate({
+        scrollTop: $("body").offset().top});
+    $("img.top").fadeOut();     $("img.top").stop(); 
+});
+
 
 
     $('li.licartoes').click(function() {
@@ -261,8 +273,30 @@ function scrollFunction() {
 });
     $('li.liflyers').click(function() {
        $('html, body').animate({
-        scrollTop: $("div.flyers").offset().top});
+        scrollTop: $("div.flyers").offset().top});  
 });
+
+   if($(window).width()>481){
+ $(window).on('scroll', function() { 
+            if ($(window).scrollTop() >= $('div.cartoes').offset().top + $('div.cartoes'). outerHeight() - window.innerHeight) { 
+             $('div.cartoes h1').addClass('animated fadeInLeft');
+               $('div.cartoes p').addClass('animated fadeInLeft');
+                 $('div.cartoes div.cartoesinfo').addClass('animated fadeInLeft');
+
+                  $('div.flyers h1').addClass('animated fadeIn');
+              $('div.flyers p').addClass('animated fadeIn');
+              $('div.flyers div.flyersinfo').addClass('animated fadeIn');
+              }
+               });
+}else{
+    $('div.cartoes h1').css("opacity","1");    
+    $('div.cartoes p').css("opacity","1");   
+    $('div.cartoes div.cartoesinfo').css("opacity","1");
+
+        $('div.flyers h1').css("opacity","1");    
+    $('div.flyers p').css("opacity","1");   
+    $('div.flyers div.flyersinfo').css("opacity","1");
+  }
 
 </script>
 
