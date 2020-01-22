@@ -273,9 +273,10 @@ div.escurecer{
   width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.4); position: fixed; top:0;left:0; z-index: 3; display: none;
 }
 
-div.escurecer img.fecharescurecer{
-  width: 3vw; height: 3vw; position: fixed; top:3vw;left:92vw; cursor: pointer;
+div.escurecer2{
+  width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.4); position: fixed; top:0;left:0; z-index: 3; display: none;
 }
+
 
 img.top{
   z-index: 10;
@@ -292,6 +293,11 @@ div.bloqueador{
   height:86vh;
   width: 40vw;
   z-index: 6; position: fixed; cursor: default; top: 7vh; left: 30vw; display:none;
+}
+div.bloqueador2{
+  height:86vh;
+  width: 22vw;
+  z-index: 6; position: fixed; cursor: default; top: 7vh; left: 39vw; display:none;
 }
 
 section.rosa div.card{
@@ -431,36 +437,30 @@ section.amarela div.stories1{
   top:38.1vw;left:50vw;}
 
   section.amarela div.stories1:hover{
-  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-2.png); background-size: 100% 100%;
-  top:11vw;left:2vw;}
+  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-2.png); background-size: 100% 100%;}
   section.amarela div.stories2:hover{
-  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-3.png); background-size: 100% 100%;
-  top:11vw;left:18vw;}
+  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-3.png); background-size: 100% 100%;}
   section.amarela div.stories3:hover{
-  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-1.png); background-size: 100% 100%;
-  top:11vw;left:34vw;}
+  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-1.png); background-size: 100% 100%;}
   section.amarela div.stories4:hover{
-  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-4.png); background-size: 100% 100%;
-  top:11vw;left:50vw;}
+  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-4.png); background-size: 100% 100%;}
   section.amarela div.stories5:hover{
-  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-5.png); background-size: 100% 100%;
-  top:11vw;left:66vw;}
+  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-5.png); background-size: 100% 100%;}
    section.amarela div.stories6:hover{
-  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-10.png); background-size: 100% 100%;
-  top:11vw;left:82vw;}
+  background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-10.png); background-size: 100% 100%;}
 
   section.amarela div.stories7:hover{
   background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-6.png); background-size: 100% 100%;
-  top:38.1vw;left:2vw;}
+  }
     section.amarela div.stories8:hover{
   background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-7.png); background-size: 100% 100%;
-  top:38.1vw;left:18vw;}
+  }
     section.amarela div.stories9:hover{
   background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-8.png); background-size: 100% 100%;
-  top:38.1vw;left:34vw;}
+  }
     section.amarela div.stories10:hover{
   background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-9.png); background-size: 100% 100%;
-  top:38.1vw;left:50vw;}
+  }
 
 footer{
  position:absolute;

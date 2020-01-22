@@ -55,9 +55,14 @@
 </ul>
 
 </section>
+
 <div class="bloqueador"></div>
+<div class="bloqueador2"></div>
 <img class="top" src="img/top.png"></img>
-<div class="escurecer"><!-- <img class="fecharescurecer" src="img/x.png"> --></div>
+<div class="escurecer"></div>
+<div class="escurecer2"></div>
+
+
 <section class="rosa">
 <h1>Cards</h1>
 
@@ -71,16 +76,16 @@
 <section class="amarela">
 <h1>Stories</h1>
 
-  <div class="stories stories1"></div>
-  <div class="stories stories2"></div>
-  <div class="stories stories3"></div>
-  <div class="stories stories4"></div>
-  <div class="stories stories5"></div>
-  <div class="stories stories6"></div>
-  <div class="stories stories7"></div>
-  <div class="stories stories8"></div>
-  <div class="stories stories9"></div>
-  <div class="stories stories10"></div>
+  <div class="storiestipo1 stories1 stories"></div>
+  <div class="storiestipo1 stories2 stories"></div>
+  <div class="storiestipo1 stories3 stories"></div>
+  <div class="storiestipo1 stories4 stories"></div>
+  <div class="storiestipo1 stories5 stories"></div>
+  <div class="storiestipo1 stories6 stories"></div>
+  <div class="storiestipo2 stories7 stories"></div>
+  <div class="storiestipo2 stories8 stories"></div>
+  <div class="storiestipo2 stories9 stories"></div>
+  <div class="storiestipo2 stories10 stories"></div>
 
 </section>
 
@@ -257,12 +262,6 @@ var lado;
    
 });
 
- $('img.fecharescurecer').click(function() {
-       $("div.bloqueador").hide();
-       $("div.escurecer").fadeOut(200);
-       $(".imgaberta").css({"height":"18vw","width":"18vw","z-index":"1","top": altura,"left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
-       $(".imgaberta").removeClass("imgaberta");
-});
 
  $('div.escurecer').click(function() {
        $("div.bloqueador").hide();
@@ -273,6 +272,51 @@ var lado;
 });
 
 
+var altura;
+var lado;
+
+ $('div.storiestipo1').click(function() {
+       $("div.escurecer2").fadeIn(200);
+       $("div.bloqueador2").show();
+
+       $(this).addClass("imgaberta1");
+
+       var offset = $(this).offset();
+       altura = offset.top; 
+       lado = offset.left; 
+
+       $(this).css({"height":"86vh","width":"22vw","z-index":"5","top":"7vh","left":"39vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
+
+});
+
+ $('div.storiestipo2').click(function() {
+       $("div.escurecer2").fadeIn(200);
+       $("div.bloqueador2").show();
+
+       $(this).addClass("imgaberta2");
+
+       var offset = $(this).offset();
+       altura = offset.top; 
+       lado = offset.left; 
+
+       $(this).css({"height":"86vh","width":"22vw","z-index":"5","top":"7vh","left":"39vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
+
+});
+
+
+
+ $('div.escurecer2').click(function() {
+       $("div.bloqueador2").hide();
+       $("div.escurecer2").fadeOut(200);
+
+       $(".imgaberta1").css({"height":"26vw","width":"15vw","z-index":"1","top": "11vw","left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta1").removeClass("imgaberta1");
+
+
+       $(".imgaberta2").css({"height":"26vw","width":"15vw","z-index":"1","top": "38.1vw","left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta2").removeClass("imgaberta2");
+});
+
 
  
     $('img.top').click(function() {
@@ -281,7 +325,6 @@ var lado;
     $("img.top").fadeOut();     
     $("img.top").stop(); 
 });
-
 
 
     $('li.lidivu').click(function() {
