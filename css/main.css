@@ -323,7 +323,7 @@ section.bannerdefundo ul.icons-contato li a img:hover{
   	display:flex;
   	width: 88%;
   	/*margin: 0 0 0 6%;*/
-    margin: 0 0 0 26%;
+    margin: 0 0 0 14.5%;
 
 }
  section.branca ul li{ 
@@ -879,7 +879,7 @@ section.bannerdefundo h3{
 
 
 section.branca{
-  	height: 110vw;
+  	height: 152vw;
   	width: 100vw;
   	background:url(../img/banner-branco.png) no-repeat, center center;
 	background-size: 180% 100%;
@@ -1039,7 +1039,7 @@ section.fundorosa p.textohistoria{
 
 footer{
     height: 15vw;
-    top: 820vw;
+    top: 862vw;
 
 }
 
