@@ -216,7 +216,7 @@ section.branca p{
 
  section.branca ul{
   display: flex;
-  padding: 0 0 0 33.333vw;
+  padding: 0 0 0 34.333vw;
   margin: 4vw 0 0 0;
  }
 
@@ -279,7 +279,7 @@ div.escurecer2{
 
 
 img.top{
-  z-index: 10;
+  z-index: 3;
   position: fixed;
   top: 91.3vh;
   left: 94.5vw;
@@ -292,12 +292,12 @@ img.top{
 div.bloqueador{
   height:86vh;
   width: 40vw;
-  z-index: 6; position: fixed; cursor: default; top: 7vh; left: 30vw; display:none;
+  z-index: 15; position: fixed; cursor: default; top: 7vh; left: 30vw; display:none;
 }
 div.bloqueador2{
   height:86vh;
   width: 22vw;
-  z-index: 6; position: fixed; cursor: default; top: 7vh; left: 39vw; display:none;
+  z-index: 15; position: fixed; cursor: default; top: 7vh; left: 39vw; display:none;
 }
 
 section.rosa div.card{
@@ -679,10 +679,202 @@ header div.menucascata img{
 
 
 
+section.branca{
+  background: url(../img/banner-branco2.png), no-repeat;
+  background-size: 100% 150%;
+  height: auto;
+}
+
+
+section.branca h1{
+  text-align: center;
+  font-family: "gilroy-bold";
+  font-size: 12vw;
+  padding-top: 27vw;
+  color: #E7006F;
+}
+section.branca p{
+  text-align: center;
+  font-family: "gilroy";
+  font-size: 4.5vw;
+  margin: 3vw 0 3vw 5vw;
+  width: 90vw;
+  color: #E7006F;
+}
+ section.branca ul{
+  padding: 0 0 0 5vw;
+  margin: 10vw 0 10vw 0;
+ }
+
+ section.branca li{
+   padding: 4vw 0vw 4vw 0vw;
+   font-family: "gilroy-semibold";
+   width: 30vw;
+   font-size: 5vw;
+ }
+
+
+
+
+
+div.escurecer{
+  width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.4); position: fixed; top:0;left:0; z-index: 3; display: none;
+}
+
+div.escurecer2{
+  width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.4); position: fixed; top:0;left:0; z-index: 3; display: none;
+}
+
+img.top{
+  z-index: 3;
+  position: fixed;
+  top: 94vh;
+  left: 90vw;
+  width: 8vw; height: auto;
+  cursor: pointer;
+  opacity: 0.5;
+  display: none;
+}
+
+
+div.bloqueador{
+  height:90vw;
+  width: 90vw;
+  z-index: 15; position: fixed; cursor: default; top: 50vw; left: 50vw; display:none;
+}
+div.bloqueador2{
+  height:78vh;
+  width: 82vw;
+  z-index: 15; position: fixed; cursor: default; top: 11vh; left: 9vw; display:none;
+}
+
+
+section.rosa{
+  background: url(../img/banner-rosa.png);
+  background-size: 100% 200%;
+  width: 100vw;
+  height: 263vw;
+}
+
+
+section.rosa h1{
+  
+  font-family: "gilroy-bold";
+  font-size: 11vw;
+  padding: 6vw 0 0 4vw;
+  color: white;
+}
+
+section.rosa div.card{
+  position: absolute; cursor: pointer; 
+  box-shadow: 0px 0px 0.5vw rgba(0,0,0,0.1);width: 44vw; height: 44vw;
+
+}
+section.rosa div.card1{
+left: 4vw;top: 105vw;
+}
+
+section.rosa div.card2{
+left: 52vw;top: 105vw;
+}
+
+section.rosa div.card3{
+left: 4vw;top: 153vw;
+}
+
+section.rosa div.card4{
+left: 52vw;top: 153vw;
+}
+
+section.rosa div.card5{
+left: 4vw;top: 201vw;
+}
+
+section.rosa div.card6{
+left: 52vw;top: 201vw;
+}
+section.rosa div.card7{
+left: 4vw;top: 249vw;
+}
+section.rosa div.card8{
+left: 52vw;top: 249vw;
+}
+section.rosa div.card9{
+left: 4vw;top: 297vw;
+}
+section.rosa div.card10{
+left: 52vw;top: 297vw;
+}
+
+
+section.amarela{
+  background: url(../img/banner-amarelo.png);
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 278.2vw;
+  position: relative;
+}
+
+
+section.amarela h1{
+  font-family: "gilroy-bold";
+  font-size: 11vw;
+  padding: 6vw 0 0 4vw;
+  color: white;
+}
+section.amarela div.stories{
+  width: 30vw; position: absolute;
+  height: 55vw; cursor: pointer;
+}
+section.amarela div.stories1{
+  top:23vw;left:3vw;}
+  section.amarela div.stories2{
+  top:23vw;left:35vw;}
+  section.amarela div.stories3{
+  top:23vw;left:67vw;}
+  section.amarela div.stories4{
+  top:81vw;left:3vw;}
+  section.amarela div.stories5{
+  top:81vw;left:35vw;}
+   section.amarela div.stories6{
+  top:81vw;left:67vw;}
+  section.amarela div.stories7{
+  top:139vw;left:3vw;}
+    section.amarela div.stories8{
+  top:139vw;left:35vw;}
+    section.amarela div.stories9{
+  top:139vw;left:67vw;}
+    section.amarela div.stories10{
+  top:197vw;left:3vw;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
 
     height: 15vw;
-    top: 418vw;
+    top: 610vw;
 
 }
 

@@ -76,16 +76,16 @@
 <section class="amarela">
 <h1>Stories</h1>
 
-  <div class="storiestipo1 stories1 stories"></div>
-  <div class="storiestipo1 stories2 stories"></div>
-  <div class="storiestipo1 stories3 stories"></div>
-  <div class="storiestipo1 stories4 stories"></div>
-  <div class="storiestipo1 stories5 stories"></div>
-  <div class="storiestipo1 stories6 stories"></div>
-  <div class="storiestipo2 stories7 stories"></div>
-  <div class="storiestipo2 stories8 stories"></div>
-  <div class="storiestipo2 stories9 stories"></div>
-  <div class="storiestipo2 stories10 stories"></div>
+  <div class="storiestipo1 storiestipo3  stories1 stories"></div>
+  <div class="storiestipo1 storiestipo3 stories2 stories"></div>
+  <div class="storiestipo1 storiestipo3 stories3 stories"></div>
+  <div class="storiestipo1 storiestipo4 stories4 stories"></div>
+  <div class="storiestipo1 storiestipo4 stories5 stories"></div>
+  <div class="storiestipo1 storiestipo4 stories6 stories"></div>
+  <div class="storiestipo2 storiestipo5 stories7 stories"></div>
+  <div class="storiestipo2 storiestipo5 stories8 stories"></div>
+  <div class="storiestipo2 storiestipo5 stories9 stories"></div>
+  <div class="storiestipo2 storiestipo6 stories10 stories"></div>
 
 </section>
 
@@ -246,6 +246,27 @@ function scrollFunction() {
 
 var altura;
 var lado;
+ if($(window).width()>481){
+ $('div.card').click(function() {
+       $("div.escurecer").fadeIn(200);
+        $("div.bloqueador").show();
+       $(this).addClass("imgaberta");
+
+       var offset = $(this).offset();
+
+       altura =offset.top; 
+       lado =offset.left; 
+    
+       $(this).css({"height":"86vh","width":"40vw","z-index":"12","top":"7vh","left":"30vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
+   
+});
+ $('div.escurecer').click(function() {
+       $("div.bloqueador").hide();
+       $("div.escurecer").fadeOut(200);
+       $(".imgaberta").css({"height":"18vw","width":"18vw","z-index":"1","top": altura,"left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta").removeClass("imgaberta");
+});
+}else{ 
 
  $('div.card').click(function() {
        $("div.escurecer").fadeIn(200);
@@ -256,50 +277,40 @@ var lado;
 
        altura =offset.top; 
        lado =offset.left; 
-
     
-       $(this).css({"height":"86vh","width":"40vw","z-index":"5","top":"7vh","left":"30vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
-   
+       $(this).css({"height":"90vw","width":"90vw","z-index":"12","top":"50vw","left":"5vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
 });
-
 
  $('div.escurecer').click(function() {
        $("div.bloqueador").hide();
        $("div.escurecer").fadeOut(200);
-       $(".imgaberta").css({"height":"18vw","width":"18vw","z-index":"1","top": altura,"left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta").css({"height":"44vw","width":"44vw","z-index":"1","top": altura,"left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
        $(".imgaberta").removeClass("imgaberta");
-
 });
 
+
+}
 
 var altura;
 var lado;
-
- $('div.storiestipo1').click(function() {
+ if($(window).width()>481){
+ 
+    $('div.stories').click(function() {
        $("div.escurecer2").fadeIn(200);
        $("div.bloqueador2").show();
 
-       $(this).addClass("imgaberta1");
+       if($(this).hasClass("storiestipo1")){
+           $(this).addClass("imgaberta1");
+       }else if($(this).hasClass("storiestipo2")){
+          $(this).addClass("imgaberta2");
+        }
+     
 
        var offset = $(this).offset();
        altura = offset.top; 
        lado = offset.left; 
 
-       $(this).css({"height":"86vh","width":"22vw","z-index":"5","top":"7vh","left":"39vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
-
-});
-
- $('div.storiestipo2').click(function() {
-       $("div.escurecer2").fadeIn(200);
-       $("div.bloqueador2").show();
-
-       $(this).addClass("imgaberta2");
-
-       var offset = $(this).offset();
-       altura = offset.top; 
-       lado = offset.left; 
-
-       $(this).css({"height":"86vh","width":"22vw","z-index":"5","top":"7vh","left":"39vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
+             $(this).css({"height":"86vh","width":"22vw","z-index":"12","top":"7vh","left":"39vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
 
 });
 
@@ -316,9 +327,52 @@ var lado;
        $(".imgaberta2").css({"height":"26vw","width":"15vw","z-index":"1","top": "38.1vw","left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
        $(".imgaberta2").removeClass("imgaberta2");
 });
+ }else{
+   
+    $('div.stories').click(function() {
+       $("div.escurecer2").fadeIn(200);
+       $("div.bloqueador2").show();
+
+       if($(this).hasClass("storiestipo3")){
+           $(this).addClass("imgaberta1");
+       }else if($(this).hasClass("storiestipo4")){
+          $(this).addClass("imgaberta2");
+        }else if($(this).hasClass("storiestipo5")){
+           $(this).addClass("imgaberta3");
+        }else if($(this).hasClass("storiestipo6")){
+          $(this).addClass("imgaberta4");
+        }
+     
+
+       var offset = $(this).offset();
+       altura = offset.top; 
+       lado = offset.left; 
+
+       $(this).css({"height":"78vh","width":"82vw","z-index":"12","top":"11vh","left":"9vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
+
+});
+
+ $('div.escurecer2').click(function() {
+       $("div.bloqueador2").hide();
+       $("div.escurecer2").fadeOut(200);
+
+       $(".imgaberta1").css({"height":"55vw","width":"30vw","z-index":"1","top": "23vw","left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta1").removeClass("imgaberta1");
+
+       $(".imgaberta2").css({"height":"55vw","width":"30vw","z-index":"1","top": "81vw","left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta2").removeClass("imgaberta2");
+
+       $(".imgaberta3").css({"height":"55vw","width":"30vw","z-index":"1","top": "139vw","left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta3").removeClass("imgaberta3");
+
+       $(".imgaberta4").css({"height":"55vw","width":"30vw","z-index":"1","top": "197vw","left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta4").removeClass("imgaberta4");
+     });
 
 
- 
+
+ }
+
     $('img.top').click(function() {
     $('html, body').animate({
     scrollTop: $("body").offset().top});
@@ -335,7 +389,12 @@ var lado;
        $('html, body').animate({
         scrollTop: $("section.amarela").offset().top});
 });
+ if($(window).width()<481){
 
+    $("section.branca p").text("Utilização de redes sociais e meios eletrônicos para divulgação");
+}else{
+    $("section.branca p").text("Lorem asfoashigaispha");
+}
 </script>
 
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
