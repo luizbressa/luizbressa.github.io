@@ -49,18 +49,38 @@
 <h1>Mídias Sociais</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lorem nisl. Cras ultrices sagittis bibendum. Vestibulum nec leo id nisi porttitor porttitor. Maecenas sed sollicitudin nisl. In faucibus fermentum eros, at varius nunc consequat ac. Ut tempus nulla placerat condimentum auctor. Integer ornare enim neque, nec accumsan lacus dictum eu. Sed viverra eu leo a consectetur. Ut a elementum lectus. Sed eu molestie arcu. Fusce convallis sed ligula et molestie.</p>
 <ul>
-<li class="lidivu">Divulgações</li>
-<li class="lipromo">Promoções</li>
+<li class="lidivu">Cards</li>
 <li class="listo">Stories</li>
 <li class="liban">Banners</li>
 </ul>
 
+</section>
+<div class="bloqueador"></div>
+<img class="top" src="img/top.png"></img>
+<div class="escurecer"><!-- <img class="fecharescurecer" src="img/x.png"> --></div>
+<section class="rosa">
+<h1>Cards</h1>
 
+<div class="card1 card"></div><div class="card2 card"></div><div class="card3 card"></div>
+<div class="card4 card"></div><div class="card5 card"></div><div class="card6 card"></div>
+<div class="card7 card"></div><div class="card8 card"></div><div class="card9 card"></div>
+<div class="card10 card"></div>
 
+</section>
 
+<section class="amarela">
+<h1>Stories</h1>
 
-
-
+  <div class="stories stories1"></div>
+  <div class="stories stories2"></div>
+  <div class="stories stories3"></div>
+  <div class="stories stories4"></div>
+  <div class="stories stories5"></div>
+  <div class="stories stories6"></div>
+  <div class="stories stories7"></div>
+  <div class="stories stories8"></div>
+  <div class="stories stories9"></div>
+  <div class="stories stories10"></div>
 
 </section>
 
@@ -210,7 +230,68 @@ function scrollFunction() {
 
 }
 
-}} 
+}
+
+ if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    $("img.top").fadeIn();
+  } else {
+    $("img.top").fadeOut();
+  }
+} 
+
+var altura;
+var lado;
+
+ $('div.card').click(function() {
+       $("div.escurecer").fadeIn(200);
+        $("div.bloqueador").show();
+       $(this).addClass("imgaberta");
+
+       var offset = $(this).offset();
+
+       altura =offset.top; 
+       lado =offset.left; 
+
+    
+       $(this).css({"height":"86vh","width":"40vw","z-index":"5","top":"7vh","left":"30vw","position":"fixed","box-shadow":"0px 0px 10vw rgba(0,0,0,0.7)","cursor":"default"});
+   
+});
+
+ $('img.fecharescurecer').click(function() {
+       $("div.bloqueador").hide();
+       $("div.escurecer").fadeOut(200);
+       $(".imgaberta").css({"height":"18vw","width":"18vw","z-index":"1","top": altura,"left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta").removeClass("imgaberta");
+});
+
+ $('div.escurecer').click(function() {
+       $("div.bloqueador").hide();
+       $("div.escurecer").fadeOut(200);
+       $(".imgaberta").css({"height":"18vw","width":"18vw","z-index":"1","top": altura,"left":lado,"position":"absolute","box-shadow":"0px 0px 0.5vw rgba(0,0,0,0.1)","cursor":"pointer"});
+       $(".imgaberta").removeClass("imgaberta");
+
+});
+
+
+
+ 
+    $('img.top').click(function() {
+    $('html, body').animate({
+    scrollTop: $("body").offset().top});
+    $("img.top").fadeOut();     
+    $("img.top").stop(); 
+});
+
+
+
+    $('li.lidivu').click(function() {
+       $('html, body').animate({
+        scrollTop: $("section.rosa").offset().top});
+});
+   $('li.listo').click(function() {
+       $('html, body').animate({
+        scrollTop: $("section.amarela").offset().top});
+});
 
 </script>
 
