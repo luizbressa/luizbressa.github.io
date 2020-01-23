@@ -412,7 +412,7 @@ section.fundoamarelo h1{
 section.fundoamarelo p{
        animation-duration: 1s;
 	padding: 0vw 0 3vw 8.2vw;
-	width: 45vw;
+	width: 90vw;
  	font-family: "gilroy";
 	color: white ;
 	font-size: 1.5vw;
@@ -529,7 +529,7 @@ section.fundorosa h1{
 section.fundorosa p.textohistoria{
    animation-duration: 3s;
 	padding: 1vw 0 0 8.1vw;
-	width: 45vw;
+	width: 54vw;
  	font-family: "gilroy";
 	font-weight: 400;
 	color: white ;
@@ -967,8 +967,8 @@ section.fundoamarelo p{
 	width: 90vw;
  	font-family: "gilroy-medium";
 	color: white ;
-	font-size: 5.8vw;	
-	line-height: 8vw;
+	font-size: 4.5vw;	
+	line-height: 5vw;
 
 }
 
@@ -1014,7 +1014,7 @@ section.fundorosa{
 	background:url(../img/banner-rosa-2.png) center center;
   	background-size: 100% 140%;
   	width: 100vw;
-  	height: 437vw;
+  	height: 410vw;
 
 }
 
@@ -1024,22 +1024,23 @@ section.fundorosa h1{
 	font-weight: 800;
 	color: white ;
 	font-size: 12vw;
+  font-family: "gilroy-bold";
 	letter-spacing: 0.01vw;
 }
 
 
 section.fundorosa p.textohistoria{
 	padding: 4vw 0 0 6.8vw;
-	width: 80%;
+	width: 87%;
  	font-family: "gilroy";
 	color: white ;
-	font-size: 5vw;
+	font-size: 4.5vw;
 	line-height:5.7vw;
 }
 
 footer{
     height: 15vw;
-    top: 862vw;
+    top: 835vw;
 
 }
 
