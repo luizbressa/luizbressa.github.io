@@ -192,7 +192,7 @@ p{
 
 section.branca{
   background: url(../img/banner-branco.png);
-  background-size: 100% 100%;
+  background-size: 100% 200%;
   width: 100vw;
   height: 35vw;
 }
@@ -682,7 +682,7 @@ header div.menucascata img{
 
 section.branca{
   background: url(../img/banner-branco2.png), no-repeat;
-  background-size: 100% 150%;
+  background-size: 100% 200%;
   height: auto;
 }
 
@@ -752,7 +752,7 @@ div.bloqueador2{
 
 section.rosa{
   background: url(../img/banner-rosa.png);
-  background-size: 100% 200%;
+  background-size: 100% 100%;
   width: 100vw;
   height: 263vw;
 }
@@ -809,7 +809,7 @@ left: 52vw;top: 297vw;
 
 
 section.amarela{
-  background: url(../img/banner-amarelo.png);
+  background: url(../img/banner-amarelo2.png);
   background-size: 100% 100%;
   width: 100vw;
   height: 278.2vw;
