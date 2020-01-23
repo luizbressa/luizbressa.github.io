@@ -255,7 +255,7 @@ section.branca p{
 
 section.rosa{
   background: url(../img/banner-rosa.png);
-  background-size: 100% 200%;
+  background-size: 100% 100%;
   width: 100vw;
   height: 54vw;
 }
@@ -387,7 +387,7 @@ background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/car
 }
 
 section.amarela{
-  background: url(../img/banner-amarelo.png);
+  background: url(../img/banner-amarelo2.png);
   background-size: 100% 100%;
   width: 100vw;
   height: 75vw;
