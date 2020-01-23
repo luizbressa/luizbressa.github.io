@@ -241,8 +241,8 @@ section.amarela ul.lista1 li.kocli:hover{background: linear-gradient(rgba(0, 0, 
 section.amarela ul.lista1 li.pdali{background:url(../img/logo-pda.png) center center; background-size: 100% 100%;}
 section.amarela ul.lista1 li.pdali:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-pda-2.png) center center;background-size: 105% 105%;}
 
-section.amarela ul.lista1 li.cdbli{background:url(../img/logo-cdb.webp) center center; background-size: 100% 100%;}
-section.amarela ul.lista1 li.cdbli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-cdb-2.webp) center center;background-size: 105% 105%;}
+section.amarela ul.lista1 li.cdbli{background:url(../img/logo-cdb.png) center center; background-size: 100% 100%;}
+section.amarela ul.lista1 li.cdbli:hover{background: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.6)),url(../img/logo-cdb-2.png) center center;background-size: 105% 105%;}
 
 
 
@@ -255,11 +255,11 @@ section.amarela ul.lista1 li.liwgsli:hover{background: linear-gradient(rgba(0, 0
 section.amarela ul.lista2 li.ccli{background:url(../img/logo-cc.png) center center; background-size: 100% 100%;}
 section.amarela ul.lista2 li.ccli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-cc-2.png) center center;background-size: 105% 105%;}
 
-section.amarela ul.lista2 li.vdvli{background:url(../img/logo-vdv-2.webp) center center; background-size: 100% 100%;}
-section.amarela ul.lista2 li.vdvli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-vdv.webp) center center;background-size: 105% 105%;}
+section.amarela ul.lista2 li.vdvli{background:url(../img/logo-vdv-2.png) center center; background-size: 100% 100%;}
+section.amarela ul.lista2 li.vdvli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-vdv.png) center center;background-size: 105% 105%;}
 
-section.amarela ul.lista2 li.vufcli{background:url(../img/logo-vufc.webp) center center; background-size: 100% 100%;}
-section.amarela ul.lista2 li.vufcli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-vufc-2.webp) center center;background-size: 105% 105%;}
+section.amarela ul.lista2 li.vufcli{background:url(../img/logo-vufc.png) center center; background-size: 100% 100%;}
+section.amarela ul.lista2 li.vufcli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-vufc-2.png) center center;background-size: 105% 105%;}
 
 
 

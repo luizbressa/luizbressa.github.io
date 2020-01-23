@@ -308,82 +308,82 @@ section.rosa div.card{
 }
 section.rosa div.card1{
 left: 1.7vw;top: 46vw;
-background: url(../img/card-1.webp);  background-size: 100% 100%;
+background: url(../img/card-1.png);  background-size: 100% 100%;
 }
 
 section.rosa div.card2{
 left: 21vw;top: 46vw;
-background: url(../img/card-2.webp);  background-size: 100% 100%;
+background: url(../img/card-2.png);  background-size: 100% 100%;
 }
 
 section.rosa div.card3{
 left: 40.3vw;top: 46vw;
-background: url(../img/card-3.webp);  background-size: 100% 100%;
+background: url(../img/card-3.png);  background-size: 100% 100%;
 }
 
 section.rosa div.card4{
 left: 59.6vw;top: 46vw;
-background: url(../img/card-4.webp);  background-size: 100% 100%;
+background: url(../img/card-4.png);  background-size: 100% 100%;
 }
 
 section.rosa div.card5{
 left: 79vw;top: 46vw;
-background: url(../img/card-5.webp);  background-size: 100% 100%;
+background: url(../img/card-5.png);  background-size: 100% 100%;
 }
 
 section.rosa div.card6{
 left: 1.7vw;top: 65.5vw;
-background: url(../img/card-6.webp);  background-size: 100% 100%;
+background: url(../img/card-6.png);  background-size: 100% 100%;
 }
 section.rosa div.card7{
 left: 21vw;top: 65.5vw;
-background: url(../img/card-7.webp);  background-size: 100% 100%;
+background: url(../img/card-7.png);  background-size: 100% 100%;
 }
 section.rosa div.card8{
 left: 40.3vw;top: 65.5vw;
-background: url(../img/card-8.webp);  background-size: 100% 100%;
+background: url(../img/card-8.png);  background-size: 100% 100%;
 }
 section.rosa div.card9{
 left: 59.6vw;top: 65.5vw;
-background: url(../img/card-9.webp);  background-size: 100% 100%;
+background: url(../img/card-9.png);  background-size: 100% 100%;
 }
 section.rosa div.card10{
 left: 79vw;top: 65.5vw;
-background: url(../img/card-10.webp);  background-size: 100% 100%;
+background: url(../img/card-10.png);  background-size: 100% 100%;
 }
 
 section.rosa div.card1:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-1.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-1.png) center center;background-size: 100% 100%;
 }
 
 section.rosa div.card2:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-2.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-2.png) center center;background-size: 100% 100%;
 }
 
 section.rosa div.card3:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-3.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-3.png) center center;background-size: 100% 100%;
 }
 
 section.rosa div.card4:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-4.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-4.png) center center;background-size: 100% 100%;
 }
 section.rosa div.card5:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-5.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-5.png) center center;background-size: 100% 100%;
 }
 section.rosa div.card6:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-6.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-6.png) center center;background-size: 100% 100%;
 }
 section.rosa div.card7:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-7.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-7.png) center center;background-size: 100% 100%;
 }
 section.rosa div.card8:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-8.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-8.png) center center;background-size: 100% 100%;
 }
 section.rosa div.card9:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-9.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-9.png) center center;background-size: 100% 100%;
 }
 section.rosa div.card10:hover{
-background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-10.webp) center center;background-size: 100% 100%;
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/card-10.png) center center;background-size: 100% 100%;
 }
 
 section.amarela{
