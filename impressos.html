@@ -75,7 +75,8 @@
   <div class="cartoes">
 
   <h1>Cartões de Visita</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae dolor placerat, lacinia metus ut, viverra nunc. Pellentesque dictum eleifend eros et viverra. In laoreet lorem eget nisl viverra, non eleifend augue blandit.</p>
+    <p>Uma das formas de publicidade mais aceitas no mundo, é uma maneira de divulgar um profissional/empresa de maneira sucinta, apresentando informações importantes como o serviço prestado e as maneiras de contato.</p>
+
 
 <div class="cartoesinfo">
   <div class="cartaobressa divcartao">
@@ -98,7 +99,7 @@
 
   <div class="flyers">
   <h1>Panfletos</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae dolor placerat, lacinia metus ut, viverra nunc. Pellentesque dictum eleifend eros et viverra. In laoreet lorem eget nisl viverra, non eleifend augue blandit.</p>
+      <p>O panfleto deve ser simples para que suas informações consigam ser absorvidas com um simples "passar de olhos". Normalmente divulga um evento ou uma promoção, porém pode ser usado para apresentar qualquer tipo de conteúdo.</p>
   
    <div class="flyersinfo">
   <div class="imgflyer"></div>
@@ -297,6 +298,18 @@ function scrollFunction() {
     $('div.flyers p').css("opacity","1");   
     $('div.flyers div.flyersinfo').css("opacity","1");
   }
+
+ if($(window).width()<481){
+
+    $("div.flyers p").text("Utilizado para divulgações de maneira prática e simples, sempre com uma estética chamativa.");
+    $("div.cartoes p").text("Normalmente contendo informações de serviço e de contato, um cartão deve ser simples e com uma estética agradável.");
+
+}else{
+    $("div.flyers p").text("O panfleto deve ser simples para que suas informações consigam ser absorvidas com um simples passar de olhos. Normalmente divulga um evento ou uma promoção, porém pode ser usado para apresentar qualquer tipo de conteúdo.");
+    $("div.cartoes p").text("Uma das formas de publicidade mais aceitas no mundo, é uma maneira de divulgar um profissional/empresa de maneira sucinta, apresentando informações importantes como o serviço prestado e as maneiras de contato.");
+}
+
+
 
 </script>
 

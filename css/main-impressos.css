@@ -356,7 +356,7 @@ section.branca div.flyers{
 section.branca div.flyers h1{   opacity: 0; font-family: 'gilroy-extrabold';  color: white;  font-size: 4vw;   padding: 4vw 0 0 0; text-align: center; letter-spacing: 0.03vw;
 }
 section.branca div.flyers p{  opacity: 0;
-    font-family: 'gilroy';  color: white;  font-size: 1.1vw; text-align: center;padding: 1vw 0 0 30vw; width: 40vw; line-height: 1.3vw;
+    font-family: 'gilroy';  color: white;  font-size: 1.1vw; text-align: center;padding: 1vw 0 0 28vw; width: 44vw; line-height: 1.3vw;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -667,7 +667,7 @@ section.branca div.cartoes{
   width: 100vw;
   background:url(../img/banner-branco2.png) no-repeat, center center;
   background-size: 100% 130%;
-  height: 320vw;
+  height: 305vw;
 }
 
 section.branca div.cartoes h1{font-family: "gilroy-bold";font-size: 10vw;text-align: center;padding: 10vw 0 0 0;
@@ -702,7 +702,7 @@ section.branca div.cartoes img.img2bressa{
   width: 90vw; height: auto;  
 }
 
-section.branca div.cartoes div.divcartao h2.h2bressa{  font-size: 9vw; left: 5vw; top: 225vw; display:block; opacity: 1;}
+section.branca div.cartoes div.divcartao h2.h2bressa{  font-size: 9vw; left: 5vw; top: 216vw; display:block; opacity: 1;}
 
 
 
@@ -727,7 +727,7 @@ section.branca div.cartoes img.img2farol{
   width: 90vw; height: auto; 
 }
 
-section.branca div.cartoes div.divcartao h2.h2farol{font-size: 9vw; left: 5vw; top: 352vw; display:block; opacity: 1;}
+section.branca div.cartoes div.divcartao h2.h2farol{font-size: 9vw; left: 5vw; top: 344vw; display:block; opacity: 1;}
 
 
 
@@ -779,7 +779,7 @@ display:none;
 footer{
 
     height: 15vw;
-    top: 647vw;
+    top: 632vw;
 
 }
 
@@ -829,11 +829,9 @@ footer ul{
    font-family: "gilroy-semibold";
    width: 30vw;
    font-size: 5vw;
-   border-radius:  0vw 3vw 3vw 0vw;
  }
 
  section.amarela li.licartoes{
-    border-radius:  3vw 0vw 0vw 3vw;
    border-right: solid rgba(0,0,0,0.2) 0.35vw;
  }
 
