@@ -222,34 +222,34 @@ section.branca p{
 
  section.branca li{
   border-radius: 0px 0.7vw 0.7vw 0vw;
-      background: rgba(0,0, 0,0.05);
+      background: #EE0071;
    padding: 1vw 0vw 1vw 0vw;
    font-family: "gilroy";
    cursor: pointer;
    width: 10vw;
    text-align: center;
    font-size: 1.5vw;
-    color: #E7006F;
+    color: white;
  }
 
  section.branca li.lidivu{
     border-radius:  0.7vw 0vw 0vw 0.7vw;
-   border-right: solid #E7006F 2px;
+   border-right: solid rgba(0,0,0,0.3) 2px;
  }
  section.branca li.lipromo{
     border-radius:  0vw 0vw 0vw 0vw;
-   border-right: solid #E7006F 2px;
+   border-right: solid rgba(0,0,0,0.3) 2px;
  }
   section.branca li.listo{
     border-radius:  0vw 0vw 0vw 0vw;
-   border-right: solid #E7006F 2px;
+   border-right: solid rgba(0,0,0,0.3) 2px;
  }
 
 
   section.branca li:hover{
-    background: rgba(231, 0, 111,1);
-    color: white;
-    box-shadow: 0px 0px 1vw rgba(0,0,0,0.2);
+    background: #db0269;
+    color: white;    transition: 0.2s;
+    box-shadow: 0px 0px 2vw rgba(0,0,0,0.1);
      }
 
 
@@ -296,6 +296,7 @@ div.bloqueador{
 }
 div.bloqueador2{
   height:86vh;
+ 
   width: 22vw;
   z-index: 15; position: fixed; cursor: default; top: 7vh; left: 39vw; display:none;
 }
@@ -743,9 +744,9 @@ div.bloqueador{
   z-index: 15; position: fixed; cursor: default; top: 50vw; left: 50vw; display:none;
 }
 div.bloqueador2{
-  height:78vh;
-  width: 82vw;
-  z-index: 15; position: fixed; cursor: default; top: 11vh; left: 9vw; display:none;
+  height:130vw;
+  width: 72vw;
+  z-index: 15; position: fixed; cursor: default; top: 8vh; left: 14vw; display:none;
 }
 
 

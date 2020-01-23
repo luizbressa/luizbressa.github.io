@@ -229,14 +229,15 @@ section.amarela span{
  }
 
  section.amarela li{
-      transition: 0.1s;
-  border-radius: 0px 1vw 1vw 0vw;
-      background: rgba(0,0,0,0.05);
+ border-radius: 0px 0.7vw 0.7vw 0vw;
+      background: #EE0071;
    padding: 1vw 0vw 1vw 0vw;
    font-family: "gilroy";
    cursor: pointer;
    width: 12vw;
    text-align: center;
+   font-size: 1.5vw;
+    color: white;
  }
 
  section.amarela li.licartoes{
@@ -245,8 +246,10 @@ section.amarela span{
  }
 
   section.amarela li:hover{
-    transition: 0.1s;
-    background: rgba(0,0,0,0.1);
+  background: #db0269;
+    color: white;
+    transition: 0.2s;
+    box-shadow: 0px 0px 2vw rgba(0,0,0,0.1);
  }
 
  section.amarela h2{
@@ -822,14 +825,11 @@ footer ul{
  }
 
  section.amarela li{
-  border-radius: 0px 3vw 3vw 0vw;
-      background: rgba(0,0,0,0.1);
-   padding: 5vw 0vw 5vw 0vw;
-   font-family: "gilroy-medium";
-   cursor: pointer;
+   padding: 4vw 0vw 4vw 0vw;
+   font-family: "gilroy-semibold";
    width: 30vw;
-   text-align: center;
    font-size: 5vw;
+   border-radius:  0vw 3vw 3vw 0vw;
  }
 
  section.amarela li.licartoes{
