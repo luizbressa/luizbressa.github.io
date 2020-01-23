@@ -291,14 +291,14 @@ img.top{
 
 div.bloqueador{
   height:86vh;
-  width: 40vw;
-  z-index: 15; position: fixed; cursor: default; top: 7vh; left: 30vw; display:none;
+  width: 37vw;
+  z-index: 15; position: fixed; cursor: default; top: 7vh; left: 31.5vw; display:none;
 }
 div.bloqueador2{
   height:86vh;
  
-  width: 22vw;
-  z-index: 15; position: fixed; cursor: default; top: 7vh; left: 39vw; display:none;
+  width: 21vw;
+  z-index: 15; position: fixed; cursor: default; top: 7vh; left: 38vw; display:none;
 }
 
 section.rosa div.card{
