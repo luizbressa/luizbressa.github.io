@@ -390,7 +390,7 @@ section.amarela{
   background: url(../img/banner-amarelo2.png);
   background-size: 100% 100%;
   width: 100vw;
-  height: 75vw;
+  height: 70vw;
   position: relative;
 }
 
@@ -403,7 +403,7 @@ section.amarela h1{
 }
 section.amarela div.stories{
   width: 15vw; position: absolute;
-  height: 26vw; cursor: pointer;
+  height: 26vw; cursor: pointer; box-shadow: 0px 0px 0.5vw rgba(0,0,0,0.1);
 }
 section.amarela div.stories1{
   background: url(../img/stories-2.png); background-size: 100% 100%;
@@ -463,9 +463,63 @@ section.amarela div.stories1{
   background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/stories-9.png); background-size: 100% 100%;
   }
 
+section.branca2{
+  height: 64vw; position: relative;
+  background: url(../img/banner-branco.png);
+}
+section.branca2 h1{
+ font-family: "gilroy-black";
+  font-size: 5vw;
+  padding: 4vw 0 0 4vw;
+  color: #E7006F;
+}
+section.branca2 div.banner{
+    box-shadow: 0px 0px 2vw rgba(0,0,0,0.2);
+    width: 45vw; position: absolute;
+    height: 19vw;  cursor: pointer;
+}
+section.branca2 div.banner1{
+background: url(../img/banner-1.png); background-size: 100% 100%; 
+top: 12vw; left: 3.333vw; 
+}
+
+section.branca2 div.banner2{
+background: url(../img/banner-2.png); background-size: 100% 100%; 
+top: 12vw; left:  51.666vw; 
+}
+
+section.branca2 div.banner3{
+background: url(../img/banner-3.png); background-size: 100% 100%; 
+top: 34vw; left:  3.333vw; 
+}
+
+section.branca2 div.banner4{
+background: url(../img/banner-4.png); background-size: 100% 100%; 
+top: 34vw; left:  51.666vw; 
+}
+
+
+section.branca2 div.banner1:hover{
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/banner-1.png); background-size: 100% 100%; 
+}
+
+section.branca2 div.banner2:hover{
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/banner-2.png); background-size: 100% 100%; 
+}
+
+section.branca2 div.banner3:hover{
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/banner-3.png); background-size: 100% 100%; 
+}
+
+section.branca2 div.banner4:hover{
+background: linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),url(../img/banner-4.png); background-size: 100% 100%; 
+}
+
+
+
 footer{
  position:absolute;
-  top: 159vw;
+  top: 218vw;
   left: 0;
 	 background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -812,7 +866,7 @@ section.amarela{
   background: url(../img/banner-amarelo2.png);
   background-size: 100% 100%;
   width: 100vw;
-  height: 278.2vw;
+  height: 263.2vw;
   position: relative;
 }
 
@@ -823,7 +877,7 @@ section.amarela h1{
   padding: 6vw 0 0 4vw;
   color: white;
 }
-section.amarela div.stories{
+section.amarela div.stories{  box-shadow: 0px 0px 0.5vw rgba(0,0,0,0.1);
   width: 30vw; position: absolute;
   height: 55vw; cursor: pointer;
 }
@@ -849,25 +903,39 @@ section.amarela div.stories1{
   top:197vw;left:3vw;}
 
 
+section.branca2{
+  height: 210vw; position: relative;
+  background: url(../img/banner-branco2.png); background-size: 100% 100%;
+}
+section.branca2 h1{
+  font-family: "gilroy-bold";
+  font-size: 11vw;
+  padding: 6vw 0 0 4vw;
+}
+section.branca2 div.banner{
+    box-shadow: 0px 0px 2vw rgba(0,0,0,0.2);
+    width: 90vw; position: absolute;
+    height: 39vw;  cursor: pointer;
+}
+section.branca2 div.banner1{
+background: url(../img/banner-1.png); background-size: 100% 100%; 
+top: 22vw; left: 5vw; 
+}
 
+section.branca2 div.banner2{
+background: url(../img/banner-2.png); background-size: 100% 100%; 
+top: 65vw; left:  5vw; 
+}
 
+section.branca2 div.banner3{
+background: url(../img/banner-3.png); background-size: 100% 100%; 
+top: 108vw; left:  5vw; 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+section.branca2 div.banner4{
+background: url(../img/banner-4.png); background-size: 100% 100%; 
+top: 151vw; left:  5vw; 
+}
 
 
 
@@ -875,7 +943,7 @@ section.amarela div.stories1{
 footer{
 
     height: 15vw;
-    top: 610vw;
+    top: 810vw;
 
 }
 
