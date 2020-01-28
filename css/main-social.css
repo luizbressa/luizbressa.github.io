@@ -290,9 +290,9 @@ img.top{
 }
 
 div.bloqueador{
-  height:86vh;
+  height:37vw;
   width: 37vw;
-  z-index: 15; position: fixed; cursor: default; top: 7vh; left: 31.5vw; display:none;
+  z-index: 15; position: fixed; cursor: default; top: 10vh; left: 31.5vw; display:none;
 }
 div.bloqueador2{
   height:86vh;
