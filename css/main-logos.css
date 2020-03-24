@@ -262,6 +262,9 @@ section.amarela ul.lista2 li.vufcli{background:url(../img/logo-vufc.png) center 
 section.amarela ul.lista2 li.vufcli:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-vufc-2.png) center center;background-size: 105% 105%;}
 
 
+section.amarela ul.lista2 li.cdali{background:url(../img/logo-cda.png) center center; background-size: 100% 100%;}
+section.amarela ul.lista2 li.cdali:hover{background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.6)),url(../img/logo-cda-2.png) center center;background-size: 105% 105%;}
+
 
 section.amarela ul.lista1 li:hover h2{
   opacity: 1;
@@ -431,6 +434,20 @@ section.amarela div.vufcdiv img.comp{
   width: 20vw;height:auto;
   position: absolute; left: 11vw; top: 10vw;
 } 
+
+/*
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
+
+section.amarela div.cdadiv img.comp{
+  width: 28vw;height:auto;
+  position: absolute; left: 7vw; top: 11vw;
+} 
+
+  
+.cda-opcao-1{ background:url(../img/logo-cda-5.png) center center;}
+.cda-opcao-2{ background:url(../img/logo-cda-3.png) center center;}
+.cda-opcao-3{ background:url(../img/logo-cda-4.png) center center;}
 
 
 /*
